@@ -1,13 +1,12 @@
-import "./App.css";
+import React from 'react'
+import Hero from './components/hero/Hero'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>HELLO DEVELOPERS</p>
-      </header>
+    <div>
+      <Hero></Hero>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
