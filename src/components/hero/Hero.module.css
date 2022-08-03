@@ -50,6 +50,7 @@ heading styles
 */
 .heading {
   margin-top: 1.5rem;
+  margin-top: 3rem;
 }
 
 .heading h1 {
@@ -135,7 +136,7 @@ timeline styles
 */
 .timeline-social {
   position: absolute;
-  bottom: 11%;
+  bottom: 12%;
 }
 
 .timeline {
@@ -450,6 +451,10 @@ desktop illustration styles
 
   .social {
     justify-content: center;
+  }
+  
+  .timeline-social{
+    bottom: 11%;
   }
 
   .desktop-illustration-container {
