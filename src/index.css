@@ -19,6 +19,6 @@
 }
 
 .dark{
-    background: #000000;
+    background: rgba(32, 33, 36, 1);
     color: white;
 }

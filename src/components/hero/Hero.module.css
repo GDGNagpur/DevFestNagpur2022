@@ -8,7 +8,8 @@ container styles
   display: flex;
   justify-content: center;
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
+  height: 650px;
 }
 
 .content {
@@ -273,11 +274,28 @@ desktop illustration styles
   height: auto;
 }
 
+.lion > span, .bridge > span{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.lion > span > svg, .bridge > span > svg{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: auto;
+}
+
 .monument > svg {
   left: 1.5rem;
 }
 
 .bridge > svg {
+  bottom: 12px;
+}
+
+.bridge > span > svg{
   bottom: 12px;
 }
 
@@ -320,6 +338,10 @@ desktop illustration styles
   }
   .heading h1 {
     font-size: 3rem;
+  }
+
+  .desktop-illustration-container{
+    width: 75%;
   }
 }
 

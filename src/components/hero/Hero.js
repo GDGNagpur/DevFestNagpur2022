@@ -23,8 +23,11 @@ import CountDown from "../countdown/CountDown";
 const Hero = () => {
   const { theme, changeTheme } = useThemeContext();
 
-  console.log(theme);
+  const handleClick = () => {
+    changeTheme(theme === "light" ? "dark" : "light");
+  };
 
+ 
   return (
     <div className={styles["container"]}>
       <div className={styles["content"]}>
@@ -36,7 +39,7 @@ const Hero = () => {
               alt="Google Developers Groups, Nagpur"
             />
           </div>
-          <div className={styles["devfest-svg"]}>
+          <div data-aos="none" className={styles["devfest-svg"]}>
             {theme === "light" ? (
               <DevfestDarkSvg></DevfestDarkSvg>
             ) : (
@@ -105,9 +108,7 @@ const Hero = () => {
         </div>
       </div>
       <div className={styles["toggle"]}>
-        <button
-          onClick={() => changeTheme(theme === "light" ? "dark" : "light")}
-        >
+        <button onClick={handleClick}>
           {theme === "light" ? (
             <span>
               <SunSvg />
@@ -128,17 +129,46 @@ const Hero = () => {
           )}
         </div>
         <div className={styles["lion"]}>
-          <LionSvg></LionSvg>
+          {theme === "light" ? (
+            <LionSvg data-aos-duration="800" data-aos="zoom-in-left"></LionSvg>
+          ) : (
+            <span>
+              <LionSvg
+                data-aos-duration="800"
+                data-aos="zoom-in-left"
+              ></LionSvg>
+            </span>
+          )}
         </div>
         <div className={styles["monument"]}>
           {theme === "light" ? (
-            <MonumentSvgGreen></MonumentSvgGreen>
+            <MonumentSvgGreen
+              data-aos-duration="700"
+              data-aos="fade-up"
+            ></MonumentSvgGreen>
           ) : (
-            <MonumentSvgWhite></MonumentSvgWhite>
+            <MonumentSvgWhite
+              data-aos-duration="700"
+              data-aos="fade-up"
+            ></MonumentSvgWhite>
           )}
         </div>
         <div className={styles["bridge"]}>
-          <BridgeSvg></BridgeSvg>
+          {theme === "light" ? (
+            <BridgeSvg
+              data-aos-duration="1000"
+              data-aos-delay="100"
+              data-aos="fade-up-left"
+            ></BridgeSvg>
+          ) : (
+            <span>
+              <BridgeSvg
+                data-aos-duration="1000"
+                data-aos-delay="100"
+                data-aos="fade-down-left"
+              ></BridgeSvg>
+            </span>
+          )}
         </div>
       </div>
       <div className={styles["mobile-illustration-container"]}>
