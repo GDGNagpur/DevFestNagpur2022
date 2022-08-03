@@ -1,13 +1,18 @@
-import "./App.css";
+import React, {useEffect} from "react";
+import Hero from "./components/hero/Hero";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
-function App() {
+const App = () => {
+  useEffect(() => {
+    Aos.init({ duration: 100 });
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>DevFest🧑‍💻2022</p>
-      </header>
+    <div>
+      <Hero></Hero>
     </div>
   );
-}
+};
 
-export default App;
+export default App
