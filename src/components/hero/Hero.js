@@ -92,7 +92,7 @@ const Hero = () => {
                   ? `${styles["light-link"]}`
                   : `${styles["dark-link"]}`
               }
-              href="/"
+              href="https://twitter.com/GDGNagpur_"
             >
               <TwitterSvg></TwitterSvg>
             </a>
@@ -100,7 +100,7 @@ const Hero = () => {
               className={
                 theme === "light" ? styles["light-link"] : styles["dark-link"]
               }
-              href="/"
+              href="https://www.instagram.com/gdgnagpur"
             >
               <InstagramSvg></InstagramSvg>
             </a>
