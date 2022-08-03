@@ -36,7 +36,7 @@ const Hero = () => {
               alt="Google Developers Groups, Nagpur"
             />
           </div>
-          <div className={styles["devfest-svg"]}>
+          <div data-aos="none" className={styles["devfest-svg"]}>
             {theme === "light" ? (
               <DevfestDarkSvg></DevfestDarkSvg>
             ) : (
@@ -44,7 +44,9 @@ const Hero = () => {
             )}
           </div>
         </div>
-        <div className={styles["heading"]}>
+        <div
+          className={styles["heading"]}
+        >
           <h1
             style={{
               color:
@@ -128,17 +130,27 @@ const Hero = () => {
           )}
         </div>
         <div className={styles["lion"]}>
-          <LionSvg></LionSvg>
+          <LionSvg data-aos-duration="800" data-aos="zoom-in"></LionSvg>
         </div>
         <div className={styles["monument"]}>
           {theme === "light" ? (
-            <MonumentSvgGreen></MonumentSvgGreen>
+            <MonumentSvgGreen
+              data-aos-duration="700"
+              data-aos="fade-up"
+            ></MonumentSvgGreen>
           ) : (
-            <MonumentSvgWhite></MonumentSvgWhite>
+            <MonumentSvgWhite
+              data-aos-duration="700"
+              data-aos="fade-up"
+            ></MonumentSvgWhite>
           )}
         </div>
         <div className={styles["bridge"]}>
-          <BridgeSvg></BridgeSvg>
+          <BridgeSvg
+            data-aos-duration="1000"
+            data-aos-delay="100"
+            data-aos="fade-left"
+          ></BridgeSvg>
         </div>
       </div>
       <div className={styles["mobile-illustration-container"]}>
