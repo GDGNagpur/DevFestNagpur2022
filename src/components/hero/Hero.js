@@ -158,7 +158,7 @@ const Hero = () => {
             <BridgeSvg
               data-aos-duration="1000"
               data-aos-delay="100"
-              data-aos="fade-up-left"
+              data-aos="fade-down-left"
             ></BridgeSvg>
           ) : (
             <span>
