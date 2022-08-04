@@ -1,0 +1,12 @@
+.loader-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+    .loader-container img{
+        width: 90%;
+    }
+}

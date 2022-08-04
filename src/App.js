@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Hero from "./components/hero/Hero";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Loader from "./components/countdown/Loader";
+import Loader from "./components/loader/Loader"
 
 const App = () => {
 
