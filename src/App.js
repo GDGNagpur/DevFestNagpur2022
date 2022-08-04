@@ -12,8 +12,8 @@ const App = () => {
     return (
         <div>
             <Loader></Loader>
-
             <Hero></Hero>
+
 
         </div>
     );

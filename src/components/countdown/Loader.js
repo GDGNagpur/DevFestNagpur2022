@@ -16,7 +16,7 @@ function Loader(){
     return(
         <div id="pre-loader" onLoad={handleLoad} className={style}
         >
-            <img src={devload} />
+            <img src={devload} className="loadimg" />
 
         </div>
 

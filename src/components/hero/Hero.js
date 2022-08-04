@@ -13,6 +13,8 @@ import {ReactComponent as MoonSvg} from "../../assets/hero/moon.svg";
 import {ReactComponent as TwitterSvg} from "../../assets/hero/twitter.svg";
 import {ReactComponent as InstagramSvg} from "../../assets/hero/instagram.svg";
 import {ReactComponent as CutSvg} from "../../assets/hero/cut.svg";
+import {ReactComponent as Linkedinsvg} from "../../assets/hero/linkedin.svg";
+
 import {ReactComponent as IllustrationLightMobileBg} from "../../assets/hero/mobile-illustration-light-mode.svg";
 import {ReactComponent as IllustrationDarkMobileBg} from "../../assets/hero/mobile-illustration-dark-mode.svg";
 import gdgDarkLogo from "../../assets/hero/gdg-dark-logo.png";
@@ -31,7 +33,6 @@ const Hero = () => {
 
 
     return (
-
         <div className={styles["container"]}>
             <div className={styles["content"]}>
                 <div className={styles["banner"]}>
@@ -106,6 +107,15 @@ const Hero = () => {
                             href="https://www.instagram.com/gdgnagpur"
                         >
                             <InstagramSvg></InstagramSvg>
+                        </a>
+
+                        <a
+                            className={
+                                theme === "light" ? styles["light-link"] : styles["dark-link"]
+                            }
+                            href="https://www.linkedin.com/company/gdgnagpur/"
+                        >
+                            <Linkedinsvg></Linkedinsvg>
                         </a>
                     </div>
                 </div>
