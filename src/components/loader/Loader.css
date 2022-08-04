@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background: #fff;
 }
 
 @media screen and (max-width: 600px) {
