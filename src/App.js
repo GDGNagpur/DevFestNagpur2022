@@ -6,21 +6,27 @@ import Loader from "./components/loader/Loader"
 
 const App = () => {
 
+  const [showHero, setShowHero] = useState(false)
+
   useEffect(() => {
     Aos.init({ duration: 100 });
 
     setTimeout(()=>{
         setIsLoading(false)
+    }, 6500)
+
+    setTimeout(()=>{
+      setShowHero(true)
     }, 5000)
     
-  }, []);
+  }, [showHero]);
 
   const [isLoading, setIsLoading] = useState(true)
 
   return (
     <div>
       {isLoading && <Loader></Loader>}
-      {!isLoading && <Hero></Hero>}
+      {showHero && <Hero></Hero>}
     </div>
   );
 };
