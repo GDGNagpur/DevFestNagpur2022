@@ -299,7 +299,7 @@ toggle styles
   fill: rgba(244, 180, 0, 1);
 }
 
-.toggle.moon button svg path{
+.toggle .moon path{
   fill: #ffffff;
 }
 
