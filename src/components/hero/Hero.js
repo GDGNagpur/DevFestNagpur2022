@@ -100,7 +100,14 @@ const Hero = () => {
         >
           <div className={styles["email"]}>
             <p>Reach out to us at</p>
-            <a href="mailto:support@devfestnagpur.in">
+            <a
+              style={
+                theme === "light"
+                  ? { color: "rgba(66, 133, 244, 1)" }
+                  : { color: "rgba(15, 157, 86, 1)" }
+              }
+              href="mailto:support@devfestnagpur.in"
+            >
               support@devfestnagpur.in
             </a>
           </div>
@@ -141,20 +148,13 @@ const Hero = () => {
                 <Linkedinsvg></Linkedinsvg>
               </a>
             </div>
-            {/* <a
-                className={
-                  theme === "light" ? styles["light-link"] : styles["dark-link"]
-                }
-                href="mailto:support@devfestnagpur.in"
-                target={"_blank"}
-                rel="noreferrer"
-              >
-                <EmailSvg></EmailSvg>
-              </a> */}
           </div>
         </div>
       </div>
       <div className={styles["toggle"]}>
+        <div className={styles["mode"]}>
+          {theme === "light" ? "Day" : "Night"}
+        </div>
         <button onClick={handleClick}>
           {theme === "light" ? (
             <span>
