@@ -4,16 +4,17 @@ container styles
 =================
 */
 .container {
-    padding-top: 4rem;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    min-height: 100vh;
-    height: 650px;
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-height: 100vh;
+  height: 100vh;
+  overflow-x: hidden;
 }
 
 .content {
-    width: 84%;
+  width: 84%;
 }
 
 /* 
@@ -22,25 +23,25 @@ banner styles
 ==============
 */
 .banner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .gdg-logo {
-    width: 400px;
+  width: 400px;
 }
 
 .gdg-logo > img {
-    width: 100%;
+  width: 100%;
 }
 
 .devfest-svg {
-    width: 250px;
+  width: 250px;
 }
 
 .devfest-svg > svg {
-    width: 100%;
+  width: 100%;
 }
 
 /* 
@@ -49,29 +50,29 @@ heading styles
 ===============
 */
 .heading {
-    margin-top: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .heading h1 {
-    font-family: "Google Sans";
-    font-weight: 700;
-    font-size: 3.4rem;
-    width: 100%;
+  font-family: "Google Sans";
+  font-weight: 700;
+  font-size: 3.4rem;
+  width: 100%;
 }
 
 .heading > h1 > p {
-    display: inline;
-    position: relative;
+  display: inline;
+  position: relative;
 }
 
 .heading > h1 > p > span {
-    position: absolute;
-    left: 0;
-    width: 100%;
+  position: absolute;
+  left: 0;
+  width: 100%;
 }
 
 .heading > h1 > p > span > svg {
-    width: 100%;
+  width: 100%;
 }
 
 /* 
@@ -80,52 +81,52 @@ counter styles
 ===============
 */
 .counter {
-    font-family: "Roboto Mono";
-    display: flex;
-    align-items: center;
+  font-family: "Roboto Mono";
+  display: flex;
+  align-items: center;
 }
 
 .counter p {
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
 }
 
 .counter p span {
-    font-weight: 400;
-    font-size: 22px;
+  font-weight: 400;
+  font-size: 22px;
 }
 
 .count {
-    font-weight: 500 !important;
-    font-size: 30px !important;
-    display: inline-block;
-    margin-right: 5px;
+  font-weight: 500 !important;
+  font-size: 30px !important;
+  display: inline-block;
+  margin-right: 5px;
 }
 
 .counter .colon {
-    font-weight: 500;
-    position: relative;
-    display: inline-block;
-    margin: 0 14px;
+  font-weight: 500;
+  position: relative;
+  display: inline-block;
+  margin: 0 14px;
 }
 
 .counter .colon::after {
-    content: "•";
-    position: absolute;
-    top: -4px;
-    left: 50%;
-    transform: translate(-50%, 0);
+  content: "•";
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .counter .colon::before {
-    content: "•";
-    position: absolute;
-    bottom: -4px;
-    left: 50%;
-    transform: translate(-50%, 0);
+  content: "•";
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 /* 
@@ -133,59 +134,121 @@ counter styles
 timeline styles
 ================
 */
-.timeline-social {
+
+/* .timeline-social {
     position: absolute;
     bottom: 11%;
-}
+} */
 
 .timeline {
-    margin-bottom: 1.5rem;
-    font-family: "Roboto Mono";
+  margin-bottom: 1.5rem;
+  font-family: "Roboto Mono";
+  margin-top: 5rem;
+  position: absolute;
+  bottom: 22%;
 }
 
 .timeline h3 {
-    font-weight: 400;
-    margin-bottom: 1.5rem;
-    font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  font-size: 26px;
 }
 
 .timeline p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 /* 
 ==============
-social styles
+email social styles
 ==============
 */
+.email-social {
+  display: flex;
+  width: 84%;
+  justify-content: space-between;
+  font-family: "Google Sans";
+  /* border-top: 1px solid rgba(0, 0, 0, 1); */
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 15%;
+  align-items: center;
+}
+
+.email-social::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 1px;
+  width: 110%;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.email-social.dark::after {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.email {
+  transform: translate(0, -12%);
+}
+
+.email p {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.email a {
+  color: rgba(66, 133, 244, 1);
+  font-weight: 600;
+  font-family: "Google Sans";
+}
+
 .social {
-    display: flex;
+  display: flex;
+  align-items: center;
+  margin-right: 13%;
+}
+
+.social p {
+  font-size: 17px;
+}
+
+.social > div {
+  display: flex;
 }
 
 .social a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.social a:hover{
+    transform: scale(1.2) translate(0, -3px);
 }
 
 .light-link {
-    background: #f1f1f1;
+  background: #f1f1f1;
 }
 
 .dark-link {
-    background: #4a4b4d;
+  background: #4a4b4d;
 }
 
-.social > a > svg {
-    width: 45%;
+.social > div > a > svg {
+  width: 45%;
 }
 
 .dark-link > svg > path {
-    fill: #e8eaed;
+  fill: #e8eaed;
 }
 
 /* 
@@ -194,35 +257,50 @@ toggle styles
 ==============
 */
 .toggle {
-    position: absolute;
-    right: 8%;
-    top: 1.5rem;
+  position: absolute;
+  right: 8%;
+  bottom: 5.8%;
+  display: flex;
+  align-items: center;
+  font-family: "Google Sans";
+}
+
+.mode{
+  margin-right: 12px;
 }
 
 .toggle button {
-    background: none;
-    border: none;
-    width: 25px;
-    height: 25px;
-    display: flex;
-    cursor: pointer;
-    transition: all 0.2s ease;
+  background: none;
+  border: none;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 .toggle button:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .toggle .moon {
-    width: 22px;
-    height: 22px;
-    margin-top: 3px;
-    margin-right: 5px;
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+  margin-right: 5px;
 }
 
 .toggle button svg {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.toggle button svg path{
+  fill: rgba(244, 180, 0, 1);
+}
+
+.toggle .moon path{
+  fill: #ffffff;
 }
 
 /* 
@@ -231,263 +309,326 @@ desktop illustration styles
 ============================
 */
 .desktop-illustration-container {
-    position: fixed;
-    bottom: -10px;
-    right: 0;
-    z-index: -1;
-    width: 62%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+  position: absolute;
+  bottom: 15%;
+  right: 0;
+  z-index: -1;
+  width: 57%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100%;
+  overflow: hidden;
 }
 
 .illustration-bg {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .illustration-bg > svg {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 1600px) {
+  .illustration-bg > svg {
+    max-height: none;
+  }
 }
 
 .lion,
 .monument,
 .bridge {
-    z-index: 100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .lion > svg,
 .monument > svg,
 .bridge > svg {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    height: auto;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: auto;
 }
 
-.lion > span, .bridge > span {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+.lion > span,
+.bridge > span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
-.lion > span > svg, .bridge > span > svg {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    height: auto;
+.lion > span > svg,
+.bridge > span > svg {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: auto;
 }
 
 .monument > svg {
-    left: 1.5rem;
+  left: 1.5rem;
+  bottom: -10px;
 }
 
-.bridge > svg {
-    bottom: 12px;
-}
+/* .bridge > svg {
+  bottom: 12px;
+} */
 
-.bridge > span > svg {
-    bottom: 12px;
-}
+/* .bridge > span > svg {
+  bottom: 12px;
+} */
 
 .lion {
-    width: 20%;
-    height: 100%;
-    position: relative;
+  width: 20%;
+  height: 100%;
+  position: relative;
 }
 
 .monument {
-    width: 30%;
-    height: 100%;
-    position: relative;
+  width: 33%;
+  height: 100%;
+  position: relative;
 }
 
 .bridge {
-    width: 35%;
-    height: 100%;
-    position: relative;
+  width: 35%;
+  height: 100%;
+  position: relative;
 }
 
 .mobile-illustration-container {
-    display: none;
+  display: none;
 }
 
 @media screen and (max-width: 1000px) {
-    .content {
-        width: 92%;
-    }
+  .content {
+    width: 92%;
+  }
 
-    .gdg-logo {
-        width: 360px;
-    }
+  .gdg-logo {
+    width: 360px;
+  }
 
-    .devfest-svg {
-        width: 230px;
-    }
+  .devfest-svg {
+    width: 230px;
+  }
 
-    .toggle {
-        right: 2.5%;
-    }
+  .toggle {
+    right: 2.5%;
+  }
 
-    .heading h1 {
-        font-size: 3rem;
-    }
+  .heading h1 {
+    font-size: 3rem;
+  }
 
-    .desktop-illustration-container {
-        width: 75%;
-    }
+  .email-social {
+    width: 92%;
+  }
+
+  .desktop-illustration-container {
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .email-social {
+    background: inherit !important;
+  }
 }
 
 @media screen and (max-width: 700px) {
-    .container {
-        padding-top: 2rem;
-        overflow-x: hidden;
-    }
+  .container {
+    padding-top: 2rem;
+    overflow-x: hidden;
+    height: 100vh;
+  }
 
-    .content {
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .content {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .banner {
-        flex-direction: column;
-    }
+  .banner {
+    flex-direction: column;
+  }
 
-    .gdg-logo {
-        width: 100%;
-    }
+  .gdg-logo {
+    width: 100%;
+  }
 
-    .gdg-logo > img {
-        width: 75%;
-    }
+  .gdg-logo > img {
+    width: 75%;
+  }
 
-    .devfest-svg {
-        margin-top: 3rem;
-        width: 65%;
-        max-width: 280px;
-    }
+  .devfest-svg {
+    margin-top: 3rem;
+    width: 65%;
+    max-width: 280px;
+  }
 
-    .toggle {
-        top: 2.1rem;
-        right: 8%;
-        border-radius: 50%;
-    }
+  .toggle {
+    top: 2.1rem;
+    top: auto;
+    bottom: 27%;
+    right: 11%;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
 
-    .toggle button {
-        width: 20px;
-        height: 20px;
-    }
+  .toggle button {
+    width: 20px;
+    height: 20px;
+  }
 
-    .toggle .moon {
-        width: 17px;
-        height: 17px;
-        margin-right: 0;
-    }
+  .toggle .moon {
+    width: 17px;
+    height: 17px;
+    margin-right: 0;
+  }
 
-    .toggle button:hover {
-        opacity: 1;
-    }
+  .toggle button:hover {
+    opacity: 1;
+  }
 
-    .heading {
-        margin-top: 0.5rem;
-    }
+  .heading {
+    margin-top: 0.5rem;
+  }
 
-    .heading h1 {
-        font-size: 1.8rem;
-    }
+  .heading h1 {
+    font-size: 1.8rem;
+  }
 
-    .heading > h1 > p > span {
-        top: 50%;
-        transform: translate(0, -35%);
-    }
+  .heading > h1 > p > span {
+    top: 50%;
+    transform: translate(0, -35%);
+  }
 
-    .counter p {
-        margin-top: 1rem;
-        width: 100%;
-    }
+  .counter p {
+    margin-top: 1rem;
+    width: 100%;
+  }
 
-    .counter p span {
-        font-size: 15px;
-    }
+  .counter p span {
+    font-size: 15px;
+  }
 
-    .count {
-        font-weight: 500 !important;
-        font-size: 18px !important;
-        display: inline-block;
-        margin-right: 5px;
-    }
+  .count {
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    display: inline-block;
+    margin-right: 5px;
+  }
 
-    .counter .colon {
-        font-weight: 500;
-        position: relative;
-        display: inline-block;
-        margin: 0 8px;
-    }
+  .counter .colon {
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+    margin: 0 8px;
+  }
 
-    .counter .colon::after {
-        content: "•";
-        position: absolute;
-        top: -5px;
-        left: 50%;
-        transform: translate(-50%, 0);
-    }
+  .counter .colon::after {
+    content: "•";
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
 
-    .counter .colon::before {
-        content: "•";
-        position: absolute;
-        bottom: -5px;
-        left: 50%;
-        transform: translate(-50%, 0);
-    }
+  .counter .colon::before {
+    content: "•";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
 
-    .timeline {
-        text-align: center;
-        margin-bottom: 1rem;
-    }
+  .timeline {
+    text-align: center;
+    margin-bottom: 1rem;
+    bottom: 25%;
+  }
 
-    .timeline h3 {
-        margin-bottom: 1rem;
-        font-size: 22px;
-    }
+  .timeline h3 {
+    margin-bottom: 1rem;
+    font-size: 20px;
+  }
 
-    .timeline p {
-        font-size: 18px;
-        color: rgba(66, 133, 244, 1);
-    }
+  .timeline p {
+    font-size: 17px;
+    color: rgba(66, 133, 244, 1);
+  }
 
-    .social {
-        justify-content: center;
-    }
+  .email-social {
+    flex-direction: column;
+    text-align: center;
+    height: 20%;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+  }
 
-    .desktop-illustration-container {
-        display: none;
-    }
+  .email-social::after {
+    width: 70%;
+    left: 50%;
+    top: -20%;
+    transform: translate(-50%, 0);
+  }
 
-    .mobile-illustration-container {
-        display: block;
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        z-index: -1;
-        width: 100%;
-    }
+  .email {
+    transform: translate(0, -60%);
+  }
 
-    .mobile-illustration {
-        width: 100%;
-    }
+  .social {
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 0;
+  }
 
-    .mobile-illustration > svg {
-        width: 100%;
-    }
+  .social a:hover{
+    transform: none;
+  }
+
+  .social > div > a {
+    margin-left: 0;
+    margin: 8px 10px;
+  }
+
+  .desktop-illustration-container {
+    display: none;
+  }
+
+  .mobile-illustration-container {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 7%;
+    z-index: -1;
+    width: 100%;
+  }
+
+  .mobile-illustration {
+    width: 100%;
+  }
+
+  .mode{
+    display: none;
+  }
+
+  .mobile-illustration > svg {
+    width: 100%;
+  }
 }
