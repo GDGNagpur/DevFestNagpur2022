@@ -473,7 +473,7 @@ desktop illustration styles
   }
 
   .devfest-svg {
-    margin-top: 3rem;
+    margin-top: 2rem;
     width: 65%;
     max-width: 280px;
   }
@@ -489,13 +489,13 @@ desktop illustration styles
   }
 
   .toggle button {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
   }
 
   .toggle .moon {
-    width: 17px;
-    height: 17px;
+    width: 22px;
+    height: 22px;
     margin-right: 0;
   }
 
