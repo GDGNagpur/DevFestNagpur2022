@@ -1,3 +1,9 @@
+:root {
+  --google-blue: #4285f4;
+  --google-yello: #f6c12d;
+  --google-green: #0f9d56;
+  --google-red: #e06258;
+}
 /* 
 =================
 container styles
@@ -77,9 +83,81 @@ heading styles
 
 /* 
 ===============
-counter styles
+New counter styles
 ===============
 */
+.countdown {
+  display: flex;
+  gap: 2em;
+  padding: 5px 0px;
+  margin: 5px 0px;
+  font-weight: 500;
+}
+.countdown > li {
+  font-size: 1rem;
+  list-style-type: none;
+  text-transform: uppercase;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+.countdown > li:hover {
+  transform: scale(1.1);
+}
+
+li.google-blue {
+  color: var(--google-blue);
+}
+li.google-yello {
+  color: var(--google-yello);
+}
+li.google-green {
+  color: var(--google-green);
+}
+li.google-red {
+  color: var(--google-red);
+}
+
+li span {
+  display: block;
+  font-size: 2rem;
+  position: relative;
+}
+.sec-span {
+  animation: moveTime 1s linear infinite;
+}
+.min-span {
+  animation: moveTime 0.1s linear infinite;
+  animation-iteration-count: 1;
+}
+
+@keyframes moveTime {
+  0% {
+    bottom: 0px;
+    opacity: 1;
+  }
+  25% {
+    bottom: 4px;
+    opacity: 0.9;
+  }
+  50% {
+    bottom: 6px;
+    opacity: 0.8;
+  }
+  50% {
+    bottom: 8px;
+    opacity: 0.8;
+  }
+  100% {
+    bottom: 12px;
+    opacity: 0;
+  }
+}
+/* 
+===============
+New counter styles ends
+===============
+*/
+
 .counter {
   font-family: "Roboto Mono";
   display: flex;
@@ -231,8 +309,8 @@ email social styles
   transition: transform 0.2s ease;
 }
 
-.social a:hover{
-    transform: scale(1.2) translate(0, -3px);
+.social a:hover {
+  transform: scale(1.2) translate(0, -3px);
 }
 
 .light-link {
@@ -265,7 +343,7 @@ toggle styles
   font-family: "Google Sans";
 }
 
-.mode{
+.mode {
   margin-right: 12px;
 }
 
@@ -295,11 +373,11 @@ toggle styles
   height: 100%;
 }
 
-.toggle button svg path{
+.toggle button svg path {
   fill: rgba(244, 180, 0, 1);
 }
 
-.toggle .moon path{
+.toggle .moon path {
   fill: #ffffff;
 }
 
@@ -473,7 +551,7 @@ desktop illustration styles
   }
 
   .devfest-svg {
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: 65%;
     max-width: 280px;
   }
@@ -530,6 +608,16 @@ desktop illustration styles
     font-size: 18px !important;
     display: inline-block;
     margin-right: 5px;
+  }
+
+  .countdown {
+    gap: 1.1rem;
+  }
+  .countdown > li {
+    font-size: 1rem;
+  }
+  li span {
+    font-size: 1.2rem;
   }
 
   .counter .colon {
@@ -598,7 +686,7 @@ desktop illustration styles
     margin-right: 0;
   }
 
-  .social a:hover{
+  .social a:hover {
     transform: none;
   }
 
@@ -624,7 +712,7 @@ desktop illustration styles
     width: 100%;
   }
 
-  .mode{
+  .mode {
     display: none;
   }
 
