@@ -11,7 +11,7 @@
     #ffba00 100%
   );
   padding: 1px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .content {
@@ -20,7 +20,7 @@
   align-items: flex-start;
   padding: 2rem 2rem;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
   padding-bottom: 4rem;
 }
 
