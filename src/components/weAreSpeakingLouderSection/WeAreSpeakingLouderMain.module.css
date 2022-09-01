@@ -1,0 +1,60 @@
+.container {
+  font-family: "Google Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5rem;
+  padding: 2rem 0;
+}
+
+.heading h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 84%;
+}
+
+.data-cards {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 2rem; */
+  flex-wrap: wrap;
+}
+
+.note {
+  background: #0f9d56;
+  text-align: center;
+  color: white;
+  margin-top: 4rem;
+  padding: 1rem 0;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1250px) {
+  .heading h1 {
+    margin-bottom: 2rem;
+    font-size: 28px;
+  }
+  .note {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .note {
+    margin-top: 12px;
+    font-size: 14px;
+  }
+  .data-cards{
+    flex-direction: column;
+    align-items: center;
+  }
+}

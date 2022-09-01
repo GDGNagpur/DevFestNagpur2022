@@ -18,6 +18,10 @@
     box-sizing: border-box;
 }
 
+html{
+    background: #fbfbfb;
+}
+
 .dark {
     background: rgba(32, 33, 36, 1);
     color: white;
