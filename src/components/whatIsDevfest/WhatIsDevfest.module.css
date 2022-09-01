@@ -1,0 +1,65 @@
+.container {
+  background: #202124;
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+}
+.cloudContainer {
+  position: absolute;
+  right: 0;
+}
+.cloud3 {
+  position: relative;
+  bottom: 13px;
+}
+.heading {
+  color: white;
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  position: relative;
+  left: 9.5%;
+  top: 55px;
+  width: 85%;
+}
+
+.devfestBodyContainer {
+  display: flex;
+  position: relative;
+  top: 130px;
+  left: 9.5%;
+  width: 80%;
+}
+
+.image {
+}
+.imgContainer {
+  position: relative;
+  z-index: 9;
+}
+
+.svgContainer {
+  position: relative;
+  bottom: 290px;
+  left: 20px;
+}
+
+.bodyText {
+  position: relative;
+  left: 9.5%;
+  top: 9%;
+  width: 58%;
+  height: 200px;
+  color: white;
+  font-family: "Google Sans";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.bottomContainer {
+  position: relative;
+  left: 71%;
+  bottom: 215px;
+}
