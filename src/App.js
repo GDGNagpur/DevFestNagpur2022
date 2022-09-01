@@ -4,6 +4,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Loader from "./components/loader/Loader";
 import WeAreSpeakingLouderMain from "./components/weAreSpeakingLouderSection/WeAreSpeakingLouderMain";
+import WhatIsDevfest from "./components/whatIsDevfest/WhatIsDevfest";
 
 const App = () => {
   const [showPage, setShowPage] = useState(false);
@@ -28,6 +29,7 @@ const App = () => {
       {showPage && (
         <>
           <Hero></Hero>
+          <WhatIsDevfest></WhatIsDevfest>
           <WeAreSpeakingLouderMain></WeAreSpeakingLouderMain>
         </>
       )}
