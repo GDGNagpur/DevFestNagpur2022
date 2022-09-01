@@ -1,0 +1,64 @@
+.container {
+  background: white;
+  display: flex;
+  justify-content: stretch;
+  flex-direction: column;
+  position: relative;
+  font-family: "Google Sans";
+  z-index: 1;
+  background: linear-gradient(
+    180deg,
+    #db4437 0%,
+    #4285f4 32.81%,
+    #00ab47 66.15%,
+    #ffba00 100%
+  );
+  padding: 2px;
+  height: max-content;
+  border-radius: 25px;
+  width: 23.5%;
+  font-size: 25px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem 0;
+  border-radius: 25px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.img > svg {
+  transform: scale(1.05);
+}
+
+.text {
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 1250px) {
+  .container {
+    width: 48%;
+    margin-bottom: 1.5rem;
+  }
+  .img > svg {
+    transform: scale(0.8);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+    font-size: 18px;
+  }
+}
