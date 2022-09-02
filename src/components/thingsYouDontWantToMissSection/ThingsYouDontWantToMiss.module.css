@@ -1,0 +1,88 @@
+.container {
+  font-family: "Google Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5rem;
+  padding: 2rem 0;
+}
+
+.heading h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  text-align: center;
+  display: flex;
+}
+
+.heading h1 > span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 84%;
+  padding: 4rem 10%;
+}
+
+.data-cards {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-auto-columns: 1fr;
+  gap: 2rem;
+  grid-auto-rows: 1fr
+}
+
+.data-cards > div:nth-child(1){
+    grid-area: 1 / 1 / span 1/ span 1;
+}
+
+.data-cards > div:nth-child(2){
+    grid-area: 1 / 2 / span 1/ span 1;
+}
+
+.data-cards > div:nth-child(3){
+    grid-area: 2 / 1 / span 1/ span 1;
+}
+
+.data-cards > div:nth-child(4){
+    grid-area: 2 / 2 / span 1/ span 1;
+}
+
+.data-cards > div:nth-child(3), .data-cards > div:nth-child(4){
+    margin-bottom: 0;
+}
+
+.data-cards > div:nth-child(1) svg{
+    transform: translate(0, -4px) scale(0.9) !important;
+}
+
+
+@media screen and (max-width: 1250px){
+    .heading h1 {
+    margin-bottom: 2rem;
+    font-size: 28px;
+    padding: 0 2rem;
+  }
+  .content{
+    padding: 2rem 4%;
+  }
+}
+
+@media screen and (max-width: 800px){
+    .data-cards{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .heading h1{
+        flex-direction: column;
+}
+}

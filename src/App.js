@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import Loader from "./components/loader/Loader";
 import WeAreSpeakingLouderMain from "./components/weAreSpeakingLouderSection/WeAreSpeakingLouderMain";
 import WhatIsDevfest from "./components/whatIsDevfest/WhatIsDevfest";
+import ThingsYouDontWantToMissMain from "./components/thingsYouDontWantToMissSection/ThingsYouDontWantToMissMain";
 
 const App = () => {
   const [showPage, setShowPage] = useState(false);
@@ -28,9 +29,11 @@ const App = () => {
       {isLoading && <Loader></Loader>}
       {showPage && (
         <>
+          {/* Put all sections here*/}
           <Hero></Hero>
           <WhatIsDevfest></WhatIsDevfest>
           <WeAreSpeakingLouderMain></WeAreSpeakingLouderMain>
+          <ThingsYouDontWantToMissMain></ThingsYouDontWantToMissMain>
         </>
       )}
     </div>
