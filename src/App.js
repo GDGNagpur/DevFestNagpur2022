@@ -6,6 +6,7 @@ import Loader from "./components/loader/Loader";
 import WeAreSpeakingLouderMain from "./components/weAreSpeakingLouderSection/WeAreSpeakingLouderMain";
 import WhatIsDevfest from "./components/whatIsDevfest/WhatIsDevfest";
 import ThingsYouDontWantToMissMain from "./components/thingsYouDontWantToMissSection/ThingsYouDontWantToMissMain";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   const [showPage, setShowPage] = useState(false);
@@ -34,6 +35,7 @@ const App = () => {
           <WhatIsDevfest></WhatIsDevfest>
           <WeAreSpeakingLouderMain></WeAreSpeakingLouderMain>
           <ThingsYouDontWantToMissMain></ThingsYouDontWantToMissMain>
+          <Footer></Footer>
         </>
       )}
     </div>

@@ -1,0 +1,87 @@
+.email-social {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-family: "Google Sans";
+  /* border-top: 1px solid rgba(0, 0, 0, 1); */
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  align-items: center;
+    min-height: 140px;
+    padding: 0 8%;
+}
+
+.email-social::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 1px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.email-social.dark::after {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.email {
+  transform: translate(0, -12%);
+}
+
+.email p {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.email a {
+  color: rgba(66, 133, 244, 1);
+  font-weight: 600;
+  font-family: "Google Sans";
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social p {
+  font-size: 17px;
+}
+
+.social > div {
+  display: flex;
+}
+
+.social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.social a:hover {
+  transform: scale(1.2) translate(0, -3px);
+}
+
+.light-link {
+  background: #f1f1f1;
+}
+
+.dark-link {
+  background: #4a4b4d;
+}
+
+.social > div > a > svg {
+  width: 45%;
+}
+
+.dark-link > svg > path {
+  fill: #e8eaed;
+}
