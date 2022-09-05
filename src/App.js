@@ -11,7 +11,7 @@ import WhatIsDevfest from "./components/whatIsDevfest/WhatIsDevfest";
 import ThingsYouDontWantToMissMain from "./components/thingsYouDontWantToMissSection/ThingsYouDontWantToMissMain";
 
 const App = () => {
-  const [showPage, setShowPage] = useState(false);
+  const [showPage, setShowPage] = useState(true);
 
   useEffect(() => {
     Aos.init({ duration: 100 });
@@ -25,7 +25,7 @@ const App = () => {
     }, 5000);
   }, [showPage]);
 
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   return (
     <div>
@@ -35,7 +35,6 @@ const App = () => {
           {/* Put all sections here*/}
           <Menu></Menu>
           <NewHero></NewHero>
-          {/* <Hero></Hero> */}
           <WhatIsDevfest></WhatIsDevfest>
           <WeAreSpeakingLouderMain></WeAreSpeakingLouderMain>
           <ThingsYouDontWantToMissMain></ThingsYouDontWantToMissMain>

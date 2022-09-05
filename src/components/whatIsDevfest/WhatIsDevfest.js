@@ -37,9 +37,9 @@ const WhatIsDevfest = () => {
           ecosystem.
         </div>
       </div>
-      {/* <div className={styles.bottomContainer}>
+      <div className={styles.bottomContainer}>
         <Bottom3 color={useColorModeValue("#E8EAED","#202124")} className={styles.bottom3}/>
-      </div> */}
+      </div>
     </div>
   );
 };

@@ -1,109 +1,112 @@
 :root {
-    --google-gray: #202124;
-    --google-blue: #4285f4;
-  }
-  .hero {
-    margin-top: 2rem;
-    position: relative;
-    overflow: hidden;
-  }
-  .hero-info {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    border: 2px solid rgb(5, 34, 80);
-    margin-left: 3rem;
-    padding: 4rem 0;
-  }
-  .gdg-logo {
-    width: 315px;
-  }
-  
-  .gdg-logo > img {
-    width: 100%;
-  }
-  
-  /* 
+  --google-gray: #202124;
+  --google-blue: #4285f4;
+}
+
+.hero {
+  position: relative;
+  /* overflow: hidden; */
+  border: 1px solid red;
+  margin-left: 3rem;
+  margin-top: 5rem;
+  display: flex;
+}
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 1px solid rgb(5, 34, 80);
+  padding-bottom: 2rem;
+}
+.gdg-logo {
+  width: 315px;
+}
+.gdg-logo > img {
+  width: 100%;
+}
+.hero-map-container {
+  border: 1px solid rgb(5, 34, 80);
+}
+/* 
   ===============
   heading styles
   ===============
   */
-  /* .heading {
+/* .heading {
     margin-top: 1.5rem;
   } */
-  
-  .heading h1 {
-    font-family: "Google Sans";
-    font-weight: 700;
-    font-size: 3.4rem;
-    width: 100%;
-  }
-  
-  .heading > h1 > p {
-    display: inline;
-    position: relative;
-  }
-  
-  .heading > h1 > p > span {
-    position: absolute;
-    left: 0;
-    width: 100%;
-  }
-  
-  .heading > h1 > p > span > svg {
-    width: 100%;
-  }
-  .date {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .date span {
-    font-size: 22px;
-    font-weight: 600;
-    font-family: "Google Sans";
-  }
-  /* ..........  */
-  .cta-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-  }
-  .register-cta {
-    font-family: "Google Sans";
-    margin-top: 1rem;
-    margin: 1.5rem 0rem;
-  }
-  .register-cta a {
-    text-decoration: none;
-    background-color: var(--google-blue);
-    color: white;
-    border-radius: 34.7674px;
-    padding: 12px 30px;
-    font-size: 17px;
-  }
-  
-  /* 
+
+.heading h1 {
+  font-family: "Google Sans";
+  font-weight: 700;
+  font-size: 3.4rem;
+  width: 100%;
+}
+
+.heading > h1 > p {
+  display: inline;
+  position: relative;
+}
+
+.heading > h1 > p > span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.heading > h1 > p > span > svg {
+  width: 100%;
+}
+.date {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.date span {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Google Sans";
+}
+/* ..........  */
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.register-cta {
+  font-family: "Google Sans";
+  margin-top: 1rem;
+  margin: 1.5rem 0rem;
+}
+.register-cta a {
+  text-decoration: none;
+  background-color: var(--google-blue);
+  color: white;
+  border-radius: 34.7674px;
+  padding: 12px 30px;
+  font-size: 17px;
+}
+
+/* 
   ===============
   Map Illustration section
   ===============
   */
-  .hero-map-container {
-    /* width: 45rem;
+.hero-map-container {
+  /* width: 45rem;
     border: 1px solid #69696b; */
-    /* position: absolute; */
-    /* bottom: -15px;
+  /* position: absolute; */
+  /* bottom: -15px;
     right: 0; */
-  }
-  .main-svg-container {
-    /* display: flex;
+}
+.main-svg-container {
+  /* display: flex;
     position: absolute;
     bottom: 0; */
-  }
-  
-  /* svgs  */
-  .hero-map-container > svg {
-    width: 100%;
-  }
-  
+}
+
+/* svgs  */
+.hero-map-container > svg {
+  width: 100%;
+}
