@@ -27,12 +27,13 @@
 .devfestBodyContainer {
   display: flex;
   position: relative;
-  top: 130px;
+  top: 20%;
   left: 9.5%;
   width: 80%;
 }
 
 .image {
+  
 }
 .imgContainer {
   position: relative;
@@ -48,9 +49,9 @@
 .bodyText {
   position: relative;
   left: 9.5%;
-  top: 9%;
+  top: 7%;
   width: 58%;
-  height: 200px;
+  height: auto;
   color: white;
   font-family: "Google Sans";
   font-style: normal;
@@ -60,7 +61,92 @@
 
 .bottomContainer {
   position: relative;
-  width:29%;
-  left: 71%;
-  bottom: 215px;
+  width:35%;
+  left: 65%;
+  bottom: 216px;
+  display: flex;
+  justify-content:space-around;
+  align-items:baseline;
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    height:auto;
+  }
+  .headingWrapper{
+    height:130px;
+  }
+  .cloudContainer {
+    position: absolute;
+    bottom:0.01px;
+    right: 0;
+  }
+  .devfestBodyContainer{
+    flex-direction: column-reverse;
+    justify-content:space-between;
+  }
+  .image {
+    width:100%;
+    height:380px;
+    top:10%;
+  }
+  
+  .imgWrapper{
+    margin-top:30px;
+    margin-left:25%;
+  }
+  .bodyText{
+    left: 0;
+    width: 100%;
+  }
+  .bottomContainer {
+    position: relative;
+    width:100%;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content:space-around;
+    align-items:baseline;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .heading{
+    font-size: 17.5px;
+  }
+  .image {
+    width:100%;
+    height:300px;
+    top:10%;
+  }
+  .imgWrapper{
+    margin-left:20%;
+  }
+  .imgContainer>img{
+    width:300px;
+  }
+  .svgContainer>svg{
+    width:300px;
+  }
+  .svgContainer {
+    position: relative;
+    bottom: 255px;
+    left: 12px;
+  }
+  .bodyText{
+    font-size: 16px;
+  }
+  .bottomContainer {
+    margin-bottom:-13px;
+    transform:scale(0.81);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .imgWrapper{
+    margin-left:0;
+  }
+  .bottomContainer {
+    justify-content:space-between;
+  }
 }
