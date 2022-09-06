@@ -26,8 +26,8 @@ const ThingsYouDontWantToMissMain = () => {
         className={styles["content"]}
       >
         <div className={styles["data-cards"]}>
-          {thingsYouDontWantToMissData.map((card) => {
-            return <DataCard key={card.id} {...card}></DataCard>;
+          {thingsYouDontWantToMissData.map((card, index) => {
+            return <DataCard index={index} key={card.id} {...card}></DataCard>;
           })}
         </div>
       </div>
