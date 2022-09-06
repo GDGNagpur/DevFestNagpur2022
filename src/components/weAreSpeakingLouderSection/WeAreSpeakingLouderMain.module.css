@@ -4,13 +4,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 2rem 0;
+  padding: 4rem 0;
+  padding-bottom: 0;
 }
 
 .heading h1 {
   font-size: 36px;
   font-weight: 700;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   text-align: center;
 }
 
@@ -49,7 +50,7 @@
 
 @media screen and (max-width: 600px) {
   .note {
-    margin-top: 12px;
+    margin-top: 4px;
     font-size: 14px;
   }
   .data-cards{
