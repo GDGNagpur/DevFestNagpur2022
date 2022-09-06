@@ -1,5 +1,4 @@
 import React from "react";
-
 import { ReactComponent as DevfestLightSvg } from "../../assets/hero/devfest-light.svg";
 import { ReactComponent as DevfestDarkSvg } from "../../assets/hero/devfest-dark.svg";
 import { ReactComponent as IllustrationLightBg } from "../../assets/hero/illustration/illustration-light-mode-bg.svg";
@@ -10,10 +9,7 @@ import { ReactComponent as MonumentSvgGreen } from "../../assets/hero/illustrati
 import { ReactComponent as BridgeSvg } from "../../assets/hero/illustration/bridge.svg";
 import { ReactComponent as SunSvg } from "../../assets/hero/sun.svg";
 import { ReactComponent as MoonSvg } from "../../assets/hero/moon.svg";
-import { ReactComponent as TwitterSvg } from "../../assets/hero/twitter.svg";
-import { ReactComponent as InstagramSvg } from "../../assets/hero/instagram.svg";
 import { ReactComponent as CutSvg } from "../../assets/hero/cut.svg";
-import { ReactComponent as Linkedinsvg } from "../../assets/hero/linkedin.svg";
 import { ReactComponent as IllustrationLightMobileBg } from "../../assets/hero/mobile-illustration-light-mode.svg";
 import { ReactComponent as IllustrationDarkMobileBg } from "../../assets/hero/mobile-illustration-dark-mode.svg";
 import gdgDarkLogo from "../../assets/hero/gdg-dark-logo.png";
@@ -85,70 +81,6 @@ const Hero = () => {
         <div className={styles["timeline"]}>
           <h3>5-6 November</h3>
           <p>#Staytuned</p>
-        </div>
-        <div
-          style={
-            theme === "light"
-              ? { background: "#fcfcfc" }
-              : { background: "#181818" }
-          }
-          className={
-            theme === "light"
-              ? styles["email-social"]
-              : `${styles["email-social"]} ${styles["dark"]}`
-          }
-        >
-          <div className={styles["email"]}>
-            <p>Reach out to us at</p>
-            <a
-              style={
-                theme === "light"
-                  ? { color: "rgba(66, 133, 244, 1)" }
-                  : { color: "rgba(15, 157, 86, 1)" }
-              }
-              href="mailto:support@devfestnagpur.in"
-            >
-              support@devfestnagpur.in
-            </a>
-          </div>
-          <div className={styles["social"]}>
-            <p>Follow us on</p>
-            <div>
-              <a
-                className={
-                  theme === "light"
-                    ? `${styles["light-link"]}`
-                    : `${styles["dark-link"]}`
-                }
-                href="https://twitter.com/GDGNagpur_"
-                target={"_blank"}
-                rel="noreferrer"
-              >
-                <TwitterSvg></TwitterSvg>
-              </a>
-              <a
-                className={
-                  theme === "light" ? styles["light-link"] : styles["dark-link"]
-                }
-                href="https://www.instagram.com/gdgnagpur"
-                target={"_blank"}
-                rel="noreferrer"
-              >
-                <InstagramSvg></InstagramSvg>
-              </a>
-
-              <a
-                className={
-                  theme === "light" ? styles["light-link"] : styles["dark-link"]
-                }
-                href="https://www.linkedin.com/company/gdgnagpur/"
-                target={"_blank"}
-                rel="noreferrer"
-              >
-                <Linkedinsvg></Linkedinsvg>
-              </a>
-            </div>
-          </div>
         </div>
       </div>
       <div className={styles["toggle"]}>
