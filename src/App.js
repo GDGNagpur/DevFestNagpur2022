@@ -9,6 +9,7 @@ import WeAreSpeakingLouderMain from "./components/weAreSpeakingLouderSection/WeA
 import WhatIsDevfest from "./components/whatIsDevfest/WhatIsDevfest";
 // import { ReactComponent as SVG } from "./assets/hero/map-vector2.svg";
 import ThingsYouDontWantToMissMain from "./components/thingsYouDontWantToMissSection/ThingsYouDontWantToMissMain";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   const [showPage, setShowPage] = useState(true);
@@ -16,20 +17,20 @@ const App = () => {
   useEffect(() => {
     Aos.init({ duration: 100 });
 
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 6500);
+    // setTimeout(() => {
+    //   setIsLoading(false);
+    // }, 6500);
 
-    setTimeout(() => {
-      setShowPage(true);
-    }, 5000);
+    // setTimeout(() => {
+    //   setShowPage(true);
+    // }, 5000);
   }, [showPage]);
 
-  const [isLoading, setIsLoading] = useState(false);
+  // const [isLoading, setIsLoading] = useState(true);
 
   return (
     <div>
-      {isLoading && <Loader></Loader>}
+      {/* {isLoading && <Loader></Loader>} */}
       {showPage && (
         <>
           {/* Put all sections here*/}
@@ -38,6 +39,7 @@ const App = () => {
           <WhatIsDevfest></WhatIsDevfest>
           <WeAreSpeakingLouderMain></WeAreSpeakingLouderMain>
           <ThingsYouDontWantToMissMain></ThingsYouDontWantToMissMain>
+          <Footer></Footer>
         </>
       )}
     </div>

@@ -5,7 +5,8 @@
   align-items: center;
   flex-direction: column;
   margin-bottom: 5rem;
-  padding: 2rem 0;
+  padding: 4rem 0;
+  padding-bottom: 0;
 }
 
 .heading h1 {
@@ -61,7 +62,6 @@
 .data-cards > div:nth-child(1) svg{
     transform: translate(0, -4px) scale(0.9) !important;
 }
-
 
 @media screen and (max-width: 1250px){
     .heading h1 {
