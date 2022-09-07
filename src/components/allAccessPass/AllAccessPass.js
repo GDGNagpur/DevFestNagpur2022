@@ -57,10 +57,10 @@ const AllAccessPass = () => {
             </div>
 
             <div className={styles['illustrations']}>
-                <div>
+                <div className={styles['mmt-svg']}> 
                     <WhiteMmtSvg />
                 </div>
-                <div>
+                <div className={styles['lion-svg']}>
                     <WhiteLionSvg />
                 </div>
             </div>

@@ -9,6 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  overflow: hidden;
 }
 .heading-and-cta {
   display: flex;
@@ -58,6 +59,82 @@
 .illustrations {
   display: flex;
   position: relative;
-  top: 39px;
+  top: 25px;
   align-items: flex-end;
+}
+
+@media screen and (max-width: 1175px) {
+  .container {
+    padding: 1rem 2rem;
+  }
+}
+@media screen and (max-width: 1135px) {
+  .container {
+    padding: 1rem 1rem;
+  }
+}
+@media screen and (max-width: 1135px) {
+  .container {
+    padding: 1rem 1rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .heading h2 {
+    font-size: 26px;
+  }
+  .illustrations {
+    top: 53px;
+  }
+  .mmt-svg > svg {
+    width: 75px;
+  }
+  .lion-svg > svg {
+    width: 120px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .container {
+    flex-direction: column;
+    padding: 1rem 3rem;
+    padding-bottom: 0;
+  }
+  .heading-and-cta {
+    gap: 0px;
+  }
+  .cta-btn {
+    position: relative;
+    top: 10rem;
+    margin: 0 auto;
+  }
+  .illustrations {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .mmt-svg > svg {
+    width: 98px;
+    position: relative;
+    bottom: 2rem;
+  }
+  .perks {
+    gap: 3.5rem;
+  }
+}
+@media screen and (max-width: 585px) {
+  .perks{
+    flex-direction: column;
+    gap:normal;
+    gap: 1rem;
+  }
+  .cta-btn{
+    top: 16rem;
+  }
+  .illustrations {
+    top: 65px;
+  }
+  .mmt-svg > svg {
+    width: 69px;
+  }
+  .lion-svg > svg {
+    width: 75px;
+  }
 }
