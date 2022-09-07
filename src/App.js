@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import Loader from "./components/loader/Loader";
 import WeAreSpeakingLouderMain from "./components/weAreSpeakingLouderSection/WeAreSpeakingLouderMain";
 import WhatIsDevfest from "./components/whatIsDevfest/WhatIsDevfest";
+import ThemesSection from "./components/themesSection/ThemesSection";
 import ThingsYouDontWantToMissMain from "./components/thingsYouDontWantToMissSection/ThingsYouDontWantToMissMain";
 import Footer from "./components/footer/Footer";
 
@@ -34,6 +35,7 @@ const App = () => {
           <Hero></Hero>
           <WhatIsDevfest></WhatIsDevfest>
           <WeAreSpeakingLouderMain></WeAreSpeakingLouderMain>
+          <ThemesSection></ThemesSection>
           <ThingsYouDontWantToMissMain></ThingsYouDontWantToMissMain>
           <Footer></Footer>
         </>
