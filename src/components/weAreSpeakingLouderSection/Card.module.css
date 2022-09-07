@@ -15,7 +15,7 @@
   );
   padding: 2px;
   height: max-content;
-  border-radius: 25px;
+  border-radius: 15px;
   width: 23.5%;
   font-size: 25px;
 }
@@ -27,7 +27,7 @@
   flex-direction: column;
   width: 100%;
   padding: 2rem 0;
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 .img {
@@ -60,5 +60,10 @@
   .container {
     width: 80%;
     font-size: 18px;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+  }
+  .content{
+    border-radius: 12px;
   }
 }

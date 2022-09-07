@@ -20,6 +20,7 @@
 
 html{
     background: #fbfbfb;
+    overflow-x: hidden;
 }
 
 .dark {

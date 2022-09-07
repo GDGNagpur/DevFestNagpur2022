@@ -7,6 +7,7 @@ import WeAreSpeakingLouderMain from "./components/weAreSpeakingLouderSection/WeA
 import WhatIsDevfest from "./components/whatIsDevfest/WhatIsDevfest";
 import ThemesSection from "./components/themesSection/ThemesSection";
 import ThingsYouDontWantToMissMain from "./components/thingsYouDontWantToMissSection/ThingsYouDontWantToMissMain";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   const [showPage, setShowPage] = useState(false);
@@ -14,21 +15,21 @@ const App = () => {
   useEffect(() => {
     Aos.init({ duration: 100 });
 
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 6500);
+    // setTimeout(() => {
+    //   setIsLoading(false);
+    // }, 6500);
 
-    setTimeout(() => {
-      setShowPage(true);
-    }, 5000);
+    // setTimeout(() => {
+    //   setShowPage(true);
+    // }, 5000);
   }, [showPage]);
 
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
 
   return (
     <div>
-      {isLoading && <Loader></Loader>}
-      {showPage && (
+      {/* {isLoading && <Loader></Loader>} */}
+      {!showPage && (
         <>
           {/* Put all sections here*/}
           <Hero></Hero>
@@ -36,6 +37,7 @@ const App = () => {
           <WeAreSpeakingLouderMain></WeAreSpeakingLouderMain>
           <ThemesSection></ThemesSection>
           <ThingsYouDontWantToMissMain></ThingsYouDontWantToMissMain>
+          <Footer></Footer>
         </>
       )}
     </div>
