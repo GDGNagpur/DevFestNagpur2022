@@ -27,7 +27,7 @@ const ThemesSection = () => {
           alt="background"
         />
 
-        <img className={styles.bgimg2} src={theme === "light" ? BgImg1Dark : BgImg1Dark} alt="background" />
+        <img className={styles.bgimg2} src={theme === "light" ? BgImg1 : BgImg1Dark} alt="background" />
         <div className={styles.textContainer}>
           <div className={styles.techImg}>
             <Tech />
