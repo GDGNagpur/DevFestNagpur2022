@@ -8,6 +8,7 @@ import Loader from "./components/loader/Loader";
 import WeAreSpeakingLouderMain from "./components/weAreSpeakingLouderSection/WeAreSpeakingLouderMain";
 import WhatIsDevfest from "./components/whatIsDevfest/WhatIsDevfest";
 // import { ReactComponent as SVG } from "./assets/hero/map-vector2.svg";
+import ThemesSection from "./components/themesSection/ThemesSection";
 import ThingsYouDontWantToMissMain from "./components/thingsYouDontWantToMissSection/ThingsYouDontWantToMissMain";
 import Footer from "./components/footer/Footer";
 
@@ -38,6 +39,7 @@ const App = () => {
           <NewHero></NewHero>
           <WhatIsDevfest></WhatIsDevfest>
           <WeAreSpeakingLouderMain></WeAreSpeakingLouderMain>
+          <ThemesSection></ThemesSection>
           <ThingsYouDontWantToMissMain></ThingsYouDontWantToMissMain>
           <Footer></Footer>
         </>
