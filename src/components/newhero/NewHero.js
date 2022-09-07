@@ -77,7 +77,12 @@ const NewHero = () => {
       </div>
 
       <div className={styles["hero-map-container"]}>
-        <MapSvg></MapSvg>
+        {useColorModeValue(
+          <MapSvg></MapSvg>,
+          <div>
+            <MapSvg></MapSvg>
+          </div>
+        )}
       </div>
     </section>
   );
