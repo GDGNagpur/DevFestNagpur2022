@@ -63,7 +63,6 @@
     transform: translate(0, -4px) scale(0.9) !important;
 }
 
-
 @media screen and (max-width: 1250px){
     .heading h1 {
     margin-bottom: 2rem;

@@ -1,16 +1,19 @@
 import React, { useEffect, useState } from "react";
-import Hero from "./components/hero/Hero";
+import Menu from "./components/menu/Menu";
+import NewHero from "./components/newhero/NewHero";
+// import Hero from "./components/hero/Hero";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Loader from "./components/loader/Loader";
 import WeAreSpeakingLouderMain from "./components/weAreSpeakingLouderSection/WeAreSpeakingLouderMain";
 import WhatIsDevfest from "./components/whatIsDevfest/WhatIsDevfest";
+// import { ReactComponent as SVG } from "./assets/hero/map-vector2.svg";
 import ThemesSection from "./components/themesSection/ThemesSection";
 import ThingsYouDontWantToMissMain from "./components/thingsYouDontWantToMissSection/ThingsYouDontWantToMissMain";
 import Footer from "./components/footer/Footer";
 
 const App = () => {
-  const [showPage, setShowPage] = useState(false);
+  const [showPage, setShowPage] = useState(true);
 
   useEffect(() => {
     Aos.init({ duration: 100 });
@@ -29,10 +32,11 @@ const App = () => {
   return (
     <div>
       {/* {isLoading && <Loader></Loader>} */}
-      {!showPage && (
+      {showPage && (
         <>
           {/* Put all sections here*/}
-          <Hero></Hero>
+          <Menu></Menu>
+          <NewHero></NewHero>
           <WhatIsDevfest></WhatIsDevfest>
           <WeAreSpeakingLouderMain></WeAreSpeakingLouderMain>
           <ThemesSection></ThemesSection>
