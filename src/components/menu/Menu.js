@@ -71,17 +71,18 @@ const Menu = () => {
               {menuData.map((item) => {
                 return (
                   <li key={item.id} className={styles["menu-item"]}>
-                    <NavLink
-                      className={(navData) =>
-                        navData.isActive ? styles["active"] : ""
-                      }
+                    <a
+                      // className={(navData) =>
+                      //   navData.isActive ? styles["active"] : ""
+                      // }
                       style={{
                         color: LinkColor,
                       }}
-                      to={item.path}
+                      // to={item.path}
+                      href={item.path}
                     >
                       <p>{item.title}</p>
-                    </NavLink>
+                    </a>
                   </li>
                 );
               })}

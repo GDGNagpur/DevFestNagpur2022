@@ -36,7 +36,7 @@
 <path id="Vector 249_4" d="M77.4529 384.351C77.4529 383.875 77.3733 383.374 77.6327 382.952C77.78 382.713 77.7026 382.218 77.8525 382.053C78.3314 381.527 78.8872 381.039 79.3907 380.535C80.2597 379.666 82.3695 379.137 83.5659 379.137C86.526 379.137 88.6001 381.426 88.6001 384.351" stroke="white" strokeWidth="2.0835" strokeLinecap="round"/>
 </g>
 </g>
-<g data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" id="Group 1692">
+<g data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000" id="Group 1692">
 <path id="Vector 250" d="M558.461 394.662V417.305" stroke="white" strokeWidth="2.0835" strokeLinecap="round"/>
 <path id="Vector 251" d="M554.992 382.879C554.992 383.902 555.524 385.116 555.801 386.114C556.051 387.015 556.286 388.171 556.661 389.015C557.243 390.324 558.227 392.051 558.227 393.507" stroke="white" strokeWidth="2.0835" strokeLinecap="round"/>
 <path id="Vector 252" d="M533.508 381.724C542.005 381.724 550.611 381.955 559.154 381.955" stroke="white" strokeWidth="2.0835" strokeLinecap="round"/>
@@ -263,7 +263,7 @@
 <path id="Vector 376" d="M432.473 289.39H440.07" stroke="white" strokeWidth="2.0835" strokeLinecap="round"/>
 <path id="Vector 377" d="M434.016 285.472H438.408" stroke="white" strokeWidth="2.0835" strokeLinecap="round"/>
 </g>
-<g data-aos="fade-up" data-aos-duration="600" data-aos-delay="200" id="Group 1696">
+<g data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" id="Group 1696">
 <path id="Vector 378" d="M246.033 398.604C246.033 402.804 244.149 406.552 244.149 410.704C244.149 411.597 244.081 412.41 243.971 413.289C243.886 413.971 243.584 414.551 243.584 415.226C243.584 416.1 243.207 418.696 243.207 417.821" stroke="white" strokeWidth="2.0835" strokeLinecap="round"/>
 <path id="Vector 379" d="M287.293 397.851C287.293 398.8 287.629 399.688 287.67 400.635C287.723 401.849 287.906 403.076 288.193 404.256C288.625 406.034 289.066 407.902 289.648 409.646C290.226 411.382 290.684 413.355 290.684 415.173C290.684 415.858 290.724 417.96 291.438 418.198" stroke="white" strokeWidth="2.0835" strokeLinecap="round"/>
 <path id="Vector 380" d="M246.598 398.228H288.422" stroke="white" strokeWidth="2.0835" strokeLinecap="round"/>
@@ -292,7 +292,7 @@
 <path id="Vector 403" d="M269.855 261.057V317.481" stroke="white" strokeWidth="2.0835" strokeLinecap="round"/>
 <path id="Vector 404" d="M269.855 317.666C269.855 331.49 269.855 345.314 269.855 359.139C269.855 363.301 269.669 367.44 269.669 371.595C269.669 374.291 269.542 377.247 270.082 379.885C270.368 381.285 270.597 382.704 270.597 384.154C270.597 385.028 270.481 385.964 270.783 386.794C271.009 387.414 270.969 388 270.969 388.66C270.969 388.908 270.969 389.155 270.969 389.403C270.969 389.907 270.969 388.398 270.969 388.196" stroke="white" strokeWidth="2.0835" strokeLinecap="round"/>
 </g>
-<g data-aos="fade-up" data-aos-duration="600" id="Group 1703">
+<g data-aos="fade-up" data-aos-duration="1500" id="Group 1703">
 <path id="Vector 405" d="M90.2109 392.688H212.979" stroke="white" strokeWidth="2.0835" strokeLinecap="round"/>
 <path id="Vector 406" d="M213.156 393.046V418.137" stroke="white" strokeWidth="2.0835" strokeLinecap="round"/>
 <path id="Vector 407" d="M89.6719 392.688V418.676" stroke="white" strokeWidth="2.0835" strokeLinecap="round"/>
@@ -381,12 +381,12 @@
 <path id="Vector 455_2" d="M544.293 208.593H546.881" stroke="white" strokeWidth="2" strokeLinecap="round"/>
 </g>
 <g id="dots">
-<circle  data-aos="fade-down-left" data-aos-duration="2000"  id="Ellipse 35" cx="576.5" cy="265.5" r="3.5" fill="white"/>
-<circle data-aos="fade-down-right" data-aos-duration="2000" id="Ellipse 27" cx="219.5" cy="190.5" r="3.5" fill="white"/>
-<circle data-aos="fade-up" data-aos-duration="2000" id="Ellipse 30" cx="263.5" cy="108.5" r="2.5" fill="white"/>
-<circle data-aos="fade-down" data-aos-duration="2000" id="Ellipse 31" cx="315.5" cy="215.5" r="2.5" fill="white"/>
-<circle data-aos="fade-down-left" data-aos-duration="2000" id="Ellipse 32" cx="101.5" cy="260.5" r="2.5" fill="white"/>
-<circle data-aos="fade-up-right" data-aos-duration="2000" id="Ellipse 29" cx="468.5" cy="149.5" r="3.5" fill="white"/>
+<circle  data-aos="fade-down-left" data-aos-duration="3000"  id="Ellipse 35" cx="576.5" cy="265.5" r="3.5" fill="white"/>
+<circle data-aos="fade-down-right" data-aos-duration="3000" id="Ellipse 27" cx="219.5" cy="190.5" r="3.5" fill="white"/>
+<circle data-aos="fade-up" data-aos-duration="3000" id="Ellipse 30" cx="263.5" cy="108.5" r="2.5" fill="white"/>
+<circle data-aos="fade-down" data-aos-duration="3000" id="Ellipse 31" cx="315.5" cy="215.5" r="2.5" fill="white"/>
+<circle data-aos="fade-down-left" data-aos-duration="3000" id="Ellipse 32" cx="101.5" cy="260.5" r="2.5" fill="white"/>
+<circle data-aos="fade-up-right" data-aos-duration="3000" id="Ellipse 29" cx="468.5" cy="149.5" r="3.5" fill="white"/>
 </g>
 <g data-aos="zoom-in" data-aos-duration="800"  id="orange-tower">
 <path id="Vector 2" d="M777.918 260.521C777.918 266.584 775.247 272.162 775.247 278.123C775.247 282.887 775.111 287.673 775.247 292.434C775.281 293.61 775.733 294.621 775.733 295.847C775.733 296.94 775.733 298.032 775.733 299.125C775.733 301.557 775.247 303.568 775.247 306C775.994 310 774.5 310.978 774.5 315" stroke="white" strokeWidth="1.77325" strokeLinecap="round"/>

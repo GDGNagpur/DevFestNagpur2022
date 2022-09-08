@@ -102,10 +102,10 @@
     height: 720px;
   }
   .techImg > svg{
-    transform: scale(0.9);
+    transform: scale(0.6);
   }
   .startupImg > svg{
-    transform: scale(0.8) translate(0, -50%);
+    transform: scale(0.6) translate(0, -50%);
   }
   .bgimg2 {
     display: block;

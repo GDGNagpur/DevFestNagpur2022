@@ -4,7 +4,7 @@
   flex-direction: column;
   height: 550px;
   /* background: red !important; */
-  border-bottom: 1px solid white;
+  /* border-bottom: 1px solid white; */
   border-top: 1px solid white;
   overflow: hidden;
 }

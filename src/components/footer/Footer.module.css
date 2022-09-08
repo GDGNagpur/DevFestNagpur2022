@@ -9,7 +9,7 @@
   left: 50%;
   transform: translate(-50%, 0);
   align-items: center;
-  min-height: 70px;
+  min-height: 100px;
   padding: 0 6%;
 }
 

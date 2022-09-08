@@ -27,7 +27,6 @@
   flex-wrap: wrap;
 }
 
-
 .note {
   background: #0f9d56;
   text-align: center;
@@ -38,46 +37,60 @@
   font-size: 20px;
 }
 
-.marqueeAnim{
+.marqueeAnimContainer {
+  background: #076585; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fff,
+    #076585
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fff,
+    #076585
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.marqueeAnim {
   margin-top: 3rem;
   font-family: "Google Sans";
-  color:white;
+  color: white;
   font-weight: 600;
-  font-size:30px;
+  font-size: 25px;
   animation-name: marquee;
-  animation-duration:40s;
-  animation-timing-function:linear;
-  animation-iteration-count:infinite;
-  animation-delay:0s;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
   white-space: nowrap;
   position: relative;
 }
 
-.marqueeAnim:hover{
-  animation-play-state:paused;
+.marqueeAnim:hover {
+  animation-play-state: paused;
 }
 
 @keyframes marquee {
-  from{
+  from {
     left: 0;
   }
-  to{
-    left:-8850px;
+  to {
+    left: -8850px;
   }
 }
 
-.marqueeAnim>div{
+.marqueeAnim > div {
   display: inline-flex;
 }
 
-.marqueeAnim>div>span{
+.marqueeAnim > div > span {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
-  min-width:300px;
-  height: 130px;
-  background:red;
-  padding:30px;
+  min-width: 300px;
+  height: 90px;
+  background: red;
+  padding: 30px;
 }
 
 @media screen and (max-width: 1250px) {
@@ -100,24 +113,24 @@
     flex-direction: column;
     align-items: center;
   }
-  .marqueeAnimContainer{
+  .marqueeAnimContainer {
     overflow: hidden;
+    background: transparent;
   }
-  .marqueeAnim{
+  .marqueeAnim {
     margin-top: 1rem;
     font-size: 20px;
-    animation-duration:50s;
+    animation-duration: 50s;
   }
-  .marqueeAnim>div>span{
+  .marqueeAnim > div > span {
     height: 50px;
   }
   @keyframes marquee {
-    from{
+    from {
       left: 0;
     }
-    to{
-      left:-7420px;
+    to {
+      left: -7420px;
     }
   }
-  
 }

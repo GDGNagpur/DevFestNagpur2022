@@ -71,7 +71,7 @@ const NewHero = () => {
             </span>
           </div>
           <div className={styles["register-cta"]}>
-            <a href="#f">Register Now</a>
+            <a href="#all-access-pass">Register Now</a>
           </div>
         </div>
       </div>
