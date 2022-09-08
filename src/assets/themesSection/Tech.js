@@ -23,8 +23,8 @@ export const Tech = () => {
             y2="68"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="white" />
-            <stop offset="1" stop-color="#FFBA00" />
+            <stop stopColor="white" />
+            <stop offset="1" stopColor="#FFBA00" />
           </linearGradient>
         </defs>
       </svg>

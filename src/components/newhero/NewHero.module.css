@@ -100,7 +100,7 @@
 
 .hero-map-container {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   right: 0;
   height: 100%;
   width: 60vw;
@@ -125,7 +125,7 @@
   height: auto;
   display: flex;
   align-items: flex-end;
-  transform: translate(0, 5px);
+  transform: translate(0, 6px);
 }
 
 

@@ -15,7 +15,11 @@ const WhatIsDevfest = () => {
     >
       <div className={styles.headingWrapper}>
         <div className={styles.heading}>
-          <div className={styles.cloudContainer}>
+          <div
+            data-aos="fade-up-right"
+            data-aos-duration="1500"
+            className={styles.cloudContainer}
+          >
             <Cloud3
               color={useColorModeValue("#ffffff", "#ffffff")}
               className={styles.cloud3}
@@ -33,9 +37,16 @@ const WhatIsDevfest = () => {
         <div className={styles.image}>
           <div className={styles.imgWrapper}>
             <div className={styles.imgContainer}>
-              <img src={Devfest} alt="What is DevFest ?"></img>
+              <img
+                src={Devfest}
+                alt="What is DevFest ?"
+              ></img>
             </div>
-            <div className={styles.svgContainer}>
+            <div
+              data-aos="fade-up-right"
+              data-aos-duration="800"
+              className={styles.svgContainer}
+            >
               <BgSvg />
             </div>
           </div>
@@ -58,11 +69,19 @@ const WhatIsDevfest = () => {
         </div>
       </div>
       <div className={styles.bottomContainer}>
-        <Bottom2 color={useColorModeValue("#E8EAED", "#E8EAED")} />
-        <Bottom3
-          color={useColorModeValue("#E8EAED", "#E8EAED")}
-          className={styles.bottom3}
-        />
+        <span
+          data-aos="slide-right"
+          data-aos-offset="-50"
+          data-aos-duration="2000"
+        >
+          <Bottom2 color={useColorModeValue("#E8EAED", "#E8EAED")} />
+        </span>
+        <span data-aos="fade-up" data-aos-duration="1000">
+          <Bottom3
+            color={useColorModeValue("#E8EAED", "#E8EAED")}
+            className={styles.bottom3}
+          />
+        </span>
       </div>
     </div>
   );

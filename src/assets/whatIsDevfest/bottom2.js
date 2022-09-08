@@ -13,61 +13,61 @@ export const Bottom2 = ({ color}) => {
         <path
           d="M11.9689 25.0127C11.9689 35.8729 11.7891 46.7031 11.7891 57.5674"
           stroke={color}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M1.89844 24.4717H22.3949"
           stroke={color}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M1 24.2928C1 22.4938 1.03603 20.7628 2.43835 19.4384C3.43394 18.4981 5.07838 18 6.43377 18C8.04 18 9.34522 18.0747 10.5291 19.2586C11.37 20.0995 12.6866 21.6708 12.6866 22.8544"
           stroke={color}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M12.3279 23.7531C12.3279 23.2777 12.2483 22.7762 12.5077 22.3547C12.655 22.1154 12.5776 21.6205 12.7275 21.4557C13.2064 20.9289 13.7622 20.4409 14.2657 19.9375C15.1347 19.0684 17.2445 18.5391 18.4409 18.5391C21.401 18.5391 23.4751 20.8286 23.4751 23.7531"
           stroke={color}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M63 8C63 24.68 63 41.3138 63 58"
           stroke={color}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M52.8984 7.47168H73.3949"
           stroke={color}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M52 7.29278C52 5.49382 52.036 3.76277 53.4384 2.43835C54.4339 1.49807 56.0784 1 57.4338 1C59.04 1 60.3452 1.07471 61.5291 2.25856C62.37 3.09951 63.6866 4.67077 63.6866 5.85443"
           stroke={color}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M63.3279 6.75308C63.3279 6.27773 63.2483 5.77615 63.5077 5.35469C63.655 5.11536 63.5776 4.62052 63.7275 4.45572C64.2064 3.92892 64.7622 3.44092 65.2657 2.93746C66.1347 2.0684 68.2445 1.53906 69.4409 1.53906C72.401 1.53906 74.4751 3.82864 74.4751 6.75308"
           stroke={color}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <circle
           cx="102.521"
           cy="46.5276"
           r="11.0067"
           stroke={color}
-          stroke-width="1.02817"
+          strokeWidth="1.02817"
         />
         <circle
           cx="145.478"
           cy="46.5276"
           r="11.0067"
           stroke={color}
-          stroke-width="1.02817"
+          strokeWidth="1.02817"
         />
         <path
           d="M102.914 46.9172H120.098M120.098 46.9172L111.311 38.1302M120.098 46.9172L139.819 30.9053M111.311 38.1302L102.914 46.5267M111.311 38.1302L139.819 30.9053M111.311 38.1302V32.0769M139.819 30.9053L146.068 46.5267M139.819 30.9053V27H133.376M111.311 32.0769H115.606M111.311 32.0769H107.6"
           stroke={color}
-          stroke-width="1.02817"
+          strokeWidth="1.02817"
         />
       </svg>
     </>

@@ -23,8 +23,8 @@ export const Startup = () => {
             y2="171.692"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.18763" stop-color="white" />
-            <stop offset="1" stop-color="#4285F4" />
+            <stop offset="0.18763" stopColor="white" />
+            <stop offset="1" stopColor="#4285F4" />
           </linearGradient>
         </defs>
       </svg>

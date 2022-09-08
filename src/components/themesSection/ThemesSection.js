@@ -26,13 +26,24 @@ const ThemesSection = () => {
           src={theme === "light" ? BgImgLight : BgImgDark}
           alt="background"
         />
-
-        <img className={styles.bgimg2} src={theme === "light" ? BgImg1 : BgImg1Dark} alt="background" />
+        <img
+          className={styles.bgimg2}
+          src={theme === "light" ? BgImg1 : BgImg1Dark}
+          alt="background"
+        />
         <div className={styles.textContainer}>
-          <div className={styles.techImg}>
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            className={styles.techImg}
+          >
             <Tech />
           </div>
-          <div className={styles.startupImg}>
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            className={styles.startupImg}
+          >
             <Startup />
           </div>
         </div>

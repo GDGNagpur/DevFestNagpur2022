@@ -1,29 +1,33 @@
 .container {
-  margin-top: 50px;
+  padding-top: 4rem;
 }
 
 .heading {
   font-family: "Google Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 34px;
+  font-size: 36px;
   line-height: 43px;
   color: #505050;
   text-align: center;
+  margin-bottom: 2rem;
 }
+
 .themesBody {
-  margin-top: 30px;
   height: 550px;
 }
+
 .bgimg1 {
   position: absolute;
-  width: 75%;
+  width: 88%;
   height: 67%;
-  left: 12.5%;
+  left: 6%;
 }
+
 .bgimg2 {
   display: none;
 }
+
 .textContainer {
   position: relative;
   top: 44%;
@@ -32,17 +36,23 @@
 }
 
 .techImg {
-  margin-left:15%;
+  margin-left: 15%;
 }
 .startupImg {
   margin-right: 13%;
 }
 
+@media screen and (max-width: 1250px) {
+  .heading {
+    font-size: 28px;
+  }
+}
+
 @media screen and (max-width: 1100px) {
-    .themesBody {
-        margin-top: 30px;
-        height: 750px;
-      }
+  .themesBody {
+    margin-top: 20px;
+    height: 750px;
+  }
   .bgimg1 {
     display: none;
   }
@@ -81,17 +91,27 @@
   }
 }
 
-
 @media screen and (max-width: 450px) {
+  .container{
+    padding-top: 2.5rem;
+  }
+  .heading{
+    margin-bottom: 1rem;
+  }
   .themesBody {
     height: 720px;
   }
-    .bgimg2 {
-        display: block;
-        position: absolute;
-        width: 90%;
-        height: 90%;
-        left: 5%;
-      }
+  .techImg > svg{
+    transform: scale(0.9);
+  }
+  .startupImg > svg{
+    transform: scale(0.8) translate(0, -50%);
+  }
+  .bgimg2 {
+    display: block;
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+  }
 }
-

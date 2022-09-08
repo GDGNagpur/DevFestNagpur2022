@@ -10,7 +10,7 @@
   transform: translate(-50%, 0);
   align-items: center;
   min-height: 70px;
-  padding: 0 8%;
+  padding: 0 6%;
 }
 
 .email-social::after {
