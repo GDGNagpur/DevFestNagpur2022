@@ -75,7 +75,7 @@
   justify-content:center;
   align-items: center;
   min-width:300px;
-  height: 150px;
+  height: 130px;
   background:red;
   padding:30px;
 }
@@ -100,19 +100,23 @@
     flex-direction: column;
     align-items: center;
   }
+  .marqueeAnimContainer{
+    overflow: hidden;
+  }
   .marqueeAnim{
+    margin-top: 1rem;
     font-size: 20px;
-  animation-duration:50s;
+    animation-duration:50s;
   }
   .marqueeAnim>div>span{
-    height: 100px;
+    height: 50px;
   }
   @keyframes marquee {
     from{
       left: 0;
     }
     to{
-      left:-7430px;
+      left:-7420px;
     }
   }
   

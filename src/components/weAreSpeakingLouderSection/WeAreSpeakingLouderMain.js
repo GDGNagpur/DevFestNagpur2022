@@ -10,12 +10,12 @@ const WeAreSpeakingLouderMain = () => {
     { text: "Earn badges", color: "#1b6ef3" },
     { text: "Build for any screen with Flutter", color: "#f09d00" },
     { text: "Find an event near you", color: "#dc362e" },
-    { text: "Solve challenges with Google Cloud", color: "#37474f" },
+    { text: "Solve challenges with Google Cloud", color: "#202124" },
     { text: "Follow #DevFest for updates", color: "#1b6ef3" },
     { text: "Explore innovative Machine Learning", color: "#f09d00" },
     { text: "Build Web experiences for everyone", color: "#dc362e" },
     { text: "Connect with local developers", color: "#1b6ef3" },
-    { text: "Discover Android development", color: "#37474f" },
+    { text: "Discover Android development", color: "#202124" },
     { text: "Engage with experts", color: "#f09d00" },
   ];
 
@@ -37,7 +37,7 @@ const WeAreSpeakingLouderMain = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className={styles["marqueeAnimContainer"]}>
         <div className={styles["marqueeAnim"]}>
           <div>
             {marqetext.map((text) => {
