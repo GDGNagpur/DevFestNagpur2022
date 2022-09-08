@@ -4,8 +4,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 4rem 0;
-  padding-bottom: 0;
+  padding-top: 4rem;
 }
 
 .heading h1 {
@@ -18,7 +17,7 @@
 .content {
   display: flex;
   flex-direction: column;
-  width: 84%;
+  width: 88%;
 }
 
 .data-cards {
@@ -33,7 +32,7 @@
   text-align: center;
   color: white;
   margin-top: 5rem;
-  padding: 1.5rem 0;
+  padding: 1.2rem 0;
   border-radius: 6px;
   font-size: 20px;
 }

@@ -22,7 +22,7 @@ const WeAreSpeakingLouderMain = () => {
             return <DataCard index={index} key={card.id} {...card}></DataCard>;
           })}
         </div>
-        <div data-aos={isMobile ? "fade-up" : "fade-in"} data-aos-duration="800" className={styles["note"]}>
+        <div data-aos={isMobile ? "zoom-in" : "fade-in"} data-aos-duration="800" className={styles["note"]}>
           <p>
             Building web experience for everyone{" "}
             <span role={"img"} aria-label="Cheers">

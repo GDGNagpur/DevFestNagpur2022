@@ -6,6 +6,7 @@
   /* background: red !important; */
   border-bottom: 1px solid white;
   border-top: 1px solid white;
+  overflow: hidden;
 }
 
 .cloudContainer {
@@ -25,16 +26,16 @@
   font-weight: 700;
   font-size: 32px;
   position: relative;
-  left: 9.5%;
+  left: 6%;
   top: 55px;
-  width: 85%;
+  width: 88%;
 }
 
 .devfestBodyContainer {
   display: flex;
   position: relative;
   top: 20%;
-  left: 9.5%;
+  left: 6%;
   width: 80%;
 }
 

@@ -1,0 +1,222 @@
+:root {
+  --google-gray: #202124;
+  --google-blue: #4285f4;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  min-height: calc(100vh - 64px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  width: 88%;
+  transform: translate(0, -10%);
+}
+
+.gdg-logo {
+  width: 420px;
+  margin-bottom: 1rem;
+}
+
+.gdg-logo > img {
+  width: 100%;
+}
+/* 
+  ===============
+  heading styles
+  ===============
+  */
+/* .heading {
+    margin-top: 1.5rem;
+  } */
+
+.heading {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.cut-mask {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  display: flex;
+  align-items: center;
+  width: 108%;
+}
+
+.heading h1 {
+  font-family: "Google Sans";
+  font-weight: 700;
+  font-size: 3.6rem;
+  width: 100%;
+}
+
+.heading > h1 > p {
+  display: inline-block;
+  position: relative;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+}
+
+.date > svg {
+  margin-right: 10px;
+}
+
+.date span {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Google Sans";
+}
+/* ..........  */
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.register-cta {
+  font-family: "Google Sans";
+  margin-top: 1rem;
+  margin: 1.5rem 0rem;
+}
+.register-cta a {
+  text-decoration: none;
+  background-color: var(--google-blue);
+  color: white;
+  border-radius: 34.7674px;
+  padding: 12px 30px;
+  font-size: 17px;
+}
+
+.hero-map-container {
+  position: absolute;
+  bottom: -1px;
+  right: 0;
+  height: 100%;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.hero-map-container > div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-map-container svg {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-end;
+  transform: translate(0, 6px);
+}
+
+
+/* .hero-map-container > svg > g {
+  overflow: hidden;
+} */
+
+.mobile-img {
+  display: none;
+}
+
+.cal-svg.svg-dark > path {
+  fill: white;
+}
+
+
+@media screen and (max-width:1400px){
+  .hero-map-container{
+    width: 55vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .hero-map-container{
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero {
+    align-items: flex-start;
+    min-height: calc(92.5vh - 64px);
+  }
+  .hero-info {
+    width: 100%;
+    margin-bottom: 0;
+    transform: translate(0, 20%);
+  }
+  .desktop-img {
+    display: none;
+  }
+  .gdg-logo {
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .mobile-img {
+    display: flex;
+    justify-content: center;
+  }
+  .mobile-img.img-dark > svg > path:nth-of-type(1) {
+    fill: white;
+  }
+  .mobile-img.img-dark > svg > path:nth-of-type(2) {
+    fill: white;
+  }
+  .heading h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+  .hero-map-container {
+    overflow: visible;
+    height: auto;
+    width: 110%;
+    transform: translate(0, -4px);
+  }
+  .hero-map-container > svg {
+    width: 100%;
+  }
+  .cta-container {
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .date > svg {
+    margin-right: 10px;
+    width: 20px;
+  }
+  .date > span {
+    font-size: 18px !important;
+  }
+  .date span {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Google Sans";
+  }
+}
+

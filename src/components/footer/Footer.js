@@ -15,7 +15,7 @@ const Footer = () => {
       )}
     >
       <div className={styles["email"]}>
-        <p>Reach out to us at</p>
+        <p>Reach out to us at <span>:</span></p>
         <a
           style={{
             color: useColorModeValue(

@@ -12,61 +12,67 @@ import { ReactComponent as WhiteMmtSvg } from "../../assets/hero/illustration/mm
 
 const AllAccessPass = () => {
     return (
-        <section className={styles['container']}>
+      <section className={styles["container"]}>
+        <div className={styles["heading-and-cta"]}>
+          <div className={styles["heading"]}>
+            <span>
+              <PassSvg></PassSvg>
+            </span>
+            <h2>All Access Pass</h2>
+          </div>
+          <button className={styles["cta-btn"]}>Coming Soon</button>
+        </div>
 
-            <div className={styles['heading-and-cta']}>
-                <div className={styles['heading']}>
-                    <span>
-                        <PassSvg></PassSvg>
-                    </span>
-                    <h2>All Access Pass</h2>
-                </div>
-                <button className={styles['cta-btn']}>Coming Soon</button>
+        <div className={styles["perks"]}>
+          <div className="perks1">
+            <div className={styles["perk"]}>
+              <FoodSvg />
+              <span>Food and Beverages</span>
             </div>
-
-            <div className={styles['perks']}>
-                <div className="perks1">
-                    <div className={styles['perk']}>
-                        <FoodSvg />
-                        <span>Food and Beverages</span>
-                    </div>
-                    <div className={styles['perk']}>
-                        <SwagsSvg />
-                        <span>Swags and Goodies</span>
-                    </div>
-                    <div className={styles['perk']}>
-                        <SponsorBoothSvg />
-                        <span>Sponsor Booths</span>
-                    </div>
-                </div>
-
-                <div className="perks2">
-                    <div className={styles['perk']}>
-                        <DiscordSvg />
-                        <span>Private Discord Server</span>
-                    </div>
-                    <div className={styles['perk']}>
-                        <MicSvg />
-                        <span>Commmunity Spaces</span>
-                    </div>
-                    <div className={styles['perk']}>
-                        <HackathonSvg />
-                        <span>Hackathons</span>
-                    </div>
-                </div>
+            <div className={styles["perk"]}>
+              <SwagsSvg />
+              <span>Swags and Goodies</span>
             </div>
-
-            <div className={styles['illustrations']}>
-                <div className={styles['mmt-svg']}> 
-                    <WhiteMmtSvg />
-                </div>
-                <div className={styles['lion-svg']}>
-                    <WhiteLionSvg />
-                </div>
+            <div className={styles["perk"]}>
+              <SponsorBoothSvg />
+              <span>Sponsor Booths</span>
             </div>
+          </div>
 
-        </section>
-    )
+          <div className="perks2">
+            <div className={styles["perk"]}>
+              <DiscordSvg />
+              <span>Private Discord Server</span>
+            </div>
+            <div className={styles["perk"]}>
+              <MicSvg />
+              <span>Commmunity Spaces</span>
+            </div>
+            <div className={styles["perk"]}>
+              <HackathonSvg />
+              <span>Hackathons</span>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles["illustrations"]}>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className={styles["mmt-svg"]}
+          >
+            <WhiteMmtSvg />
+          </div>
+          <div
+            data-aos="fade-down-left"
+            data-aos-duration="1000"
+            className={styles["lion-svg"]}
+          >
+            <WhiteLionSvg />
+          </div>
+        </div>
+      </section>
+    );
 }
 
 export default AllAccessPass;
