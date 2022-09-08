@@ -37,6 +37,62 @@
   font-size: 20px;
 }
 
+.marqueeAnimContainer {
+  background: #076585; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fff,
+    #076585
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fff,
+    #076585
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.marqueeAnim {
+  margin-top: 3rem;
+  font-family: "Google Sans";
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+  animation-name: marquee;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  white-space: nowrap;
+  position: relative;
+}
+
+.marqueeAnim:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  from {
+    left: 0;
+  }
+  to {
+    left: -8850px;
+  }
+}
+
+.marqueeAnim > div {
+  display: inline-flex;
+}
+
+.marqueeAnim > div > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  height: 90px;
+  background: red;
+  padding: 30px;
+}
+
 @media screen and (max-width: 1250px) {
   .heading h1 {
     margin-bottom: 2rem;
@@ -53,8 +109,28 @@
     font-size: 14px;
     padding: 10px;
   }
-  .data-cards{
+  .data-cards {
     flex-direction: column;
     align-items: center;
+  }
+  .marqueeAnimContainer {
+    overflow: hidden;
+    background: transparent;
+  }
+  .marqueeAnim {
+    margin-top: 1rem;
+    font-size: 20px;
+    animation-duration: 50s;
+  }
+  .marqueeAnim > div > span {
+    height: 50px;
+  }
+  @keyframes marquee {
+    from {
+      left: 0;
+    }
+    to {
+      left: -7420px;
+    }
   }
 }
