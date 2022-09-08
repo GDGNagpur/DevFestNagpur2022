@@ -18,7 +18,7 @@ const AllAccessPass = () => {
             <span>
               <PassSvg></PassSvg>
             </span>
-            <h2>All Access Pass</h2>
+            <h2>ALL ACCESS PASS</h2>
           </div>
           <button className={styles["cta-btn"]}>Coming Soon</button>
         </div>
