@@ -44,7 +44,7 @@ const WhatIsDevfest = () => {
             </div>
             <div
               data-aos="fade-up-right"
-              data-aos-duration="800"
+              data-aos-duration="1000"
               className={styles.svgContainer}
             >
               <BgSvg />
@@ -72,11 +72,11 @@ const WhatIsDevfest = () => {
         <span
           data-aos="slide-right"
           data-aos-offset="-50"
-          data-aos-duration="2000"
+          data-aos-duration="3000"
         >
           <Bottom2 color={useColorModeValue("#E8EAED", "#E8EAED")} />
         </span>
-        <span data-aos="fade-up" data-aos-duration="1000">
+        <span data-aos="fade-up" data-aos-duration="1500">
           <Bottom3
             color={useColorModeValue("#E8EAED", "#E8EAED")}
             className={styles.bottom3}

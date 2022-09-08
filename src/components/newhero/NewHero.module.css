@@ -17,7 +17,6 @@
   flex-direction: column;
   padding-bottom: 2rem;
   width: 88%;
-  transform: translate(0, -10%);
 }
 
 .gdg-logo {
@@ -152,9 +151,12 @@
   .hero-map-container{
     width: 70vw;
   }
+  .heading h1{
+    font-size: 3rem;
+  }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   .hero {
     align-items: flex-start;
     min-height: calc(92.5vh - 64px);
@@ -162,7 +164,7 @@
   .hero-info {
     width: 100%;
     margin-bottom: 0;
-    transform: translate(0, 20%);
+    transform: translate(0, 12%);
   }
   .desktop-img {
     display: none;
@@ -220,3 +222,8 @@
   }
 }
 
+@media screen and (max-width: 450px) {
+  .hero-info{
+    transform: translate(0, 20%);
+  }
+}

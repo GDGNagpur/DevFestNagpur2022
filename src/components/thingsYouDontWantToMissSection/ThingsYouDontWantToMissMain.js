@@ -10,8 +10,9 @@ const ThingsYouDontWantToMissMain = () => {
     <div className={styles["container"]}>
       <div className={styles["heading"]}>
         <h1 style={{ color: useColorModeValue("#505050", "#ffffff") }}>
-          Things you don't want to miss{" "}
-          <span>
+          Things you don't want to miss 
+          <span className={styles["mobile-eyes"]} role={"img"}>👀</span>
+          <span className={styles["eye-svg"]}>
             <EyesSvg></EyesSvg>
           </span>
         </h1>

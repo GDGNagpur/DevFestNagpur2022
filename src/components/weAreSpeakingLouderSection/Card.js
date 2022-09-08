@@ -21,7 +21,7 @@ const DataCard = (props) => {
       >
         <div
           data-aos={isMobile ? "flip-right" : "flip-down"}
-          data-aos-duration={"1200"}
+          data-aos-duration={"1400"}
           className={styles["img"]}
           data-aos-delay={isMobile ? null : index * 200}
         >
