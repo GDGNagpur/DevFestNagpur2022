@@ -9,8 +9,8 @@
   left: 50%;
   transform: translate(-50%, 0);
   align-items: center;
-    min-height: 140px;
-    padding: 0 8%;
+  min-height: 70px;
+  padding: 0 8%;
 }
 
 .email-social::after {
@@ -29,17 +29,24 @@
 
 .email {
   transform: translate(0, -12%);
+  display: flex;
 }
 
 .email p {
   font-size: 18px;
   line-height: 22px;
+  margin-right: 10px;
 }
 
 .email a {
   color: rgba(66, 133, 244, 1);
   font-weight: 600;
+  font-size: 18px;
   font-family: "Google Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0, -1px);
 }
 
 .social {
@@ -84,4 +91,40 @@
 
 .dark-link > svg > path {
   fill: #e8eaed;
+}
+
+
+@media screen and (max-width: 900px){
+  .email-social{
+    min-height: auto;
+    padding: 2rem 8%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .email-social::after{
+    width: 88%;
+    transform: translate(-50%, 0);
+    left: 50%;
+  }
+  .email{
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  .email span{
+    display: none;
+  }
+  .email a{
+    transform: translate(0, 0);
+    font-size: 16px;
+  }
+  .social{
+    flex-direction: column;
+  }
+  .social p{
+    margin-bottom: 8px;
+  }
+ .social a {
+  margin-left: 0rem;
+  margin: 0 8px;
+}
 }

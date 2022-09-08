@@ -6,7 +6,7 @@ const menuData = [
   },
   {
     id: 2,
-    title: "Why Devfest?",
+    title: "Why DevFest?",
     path: "/why-devfest",
   },
   {
