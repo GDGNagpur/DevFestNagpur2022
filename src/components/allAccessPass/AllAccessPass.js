@@ -12,7 +12,7 @@ import { ReactComponent as WhiteMmtSvg } from "../../assets/hero/illustration/mm
 
 const AllAccessPass = () => {
     return (
-      <section className={styles["container"]}>
+      <section id="all-access-pass" className={styles["container"]}>
         <div className={styles["heading-and-cta"]}>
           <div className={styles["heading"]}>
             <span>

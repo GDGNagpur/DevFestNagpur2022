@@ -8,10 +8,12 @@ import { useColorModeValue } from "../../hooks/useColorModeValue";
 const ThingsYouDontWantToMissMain = () => {
   return (
     <div className={styles["container"]}>
-      <div className={styles["heading"]}>
+      <div id="takeaways" className={styles["heading"]}>
         <h1 style={{ color: useColorModeValue("#505050", "#ffffff") }}>
-          Things you don't want to miss 
-          <span className={styles["mobile-eyes"]} role={"img"}>👀</span>
+          Things you don't want to miss
+          <span className={styles["mobile-eyes"]} role={"img"}>
+            👀
+          </span>
           <span className={styles["eye-svg"]}>
             <EyesSvg></EyesSvg>
           </span>

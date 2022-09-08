@@ -10,7 +10,7 @@ const WeAreSpeakingLouderMain = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 650px)" });
   
   return (
-    <div className={styles["container"]}>
+    <div id="why-devfest" className={styles["container"]}>
       <div className={styles["heading"]}>
         <h1 style={{ color: useColorModeValue("#505050", "#ffffff") }}>
           We're Speaking Louder

@@ -12,6 +12,7 @@ const WhatIsDevfest = () => {
     <div
       className={styles.container}
       style={{ background: useColorModeValue("#202124", "#202124") }}
+      id="why-devfest"
     >
       <div className={styles.headingWrapper}>
         <div className={styles.heading}>
