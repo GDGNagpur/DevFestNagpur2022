@@ -194,7 +194,7 @@
     overflow: visible;
     height: auto;
     width: 110%;
-    transform: translate(0, -4px);
+    transform: translate(0, -5.5px);
   }
   .hero-map-container > svg {
     width: 100%;
