@@ -112,7 +112,7 @@
   }
   .cta-btn {
     position: relative;
-    top: 10rem;
+    top: 8rem;
     margin: 0 auto;
   }
   .illustrations {
@@ -139,7 +139,7 @@
     gap: 1rem;
   }
   .cta-btn {
-    top: 16rem;
+    top: 14rem;
   }
   .illustrations {
     top: 65px;
@@ -149,5 +149,16 @@
   }
   .lion-svg > svg {
     width: 75px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .container {
+    padding: 1rem 0;
+  }
+  .early-bird {
+    font-size: 21px;
+  }
+  .heading h2 {
+    font-size: 23px;
   }
 }
