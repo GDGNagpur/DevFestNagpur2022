@@ -28,7 +28,12 @@ const Footer = () => {
           support@devfestnagpur.in
         </a>
       </div>
-      <p className={styles['community-guidlines']}><a href="https://developers.google.com/community-guidelines" target="_blank" rel="noreferrer">Community Guidlines</a></p>
+      <p className={styles['community-guidlines']}><a style={{
+        color: useColorModeValue(
+          "rgba(66, 133, 244, 1)",
+          "white"
+        ),
+      }} href="https://developers.google.com/community-guidelines" target="_blank" rel="noreferrer">Community Guidelines</a></p>
       <div className={styles["social"]}>
         <p>Follow us on</p>
         <div>
