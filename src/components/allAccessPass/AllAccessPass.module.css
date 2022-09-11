@@ -17,7 +17,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 5rem;
+  gap: 4rem;
 }
 .cta-btn {
   background: #202124;
@@ -26,6 +26,7 @@
   padding: 0.7rem 2rem;
   font-size: 15px;
   cursor: pointer;
+  text-decoration: none;
 }
 .heading {
   display: flex;
@@ -37,6 +38,11 @@
 }
 .heading span > svg {
   width: 23px;
+}
+.early-bird {
+  text-align: center;
+  font-size: 25px;
+  margin: 5px 0;
 }
 .perks {
   display: flex;
@@ -123,16 +129,16 @@
   }
 }
 @media screen and (max-width: 585px) {
-  .container{
+  .container {
     margin-top: -1rem;
     width: 90%;
   }
-  .perks{
+  .perks {
     flex-direction: column;
-    gap:normal;
+    gap: normal;
     gap: 1rem;
   }
-  .cta-btn{
+  .cta-btn {
     top: 16rem;
   }
   .illustrations {

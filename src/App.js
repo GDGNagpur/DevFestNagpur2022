@@ -14,21 +14,21 @@ import ThingsYouDontWantToMissMain from "./components/thingsYouDontWantToMissSec
 import Footer from "./components/footer/Footer";
 
 const App = () => {
-  const [showPage, setShowPage] = useState(true);
+  const [showPage, setShowPage] = useState(false);
 
   useEffect(() => {
     Aos.init({ duration: 100 });
 
-     setTimeout(() => {
-       setIsLoading(false);
-     }, 6500);
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 6500);
 
-     setTimeout(() => {
-       setShowPage(true);
-     }, 5000);
+    setTimeout(() => {
+      setShowPage(true);
+    }, 5000);
   }, [showPage]);
 
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   return (
     <div>
@@ -39,7 +39,7 @@ const App = () => {
           <Menu></Menu>
           <NewHero></NewHero>
           <WhatIsDevfest></WhatIsDevfest>
-          {/* <WeAreSpeakingLouderMain></WeAreSpeakingLouderMain> */}
+          <WeAreSpeakingLouderMain></WeAreSpeakingLouderMain>
           <ThemesSection></ThemesSection>
           <AllAccessPass></AllAccessPass>
           <ThingsYouDontWantToMissMain></ThingsYouDontWantToMissMain>
