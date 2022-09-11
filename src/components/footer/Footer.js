@@ -3,7 +3,7 @@ import { ReactComponent as TwitterSvg } from "../../assets/hero/twitter.svg";
 import { ReactComponent as InstagramSvg } from "../../assets/hero/instagram.svg";
 import { ReactComponent as Linkedinsvg } from "../../assets/hero/linkedin.svg";
 import styles from "./Footer.module.css";
-import {useColorModeValue} from "../../hooks/useColorModeValue";
+import { useColorModeValue } from "../../hooks/useColorModeValue";
 
 const Footer = () => {
   return (
@@ -28,6 +28,7 @@ const Footer = () => {
           support@devfestnagpur.in
         </a>
       </div>
+      <p className={styles['community-guidlines']}><a href="https://developers.google.com/community-guidelines" target="_blank" rel="noreferrer">Community Guidlines</a></p>
       <div className={styles["social"]}>
         <p>Follow us on</p>
         <div>
