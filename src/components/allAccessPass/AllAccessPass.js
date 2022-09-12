@@ -24,7 +24,7 @@ const AllAccessPass = () => {
           <h3 className={styles['early-bird']}>( Super Early Bird )</h3>
         </div>
 
-        <a className={styles["cta-btn"]} href="https://payments.cashfree.com/forms/dfn22_super_early_bir" target="_blank" rel="noreferrer">Register Now</a>
+        <a className={styles["cta-btn"]} href="#all-access-pass" rel="noreferrer">Sold Out</a>
       </div>
 
       <div className={styles["perks"]}>
