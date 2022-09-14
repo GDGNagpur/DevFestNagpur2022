@@ -168,6 +168,12 @@
     font-size: 23px;
   }
 }
-@media screen and (max-width: 330px) {
-   
+@media screen and (max-width: 350px) {
+  .container {
+    padding: 0;
+    padding-top: 1rem;
+  }
+  .illustrations {
+    width: 100%;
+  }
 }
