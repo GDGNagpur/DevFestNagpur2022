@@ -112,7 +112,7 @@
   }
   .cta-btn {
     position: relative;
-    top: 8rem;
+    top: 9rem;
     margin: 0 auto;
   }
   .illustrations {
@@ -130,6 +130,7 @@
 }
 @media screen and (max-width: 585px) {
   .container {
+    height: 29rem;
     margin-top: -1rem;
     width: 90%;
   }
@@ -142,7 +143,7 @@
     top: 14rem;
   }
   .illustrations {
-    top: 65px;
+    top: 30px;
   }
   .mmt-svg > svg {
     width: 69px;
@@ -151,14 +152,28 @@
     width: 75px;
   }
 }
+@media screen and (max-width: 460px) {
+  .illustrations {
+    width: 125%;
+  }
+}
 @media screen and (max-width: 390px) {
   .container {
-    padding: 1rem 0;
+    padding-top: 1rem;
   }
   .early-bird {
     font-size: 21px;
   }
   .heading h2 {
     font-size: 23px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .container {
+    padding: 0;
+    padding-top: 1rem;
+  }
+  .illustrations {
+    width: 100%;
   }
 }

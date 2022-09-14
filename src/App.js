@@ -39,7 +39,7 @@ const App = () => {
           <Menu></Menu>
           <NewHero></NewHero>
           <WhatIsDevfest></WhatIsDevfest>
-          <WeAreSpeakingLouderMain></WeAreSpeakingLouderMain>
+          {/* <WeAreSpeakingLouderMain></WeAreSpeakingLouderMain> */}
           <ThemesSection></ThemesSection>
           <AllAccessPass></AllAccessPass>
           <ThingsYouDontWantToMissMain></ThingsYouDontWantToMissMain>
