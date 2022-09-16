@@ -35,7 +35,7 @@
 .card-container {
   background-color: white;
   max-width: 550px;
-  min-height: 300px;
+  min-height: 250px;
   padding: 20px 20px 10px;
   display: flex;
   gap: 15px;
@@ -43,9 +43,9 @@
   font-family: "Google Sans";
   font-size: 14px;
   border-radius: 10px;
-  -webkit-box-shadow: 1px 5px 19px 5px rgba(0, 0, 0, 0.42);
-  -moz-box-shadow: 1px 5px 19px 5px rgba(0, 0, 0, 0.42);
-  box-shadow: 1px 5px 19px 5px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: 2px 0px 17px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 2px 0px 17px 0px rgba(0,0,0,0.2);
+  box-shadow: 2px 0px 17px 0px rgba(0,0,0,0.2);
 }
 
 .profile {
@@ -106,8 +106,8 @@
 }
 
 .twitter-card-img {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   color: transparent;
 }
 
