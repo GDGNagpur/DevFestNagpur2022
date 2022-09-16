@@ -1,0 +1,124 @@
+.slideshow {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 100vw;
+}
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+.slide {
+  display: inline-block;
+  width: 100%;
+  border-radius: 40px;
+}
+.slide > div {
+  display: flex;
+  margin: 15px;
+  justify-content: space-around;
+}
+.slideshowDots {
+  text-align: center;
+}
+.slideshowDot {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 15px 7px 0px;
+  margin-bottom:17px;
+  background-color: #c4c4c4;
+}
+
+.card-container {
+  background-color: white;
+  width: 600px;
+  margin-right: 15px;
+  min-height: 350px;
+  padding: 20px 20px 10px;
+  display: flex;
+  gap: 15px;
+  color: white;
+  font-family: "Google Sans";
+  font-size: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 5px 19px 5px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 1px 5px 19px 5px rgba(0, 0, 0, 0.42);
+  box-shadow: 1px 5px 19px 5px rgba(0, 0, 0, 0.42);
+}
+
+.profile {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.name_and_date {
+  display: flex;
+  flex-direction: column;
+}
+
+.content .name {
+  font-weight: bold;
+}
+
+.content {
+  color: black;
+  position: relative;
+  flex: 1;
+}
+
+.content .id,
+.content .date {
+  color: #95a5a6;
+}
+
+.content .id {
+  margin-left: 5px;
+}
+
+.content .follow::before {
+  content: ".";
+  position: relative;
+  transform: translateY(-4px);
+  display: inline-flex;
+  margin: 0 5px;
+}
+
+.tweet_text {
+  margin-top: 23px;
+  margin-bottom: 0px;
+  white-space: pre-wrap;
+}
+.retweets-likes {
+  margin-top: 10px;
+  color: #95a5a6;
+}
+.actions_list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  max-width: 450px;
+  margin-top: 17px;
+}
+
+.twitter-card-img {
+  width: 33px;
+  height: 33px;
+  color: transparent;
+}
+
+.more_options {
+  position: absolute;
+  top: -10px;
+  right: 0px;
+}
+.slideshowDot.active {
+  background-color: #03a9f4;
+}
+/* #95a5a6 */
+/* #cccccc */
