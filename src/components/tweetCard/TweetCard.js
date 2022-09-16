@@ -50,8 +50,12 @@ const TweetCard = () => {
                 return (
                   <div className="slide">
                     <div>
-                      <Card tweet={content.s1}></Card>
-                      <Card tweet={content.s2}></Card>
+                      <div style={{marginRight:"20px",marginLeft:"20px"}}>
+                        <Card tweet={content.s1}></Card>
+                      </div>
+                      <div style={{marginLeft:"20px",marginRight:"20px"}}>
+                        <Card tweet={content.s2}></Card>
+                      </div>
                     </div>
                   </div>
                 );
