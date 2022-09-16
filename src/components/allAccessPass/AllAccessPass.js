@@ -21,11 +21,11 @@ const AllAccessPass = () => {
             </span>
             <h2>ALL ACCESS PASS</h2>
           </span>
-          <h3 className={styles["early-bird"]}>( Super Early Bird )</h3>
+          <h3 className={styles["early-bird"]}>( Late Early Bird )</h3>
         </div>
 
         <a className={styles["cta-btn"]} target="_blank" rel="noreferrer">
-          SOLD OUT
+          Sold Out
         </a>
       </div>
 
