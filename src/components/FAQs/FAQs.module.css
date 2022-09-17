@@ -1,15 +1,18 @@
 .faqsSectionLight,
 .faqsSectionDark {
-  width: 75%;
-  max-width: 830px;
+  width: 80%;
+  max-width: 900px;
   font-family: "Google Sans";
   margin: 2rem auto;
-  /* margin-top: 2rem; */
 }
 
 .faqsSectionLight div section,
 .faqsSectionDark div section {
   justify-content: center !important;
+}
+.faqsSectionLight div,
+.faqsSectionLight div section h2 {
+  background: #fcfcfc;
 }
 .faqsSectionDark div,
 .faqsSectionDark div section h2 {
@@ -20,13 +23,9 @@
   fill: white !important;
 }
 
-/* alignment and spacing styles */
-
-/* // for smaller screens  */
 @media screen and (max-width: 768px) {
   .faqsSectionLight,
   .faqsSectionDark {
     width: 90%;
   }
-  
 }

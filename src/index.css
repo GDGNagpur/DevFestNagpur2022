@@ -23,12 +23,13 @@ html{
     background: #fbfbfb;
     overflow-x: hidden;
 }
-
 .dark {
     background: rgba(32, 33, 36, 1);
     color: white;
 }
-
 .faq-row:last-child,.faq-title{
     border: none!important;
+}
+.faq-title h2{
+    color: rgb(80, 80, 80)!important;
 }
