@@ -16,7 +16,7 @@ import TweetCard from "./components/tweetCard/TweetCard";
 import FAQs from "./components/FAQs/FAQs";
 
 const App = () => {
-  const [showPage, setShowPage] = useState(true);
+  const [showPage, setShowPage] = useState(false);
 
   useEffect(() => {
     Aos.init({ duration: 100 });
@@ -30,7 +30,7 @@ const App = () => {
     }, 5000);
   }, [showPage]);
 
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   return (
     <div>
@@ -41,7 +41,7 @@ const App = () => {
           <Menu></Menu>
           <NewHero></NewHero>
           <WhatIsDevfest></WhatIsDevfest>
-          {/* <WeAreSpeakingLouderMain></WeAreSpeakingLouderMain> */}
+          <WeAreSpeakingLouderMain></WeAreSpeakingLouderMain>
           <ThemesSection></ThemesSection>
           <AllAccessPass></AllAccessPass>
           <ThingsYouDontWantToMissMain></ThingsYouDontWantToMissMain>
