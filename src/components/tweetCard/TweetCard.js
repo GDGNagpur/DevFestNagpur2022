@@ -23,21 +23,6 @@ const TweetCard = () => {
     "This was the inaugural DevFest of Nagpur, I liked the way the conference was organized. I was here this time talking about the new features of android10 for developers. Amazed seeing the elated, eager crowd and very passionate and erudite fellow speakers.It was a splendid event, both in terms of intellectual quality and the organization.",
   ];
 
-  const delay = 10000;
-
-  React.useEffect(() => {
-    setTimeout(
-      () =>
-        setIndex((prevIndex) =>
-          prevIndex === (isTabletOrMobile ? arr1.length : arr.length) - 1
-            ? 0
-            : prevIndex + 1
-        ),
-      delay
-    );
-
-    return () => {};
-  }, [index]);
   return (
     <>
       <div className="slideshow">
@@ -50,10 +35,10 @@ const TweetCard = () => {
                 return (
                   <div className="slide">
                     <div>
-                      <div style={{marginRight:"20px",marginLeft:"20px"}}>
+                      <div style={{ marginRight: "20px", marginLeft: "20px" }}>
                         <Card tweet={content.s1}></Card>
                       </div>
-                      <div style={{marginLeft:"20px",marginRight:"20px"}}>
+                      <div style={{ marginLeft: "20px", marginRight: "20px" }}>
                         <Card tweet={content.s2}></Card>
                       </div>
                     </div>
