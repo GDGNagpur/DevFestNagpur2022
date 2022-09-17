@@ -35,7 +35,7 @@ export default function FAQs() {
             },
             {
                 title: "If I have questions, who can I contact?",
-                content: "Reach out to us at mail"
+                content: "Reach out to us at mail : support@devfestnagpur.in"
             },
         ]
     };
