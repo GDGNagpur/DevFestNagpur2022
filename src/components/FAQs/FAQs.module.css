@@ -1,8 +1,22 @@
-.faqs-section {
-    width: 75%;
-    margin: 0 auto;
-    font-family: "Google Sans";
+.faqsSectionLight,
+.faqsSectionDark {
+  width: 75%;
+  font-family: "Google Sans";
+  margin: 2rem auto;
+  /* margin-top: 2rem; */
 }
-.faqs-section .faq-row-wrapper .faq-title {
+
+.faqsSectionLight div section,
+.faqsSectionDark div section {
   justify-content: center !important;
 }
+.faqsSectionDark div,
+.faqsSectionDark div section h2 {
+  background: rgba(32, 33, 36, 1);
+  color: white !important;
+}
+.faqsSectionDark svg {
+  fill: white !important;
+}
+
+/* alignment and spacing styles */

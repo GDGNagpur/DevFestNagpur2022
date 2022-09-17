@@ -1,19 +1,20 @@
 import React from 'react'
 import Faq from "react-faq-component";
 import styles from './FAQs.module.css'
+import { useColorModeValue } from "../../hooks/useColorModeValue";
 
 export default function FAQs() {
     const data = {
-        title: "FAQ's",
+        title: "Frequently Asked Questions",
         rows: [
             {
-                title: "What is DevFest?,",
-                content: "DevFest is a community-led, developer event hosted by GDG Lagos. It is a day-long event that brings together developers from all over Lagos to learn, share and network. It is a free event and open to all developers, designers, students, and tech enthusiasts.",
+                title: "What is DevFest?",
+                content: "DevFest, a Tech Conference led by GDG community with goal to exchange knowledge, networking and learning about Google Dev Technologies.",
             },
             {
                 title: "What are GDG's?",
                 content:
-                    "GDG's are Google Developer Groups, a community of developers who are interested in Google's developer technologies. GDG's are open to anyone who is interested in Google's developer technologies. GDG's are open to anyone who is interested in Google's developer technologies."
+                    "GDGs are focused on community building and learning about Google’s technologies."
             },
             {
                 title: "Can I register at the venue?",
@@ -39,8 +40,8 @@ export default function FAQs() {
         ]
     };
     return (
-        <section className={styles['faqs-section']}>
-            <Faq data={data} />
+        <section className={styles[useColorModeValue("faqsSectionLight","faqsSectionDark")]}>
+            <Faq style={styles['dark']} data={data} />
         </section>
     )
 }
