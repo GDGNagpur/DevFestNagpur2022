@@ -13,6 +13,7 @@ import ThemesSection from "./components/themesSection/ThemesSection";
 import ThingsYouDontWantToMissMain from "./components/thingsYouDontWantToMissSection/ThingsYouDontWantToMissMain";
 import Footer from "./components/footer/Footer";
 import TweetCard from "./components/tweetCard/TweetCard";
+import FAQs from "./components/FAQs/FAQs";
 
 const App = () => {
   const [showPage, setShowPage] = useState(false);
@@ -45,6 +46,7 @@ const App = () => {
           <AllAccessPass></AllAccessPass>
           <ThingsYouDontWantToMissMain></ThingsYouDontWantToMissMain>
           <TweetCard></TweetCard>
+          <FAQs></FAQs>
           <Footer></Footer>
         </>
       )}
