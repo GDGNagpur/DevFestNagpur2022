@@ -13,9 +13,10 @@ import ThemesSection from "./components/themesSection/ThemesSection";
 import ThingsYouDontWantToMissMain from "./components/thingsYouDontWantToMissSection/ThingsYouDontWantToMissMain";
 import Footer from "./components/footer/Footer";
 import TweetCard from "./components/tweetCard/TweetCard";
+import FAQs from "./components/FAQs/FAQs";
 
 const App = () => {
-  const [showPage, setShowPage] = useState(false);
+  const [showPage, setShowPage] = useState(true);
 
   useEffect(() => {
     Aos.init({ duration: 100 });
@@ -29,7 +30,7 @@ const App = () => {
     }, 5000);
   }, [showPage]);
 
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   return (
     <div>
@@ -40,11 +41,12 @@ const App = () => {
           <Menu></Menu>
           <NewHero></NewHero>
           <WhatIsDevfest></WhatIsDevfest>
-          <WeAreSpeakingLouderMain></WeAreSpeakingLouderMain>
+          {/* <WeAreSpeakingLouderMain></WeAreSpeakingLouderMain> */}
           <ThemesSection></ThemesSection>
           <AllAccessPass></AllAccessPass>
           <ThingsYouDontWantToMissMain></ThingsYouDontWantToMissMain>
           <TweetCard></TweetCard>
+          <FAQs></FAQs>
           <Footer></Footer>
         </>
       )}

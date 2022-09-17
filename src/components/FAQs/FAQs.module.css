@@ -1,0 +1,8 @@
+.faqs-section {
+    width: 75%;
+    margin: 0 auto;
+    font-family: "Google Sans";
+}
+.faqs-section .faq-row-wrapper .faq-title {
+  justify-content: center !important;
+}
