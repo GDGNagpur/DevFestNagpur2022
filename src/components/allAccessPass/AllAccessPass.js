@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './AllAccessPass.module.css'
+import styles from "./AllAccessPass.module.css";
 import { ReactComponent as PassSvg } from "../../assets/hero/pass.svg";
 import { ReactComponent as DiscordSvg } from "../../assets/hero/illustration/discord.svg";
 import { ReactComponent as FoodSvg } from "../../assets/hero/illustration/food.svg";
@@ -21,10 +21,16 @@ const AllAccessPass = () => {
             </span>
             <h2>ALL ACCESS PASS</h2>
           </span>
-          <h3 className={styles['early-bird']}>( Super Early Bird )</h3>
+          <h3 className={styles["early-bird"]}>( Late Early Bird )</h3>
         </div>
 
-        <a className={styles["cta-btn"]} href="#all-access-pass" rel="noreferrer">Sold Out</a>
+        <a
+          className={styles["cta-btn"]}
+          href="#all-access-pass"
+          rel="noreferrer"
+        >
+          Register Now
+        </a>
       </div>
 
       <div className={styles["perks"]}>
@@ -77,6 +83,6 @@ const AllAccessPass = () => {
       </div>
     </section>
   );
-}
+};
 
 export default AllAccessPass;
