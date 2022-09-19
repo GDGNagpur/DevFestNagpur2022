@@ -26,7 +26,7 @@ const AllAccessPass = () => {
 
         <a
           className={styles["cta-btn"]}
-          href="#all-access-pass"
+          href="https://payments.cashfree.com/forms/dfn22leb"
           rel="noreferrer"
         >
           Register Now
