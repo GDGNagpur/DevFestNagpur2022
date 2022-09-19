@@ -13,6 +13,11 @@
   margin-bottom: 0;
   margin-top: 5rem;
 }
+
+.container a{
+  z-index: 1000;
+}
+
 .heading-and-cta {
   display: flex;
   flex-direction: column;
