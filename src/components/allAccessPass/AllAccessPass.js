@@ -21,7 +21,7 @@ const AllAccessPass = () => {
             </span>
             <h2>ALL ACCESS PASS</h2>
           </span>
-          <h3 className={styles["early-bird"]}>( Late Early Bird )</h3>
+          <h3 className={styles["early-bird"]}>( Last Early Bird )</h3>
         </div>
 
         <a
