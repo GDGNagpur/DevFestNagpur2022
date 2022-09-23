@@ -21,11 +21,11 @@ const AllAccessPass = () => {
             </span>
             <h2>ALL ACCESS PASS</h2>
           </span>
-          <h3 className={styles["early-bird"]}>( Last Early Bird )</h3>
+          <h3 className={styles["early-bird"]}>( Regular Pass )</h3>
         </div>
 
         <a className={styles["cta-btn"]} href="#allaccesspass" rel="noreferrer">
-          SOLD OUT
+          Coming Soon
         </a>
       </div>
 
