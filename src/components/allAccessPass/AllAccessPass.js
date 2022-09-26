@@ -25,7 +25,7 @@ const AllAccessPass = () => {
         </div>
 
         <a className={styles["cta-btn"]} href="#allaccesspass" rel="noreferrer">
-          Coming Soon
+          Grab Your
         </a>
       </div>
 
