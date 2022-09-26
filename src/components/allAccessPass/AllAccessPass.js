@@ -23,9 +23,8 @@ const AllAccessPass = () => {
           </span>
           <h3 className={styles["early-bird"]}>( Regular Pass )</h3>
         </div>
-
-        <a className={styles["cta-btn"]} href="#allaccesspass" rel="noreferrer">
-          Grab Your
+        <a className={styles["cta-btn"]} href="https://payments.cashfree.com/forms/dfn22regular" target={"_blank"} rel="noreferrer">
+          Grab Yours
         </a>
       </div>
 
