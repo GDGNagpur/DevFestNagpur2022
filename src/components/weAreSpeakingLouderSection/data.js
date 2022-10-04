@@ -1,5 +1,5 @@
 import { ReactComponent as Svg2 } from "../../assets/weAreSpeakingLouderSection/2.svg";
-import {ReactComponent as Svg1800} from "../../assets/weAreSpeakingLouderSection/1800.svg"
+import {ReactComponent as Svg1500} from "../../assets/weAreSpeakingLouderSection/1500+.svg"
 import {ReactComponent as Svg25} from "../../assets/weAreSpeakingLouderSection/25.svg"
 import { ReactComponent as Svg15 } from "../../assets/weAreSpeakingLouderSection/15.svg";
 
@@ -11,7 +11,7 @@ const weAreSpeakingLouderData = [
   },
   {
     id: 2,
-    svg: <Svg1800/>,
+    svg: <Svg1500/>,
     text: "Est. Attendees",
   },
   {

@@ -1,27 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap");
 
 @font-face {
-    font-family: "Google Sans";
-    src: url("./fonts/GoogleSansBold.ttf");
-    font-weight: 700;
+  font-family: "Google Sans";
+  src: url("./fonts/GoogleSansBold.ttf");
+  font-weight: 700;
 }
 
 @font-face {
-    font-family: "Google Sans";
-    src: url("./fonts/GoogleSansRegular.ttf");
-    font-weight: 400;
+  font-family: "Google Sans";
+  src: url("./fonts/GoogleSansRegular.ttf");
+  font-weight: 400;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-html{
-    background: #fbfbfb;
-    overflow-x: hidden;
+html {
+  background: #fbfbfb;
+  overflow-x: hidden;
 }
 .dark {
     background: rgba(32, 33, 36, 1);

@@ -21,11 +21,10 @@ const AllAccessPass = () => {
             </span>
             <h2>ALL ACCESS PASS</h2>
           </span>
-          <h3 className={styles["early-bird"]}>( Late Early Bird )</h3>
+          <h3 className={styles["early-bird"]}>( Regular Pass )</h3>
         </div>
-
-        <a className={styles["cta-btn"]} href="https://payments.cashfree.com/forms/dfn22regular" target="_blank" rel="noreferrer">
-          Register Now
+        <a className={styles["cta-btn"]} href="https://payments.cashfree.com/forms/dfn22regular" target={"_blank"} rel="noreferrer">
+          Grab Yours
         </a>
       </div>
 
@@ -58,6 +57,27 @@ const AllAccessPass = () => {
             <HackathonSvg />
             <span>Hackathons</span>
           </div>
+          <div className={styles["perk"]}>
+            <HackathonSvg />
+            <span>Hackathons</span>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles["illustrations"]}>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className={styles["mmt-svg"]}
+        >
+          <WhiteMmtSvg />
+        </div>
+        <div
+          data-aos="fade-down-left"
+          data-aos-duration="1000"
+          className={styles["lion-svg"]}
+        >
+          <WhiteLionSvg />
         </div>
       </div>
 

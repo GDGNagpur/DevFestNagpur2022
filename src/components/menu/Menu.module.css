@@ -98,14 +98,15 @@
   color: black !important;
 }
 
-/* .active {
+.menu-item > .active{
   background: var(--google-blue) !important;
   color: white !important;
-} */
+}
 
-/* .active p {
+.menu-item > .active:hover{
+  background: var(--google-blue) !important;
   color: white !important;
-} */
+}
 
 .menu-item > a {
   text-decoration: none;

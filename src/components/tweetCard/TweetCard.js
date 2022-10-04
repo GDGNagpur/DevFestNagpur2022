@@ -31,9 +31,9 @@ const TweetCard = () => {
           style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
         >
           {!isTabletOrMobile
-            ? arr.map((content) => {
+            ? arr.map((content, index) => {
                 return (
-                  <div className="slide">
+                  <div key={index} className="slide">
                     <div>
                       <div style={{ marginRight: "20px", marginLeft: "20px" }}>
                         <Card tweet={content.s1}></Card>
@@ -45,9 +45,9 @@ const TweetCard = () => {
                   </div>
                 );
               })
-            : arr1.map((content) => {
+            : arr1.map((content, index) => {
                 return (
-                  <div className="slide">
+                  <div key={index} className="slide">
                     <div>
                       <Card tweet={content}></Card>
                     </div>
