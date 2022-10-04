@@ -40,16 +40,16 @@ const WeAreSpeakingLouderMain = () => {
       <div className={styles["marqueeAnimContainer"]}>
         <div className={styles["marqueeAnim"]}>
           <div>
-            {marqetext.map((text) => {
+            {marqetext.map((text, index) => {
               return (
-                <span style={{ backgroundColor: text.color }}>{text.text}</span>
+                <span key={index} style={{ backgroundColor: text.color }}>{text.text}</span>
               );
             })}
           </div>
           <div>
-            {marqetext.map((text) => {
+            {marqetext.map((text, index) => {
               return (
-                <span style={{ backgroundColor: text.color }}>{text.text}</span>
+                <span key={index} style={{ backgroundColor: text.color }}>{text.text}</span>
               );
             })}
           </div>
