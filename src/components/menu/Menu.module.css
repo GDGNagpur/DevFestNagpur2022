@@ -83,7 +83,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 5px;
+  margin: 0 8px;
 }
 
 .menu-item > a {
@@ -110,6 +110,10 @@
 
 .menu-item > a {
   text-decoration: none;
+}
+
+.menu-item > a:visited{
+  color: initial;
 }
 
 /* 

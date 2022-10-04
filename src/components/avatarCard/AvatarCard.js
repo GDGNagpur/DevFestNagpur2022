@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./AvatarCard.module.css";
 import { ReactComponent as TwitterSvg } from "../../assets/hero/twitter.svg";
 import { ReactComponent as LinkedinSvg } from "../../assets/hero/linkedin.svg";
+import { useColorModeValue } from "../../hooks/useColorModeValue";
 
 const PatternCard = (props) => {
   const { imgSrc, name, designation, twitterLink, linkedinLink, patternSrc } =
@@ -9,7 +10,10 @@ const PatternCard = (props) => {
 
   return (
     <div className={styles["container"]}>
-      <div className={styles["content"]}>
+      <div
+        style={{ color: useColorModeValue("#3F3F3F", "#ffffff") }}
+        className={styles["content"]}
+      >
         <div className={styles["image"]}>
           <div className={styles["bg"]}>
             <img src={patternSrc} alt={`${name}'s avatar pattern`} />
@@ -30,7 +34,12 @@ const PatternCard = (props) => {
               <TwitterSvg></TwitterSvg>
             </a>
           </div>
-          <div rel="noreferrer" target={"_blank"} href={linkedinLink} className={styles["link"]}>
+          <div
+            rel="noreferrer"
+            target={"_blank"}
+            href={linkedinLink}
+            className={styles["link"]}
+          >
             <a href={linkedinLink}>
               <LinkedinSvg></LinkedinSvg>
             </a>

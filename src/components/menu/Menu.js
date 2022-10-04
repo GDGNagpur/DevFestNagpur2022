@@ -21,6 +21,8 @@ const Menu = () => {
 
   const location = useLocation();
 
+  const linkColor =  useColorModeValue("black", "white")
+
   return (
     <section
       style={{ borderBottom: useColorModeValue(null, "1px solid white") }}
@@ -79,6 +81,7 @@ const Menu = () => {
                         ? styles["active"]
                         : null
                     }
+                    style={{ color: linkColor }}
                   >
                     <p>{item.title}</p>
                   </Link>
