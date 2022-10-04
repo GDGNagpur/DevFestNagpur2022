@@ -14,7 +14,7 @@ const Team = () => {
       </div>
       <div className={styles["content"]}>
         {teamData.map((data) => {
-          return <AvatarCard {...data}></AvatarCard>;
+          return <AvatarCard key={data.id} {...data}></AvatarCard>;
         })}
       </div>
     </div>
