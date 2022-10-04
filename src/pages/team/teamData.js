@@ -74,6 +74,24 @@ const teamData = [
     linkedinLink: "",
     patternSrc: blue,
   },
+  {
+    id: 9,
+    imgSrc: member,
+    name: "Member Name",
+    designation: "designation",
+    twitterLink: "",
+    linkedinLink: "",
+    patternSrc: blue,
+  },
+  {
+    id: 10,
+    imgSrc: member,
+    name: "Member Name",
+    designation: "designation",
+    twitterLink: "",
+    linkedinLink: "",
+    patternSrc: blue,
+  },
 ];
 
 export default teamData

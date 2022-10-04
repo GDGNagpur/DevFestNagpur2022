@@ -19,7 +19,7 @@
 .content{
     width: 88%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 2rem;
     max-width: 1250px;
 }
@@ -40,11 +40,6 @@
 }
 
 @media screen and (max-width: 550px){
-    .content{
-        display: flex;
-        flex-direction: column;
-        gap: 2.5rem;
-    }
     .heading{
         padding-top: 2rem;
         padding-bottom: 2.5rem;
