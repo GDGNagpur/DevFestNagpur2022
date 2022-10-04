@@ -25,9 +25,9 @@ const PatternCard = (props) => {
         <div className={styles["name"]}>
           <h2>{name}</h2>
         </div>
-        <div className={styles["designation"]}>
+        {/* <div className={styles["designation"]}>
           <p>{designation}</p>
-        </div>
+        </div> */}
         <div className={styles["social-links"]}>
           <div className={styles["link"]}>
             <a rel="noreferrer" target={"_blank"} href={twitterLink}>
