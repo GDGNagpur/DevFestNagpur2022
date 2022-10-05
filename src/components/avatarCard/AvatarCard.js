@@ -16,10 +16,14 @@ const PatternCard = (props) => {
       >
         <div className={styles["image"]}>
           <div className={styles["bg"]}>
-            <img src={patternSrc} alt={`${name}'s avatar pattern`} />
+            <img
+              draggable={"false"}
+              src={patternSrc}
+              alt={`${name}'s avatar pattern`}
+            />
           </div>
           <div className={styles["avatar"]}>
-            <img src={imgSrc} alt={`${name}'s avatar`} />
+            <img draggable={"false"} src={imgSrc} alt={`${name}'s avatar`} />
           </div>
         </div>
         <div className={styles["name"]}>

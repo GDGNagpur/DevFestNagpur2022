@@ -7,7 +7,7 @@ import Team from "./pages/team/Team";
 import Menu from "./components/menu/Menu";
 import Footer from "./components/footer/Footer";
 
-import { BrowserRouter, Routes, Route, useLocation} from "react-router-dom";
+import { Routes, Route, useLocation} from "react-router-dom";
 
 const App = () => {
   const [showPage, setShowPage] = useState(false);
@@ -15,13 +15,13 @@ const App = () => {
   useEffect(() => {
     Aos.init({ duration: 100 });
 
-    // setTimeout(() => {
-    //   setIsLoading(false);
-    // }, 6500);
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 6500);
 
-    // setTimeout(() => {
-    //   setShowPage(true);
-    // }, 5000);
+    setTimeout(() => {
+      setShowPage(true);
+    }, 5000);
   }, [showPage]);
 
   const [isLoading, setIsLoading] = useState(true);
@@ -32,8 +32,8 @@ const App = () => {
 
   return (
     <div>
-      {/* {isLoading && <Loader></Loader>} */}
-      {!showPage && (
+      {isLoading && <Loader></Loader>}
+      {showPage && (
         <>
           <Menu></Menu>
           <Routes>
