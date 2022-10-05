@@ -16,10 +16,14 @@ const PatternCard = (props) => {
       >
         <div className={styles["image"]}>
           <div className={styles["bg"]}>
-            <img src={patternSrc} alt={`${name}'s avatar pattern`} />
+            <img
+              draggable={"false"}
+              src={patternSrc}
+              alt={`${name}'s avatar pattern`}
+            />
           </div>
           <div className={styles["avatar"]}>
-            <img src={imgSrc} alt={`${name}'s avatar`} />
+            <img draggable={"false"} src={imgSrc} alt={`${name}'s avatar`} />
           </div>
         </div>
         <div className={styles["name"]}>
@@ -30,19 +34,18 @@ const PatternCard = (props) => {
         </div> */}
         <div className={styles["social-links"]}>
           <div className={styles["link"]}>
-            <a rel="noreferrer" target={"_blank"} href={twitterLink}>
-              <TwitterSvg></TwitterSvg>
-            </a>
+            {twitterLink && (
+              <a rel="noreferrer" target={"_blank"} href={twitterLink}>
+                <TwitterSvg></TwitterSvg>
+              </a>
+            )}
           </div>
-          <div
-            rel="noreferrer"
-            target={"_blank"}
-            href={linkedinLink}
-            className={styles["link"]}
-          >
-            <a href={linkedinLink}>
-              <LinkedinSvg></LinkedinSvg>
-            </a>
+          <div className={styles["link"]}>
+            {linkedinLink && (
+              <a rel="noreferrer" target={"_blank"} href={linkedinLink}>
+                <LinkedinSvg></LinkedinSvg>
+              </a>
+            )}
           </div>
         </div>
       </div>

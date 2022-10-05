@@ -8,13 +8,15 @@ import ThingsYouDontWantToMissMain from "../../components/thingsYouDontWantToMis
 import TweetCard from "../../components/tweetCard/TweetCard";
 import FAQs from "../../components/FAQs/FAQs";
 import Venue from "../../components/venue/Venue";
+import Slider from '../../components/slider/Slider';
 
 const Home = () => {
   return (
-    <>
+    <div className={"layout-content"} >
       {" "}
       <NewHero></NewHero>
       <WhatIsDevfest></WhatIsDevfest>
+      <Slider></Slider>
       <WeAreSpeakingLouderMain></WeAreSpeakingLouderMain>
       <ThemesSection></ThemesSection>
       <AllAccessPass></AllAccessPass>
@@ -22,7 +24,7 @@ const Home = () => {
       <Venue></Venue>
       <TweetCard></TweetCard>
       <FAQs></FAQs>
-    </>
+    </div>
   );
 }
 

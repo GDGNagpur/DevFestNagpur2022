@@ -9,6 +9,8 @@
 
 .image {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 160px;
   height: 160px;
   position: relative;
@@ -22,12 +24,31 @@
   position: absolute;
   height: 100%;
   width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.bg > img{
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 
 .avatar {
   width: 100%;
   height: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10rem;
+  left: 0;
+  padding: 12px;
+}
+
+.avatar > img {
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 
 .name {
@@ -36,6 +57,7 @@
 
 .name > h2 {
   font-weight: 400;
+  font-size: 22px;
 }
 
 .designation {
@@ -51,22 +73,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
+   width: 35px;
+  height: 35px;
+  border-radius: 50%;
 }
 
 .social-links > div:nth-child(1) > a > svg {
   transform: scale(0.6);
 }
 
+.social-links > div:nth-child(2) > a > svg {
+  transform: scale(1);
+}
+
+
 .link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  padding: 9px;
   background: #e9e7e7;
   cursor: pointer;
+  border-radius: 50%;
   transition: all 0.2s ease;
 }
 
@@ -77,8 +104,11 @@
 }
 
 @media screen and (max-width: 550px) {
-  .name > h2{
-    font-size: 18px;
+  .name > h2 {
+    font-size: 16px;
+  }
+  .avatar{
+    padding: 8px;
   }
   .image {
     width: 120px;
