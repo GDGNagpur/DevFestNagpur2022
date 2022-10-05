@@ -7,6 +7,7 @@ import ThemesSection from "../../components/themesSection/ThemesSection";
 import ThingsYouDontWantToMissMain from "../../components/thingsYouDontWantToMissSection/ThingsYouDontWantToMissMain";
 import TweetCard from "../../components/tweetCard/TweetCard";
 import FAQs from "../../components/FAQs/FAQs";
+import Venue from "../../components/venue/Venue";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <ThemesSection></ThemesSection>
       <AllAccessPass></AllAccessPass>
       <ThingsYouDontWantToMissMain></ThingsYouDontWantToMissMain>
+      <Venue></Venue>
       <TweetCard></TweetCard>
       <FAQs></FAQs>
     </>
