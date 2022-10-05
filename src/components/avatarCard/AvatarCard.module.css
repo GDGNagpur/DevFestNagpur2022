@@ -41,6 +41,7 @@
   align-items: center;
   top: 10rem;
   left: 0;
+  padding: 12px;
 }
 
 .avatar > img {
@@ -70,22 +71,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
+   width: 35px;
+  height: 35px;
+  border-radius: 50%;
 }
 
 .social-links > div:nth-child(1) > a > svg {
   transform: scale(0.6);
 }
 
+.social-links > div:nth-child(2) > a > svg {
+  transform: scale(1);
+}
+
+
 .link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  padding: 9px;
   background: #e9e7e7;
   cursor: pointer;
+  border-radius: 50%;
   transition: all 0.2s ease;
 }
 
@@ -98,6 +104,9 @@
 @media screen and (max-width: 550px) {
   .name > h2 {
     font-size: 16px;
+  }
+  .avatar{
+    padding: 8px;
   }
   .image {
     width: 120px;

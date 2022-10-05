@@ -30,19 +30,18 @@ const PatternCard = (props) => {
         </div> */}
         <div className={styles["social-links"]}>
           <div className={styles["link"]}>
-            <a rel="noreferrer" target={"_blank"} href={twitterLink}>
-              <TwitterSvg></TwitterSvg>
-            </a>
+            {twitterLink && (
+              <a rel="noreferrer" target={"_blank"} href={twitterLink}>
+                <TwitterSvg></TwitterSvg>
+              </a>
+            )}
           </div>
-          <div
-            rel="noreferrer"
-            target={"_blank"}
-            href={linkedinLink}
-            className={styles["link"]}
-          >
-            <a href={linkedinLink}>
-              <LinkedinSvg></LinkedinSvg>
-            </a>
+          <div className={styles["link"]}>
+            {linkedinLink && (
+              <a rel="noreferrer" target={"_blank"} href={linkedinLink}>
+                <LinkedinSvg></LinkedinSvg>
+              </a>
+            )}
           </div>
         </div>
       </div>
