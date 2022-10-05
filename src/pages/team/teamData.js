@@ -304,21 +304,12 @@ const teamData = [
   },
   {
     id: 31,
-    imgSrc: VaishnaviKamekarImage,
-    name: "Vaishnavi Kamekar",
-    designation: "designation",
-    twitterLink: "https://twitter.com/VKamekar31",
-    linkedinLink: "https://www.linkedin.com/in/vaishnavikamekar31/",
-    patternSrc: blue,
-  },
-  {
-    id: 32,
     imgSrc: VedantiKhodeImage,
     name: "Vedanti Khode",
     designation: "designation",
     twitterLink: "https://twitter.com/KhodeVedanti",
     linkedinLink: "https://www.linkedin.com/in/vedantikhode",
-    patternSrc: red,
+    patternSrc: blue,
   },
 ];
 
