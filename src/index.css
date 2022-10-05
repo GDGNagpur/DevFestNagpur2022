@@ -33,3 +33,7 @@ html {
 .faq-title h2{
     color: rgb(80, 80, 80)!important;
 }
+
+.layout-content{
+  padding-top: 65px;
+}

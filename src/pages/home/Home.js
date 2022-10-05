@@ -10,7 +10,7 @@ import FAQs from "../../components/FAQs/FAQs";
 
 const Home = () => {
   return (
-    <>
+    <div className={"layout-content"} >
       {" "}
       <NewHero></NewHero>
       <WhatIsDevfest></WhatIsDevfest>
@@ -20,7 +20,7 @@ const Home = () => {
       <ThingsYouDontWantToMissMain></ThingsYouDontWantToMissMain>
       <TweetCard></TweetCard>
       <FAQs></FAQs>
-    </>
+    </div>
   );
 }
 
