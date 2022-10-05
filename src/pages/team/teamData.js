@@ -48,7 +48,7 @@ const teamData = [
     designation: "designation",
     twitterLink: "https://twitter.com/nikhil_aparajit",
     linkedinLink: "https://www.linkedin.com/in/nikhil-aparajit/",
-    patternSrc: blue,
+    patternSrc: red,
   },
   {
     id: 3,
@@ -57,7 +57,7 @@ const teamData = [
     designation: "designation",
     twitterLink: "",
     linkedinLink: "",
-    patternSrc: blue,
+    patternSrc: yellow,
   },
   {
     id: 4,
@@ -66,7 +66,7 @@ const teamData = [
     designation: "designation",
     twitterLink: "",
     linkedinLink: "",
-    patternSrc: blue,
+    patternSrc: green,
   },
   {
     id: 5,
@@ -93,7 +93,7 @@ const teamData = [
     designation: "designation",
     twitterLink: "https://twitter.com/prathameshtwits",
     linkedinLink: "https://LinkedIn.com/in/prathameshdukare",
-    patternSrc: blue,
+    patternSrc: red,
   },
   {
     id: 8,
@@ -102,7 +102,7 @@ const teamData = [
     designation: "designation",
     twitterLink: "https://twitter.com/ParasPatle4",
     linkedinLink: "https://www.linkedin.com/in/paras-patle-0407051a1",
-    patternSrc: blue,
+    patternSrc: yellow,
   },
   {
     id: 9,
@@ -111,7 +111,7 @@ const teamData = [
     designation: "designation",
     twitterLink: "https://twitter.com/LakhwaniHenay",
     linkedinLink: "https://www.linkedin.com/in/henaylakhwani/",
-    patternSrc: blue,
+    patternSrc: green,
   },
   {
     id: 10,
@@ -138,7 +138,7 @@ const teamData = [
     designation: "designation",
     twitterLink: "https://twitter.com/theopdesigner",
     linkedinLink: "https://www.linkedin.com/in/chirayusakarkar/",
-    patternSrc: blue,
+    patternSrc: red,
   },
   {
     id: 13,
@@ -147,7 +147,7 @@ const teamData = [
     designation: "designation",
     twitterLink: "",
     linkedinLink: "",
-    patternSrc: blue,
+    patternSrc: yellow,
   },
   {
     id: 14,
@@ -156,7 +156,7 @@ const teamData = [
     designation: "designation",
     twitterLink: "",
     linkedinLink: "https://www.linkedin.com/in/tejaswini-padole-ba254b223",
-    patternSrc: blue,
+    patternSrc: green,
   },
   {
     id: 15,
@@ -183,7 +183,7 @@ const teamData = [
     designation: "designation",
     twitterLink: "https://twitter.com/zone_1007",
     linkedinLink: "https://www.linkedin.com/in/atharvabadkas",
-    patternSrc: green,
+    patternSrc: red,
   },
   {
     id: 18,
@@ -192,7 +192,7 @@ const teamData = [
     designation: "designation",
     twitterLink: "https://twitter.com/jayasingh_14",
     linkedinLink: "https://www.linkedin.com/in/jaya-singh-056387227",
-    patternSrc: red,
+    patternSrc: yellow,
   },
   {
     id: 19,
@@ -201,7 +201,7 @@ const teamData = [
     designation: "designation",
     twitterLink: "twitter.com/gimmepizzzaaaa",
     linkedinLink: "https://www.linkedin.com/in/parth-kaware",
-    patternSrc: yellow,
+    patternSrc: green,
   },
   {
     id: 20,
@@ -228,7 +228,7 @@ const teamData = [
     designation: "designation",
     twitterLink: "https://www.linkedin.com/in/sahil-dafade-39b8b821b",
     linkedinLink: "https://twitter.com/DafadeSahil",
-    patternSrc: blue,
+    patternSrc: red,
   },
   {
     id: 23,
@@ -237,7 +237,7 @@ const teamData = [
     designation: "designation",
     twitterLink: "https://twitter.com/Shreyash1488",
     linkedinLink: "https://www.linkedin.com/in/shreyash14/",
-    patternSrc: blue,
+    patternSrc: yellow,
   },
   {
     id: 24,
@@ -246,7 +246,7 @@ const teamData = [
     designation: "designation",
     twitterLink: "https://twitter.com/JeswaniShubham",
     linkedinLink: "https://www.linkedin.com/in/shubham-jeswani-5615b51a3/",
-    patternSrc: blue,
+    patternSrc: green,
   },
   {
     id: 25,
@@ -273,7 +273,7 @@ const teamData = [
     designation: "designation",
     twitterLink: "https://twitter.com/VKamekar31",
     linkedinLink: "https://www.linkedin.com/in/vaishnavikamekar31/",
-    patternSrc: blue,
+    patternSrc: red,
   },
   {
     id: 28,
@@ -282,7 +282,7 @@ const teamData = [
     designation: "designation",
     twitterLink: "https://twitter.com/ramyaK122",
     linkedinLink: "https://www.linkedin.com/in/ramya-kappagantu-a588a6162",
-    patternSrc: blue,
+    patternSrc: yellow,
   },
   {
     id: 29,
@@ -291,7 +291,7 @@ const teamData = [
     designation: "designation",
     twitterLink: "https://twitter.com/ImrozeSaniya",
     linkedinLink: "https://www.linkedin.com/in/saniya-imroze-144a72192",
-    patternSrc: blue,
+    patternSrc: green,
   },
   {
     id: 30,
@@ -318,7 +318,7 @@ const teamData = [
     designation: "designation",
     twitterLink: "https://twitter.com/KhodeVedanti",
     linkedinLink: "https://www.linkedin.com/in/vedantikhode",
-    patternSrc: blue,
+    patternSrc: red,
   },
 ];
 
