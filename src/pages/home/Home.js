@@ -7,6 +7,7 @@ import ThemesSection from "../../components/themesSection/ThemesSection";
 import ThingsYouDontWantToMissMain from "../../components/thingsYouDontWantToMissSection/ThingsYouDontWantToMissMain";
 import TweetCard from "../../components/tweetCard/TweetCard";
 import FAQs from "../../components/FAQs/FAQs";
+import Slider from '../../components/slider/Slider';
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       {" "}
       <NewHero></NewHero>
       <WhatIsDevfest></WhatIsDevfest>
+      <Slider></Slider>
       <WeAreSpeakingLouderMain></WeAreSpeakingLouderMain>
       <ThemesSection></ThemesSection>
       <AllAccessPass></AllAccessPass>

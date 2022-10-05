@@ -6,12 +6,10 @@ import Home from "./pages/home/Home";
 import Team from "./pages/team/Team";
 import Menu from "./components/menu/Menu";
 import Footer from "./components/footer/Footer";
-import Slider from "./components/slider/Slider";
 
 import { BrowserRouter, Routes, Route, useLocation} from "react-router-dom";
 
 const App = () => {
-  //todo:change this state to false
   const [showPage, setShowPage] = useState(false);
 
   useEffect(() => {

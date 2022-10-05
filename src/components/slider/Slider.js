@@ -1,114 +1,55 @@
 import React from "react";
-import styles from './Slider.module.css';
-import { ReactComponent as ThomsonPicSvg } from "../../assets/whyDevfest/thomas-ezan-pic.svg";
-
-//slider 
+import styles from "./Slider.module.css";
+import SliderData from "./SliderData";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
+import { useColorModeValue } from "../../hooks/useColorModeValue";
 
 function Slider() {
-    return (
-        <>
-            <Swiper
-                spaceBetween={30}
-                centeredSlides={true}
-                autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false,
-                }}
-                modules={[Autoplay, Pagination, Navigation]}
-                className="mySwiper"
+const currentTheme = useColorModeValue("light", "dark");
+
+  return (
+    <>
+      <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="DevFestSlider"
+      >
+        {SliderData.map((slide) => {
+          return (
+            <SwiperSlide
+              key={slide.id}
+              style={{ background: slide.theme.backgroundColor }}
             >
-                <SwiperSlide>
-                    <div className={styles['slider-container']}>
-                        <div className={styles['slide-pic']}>
-                            <ThomsonPicSvg />
-                        </div>
-                        <div className={styles['slide-info']}>
-                            <p>“DevFest is the best way to connect with the developer community and learn the latest about APIs and Frameworks!”</p>
-                            <div className={styles['role']}>
-                                <span>Thomas Ezan</span>
-                                <span>Developer Advocate at Google</span>
-                            </div>
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className={styles['slider-container']}>
-                        <div className={styles['slide-pic']}>
-                            <ThomsonPicSvg />
-                        </div>
-                        <div className={styles['slide-info']}>
-                            <p>“DevFest is the best way to connect with the developer community and learn the latest about APIs and Frameworks!”</p>
-                            <div className={styles['role']}>
-                                <span>Thomas Ezan</span>
-                                <span>Developer Advocate at Google</span>
-                            </div>
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className={styles['slider-container']}>
-                        <div className={styles['slide-pic']}>
-                            <ThomsonPicSvg />
-                        </div>
-                        <div className={styles['slide-info']}>
-                            <p>“DevFest is the best way to connect with the developer community and learn the latest about APIs and Frameworks!”</p>
-                            <div className={styles['role']}>
-                                <span>Thomas Ezan</span>
-                                <span>Developer Advocate at Google</span>
-                            </div>
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className={styles['slider-container']}>
-                        <div className={styles['slide-pic']}>
-                            <ThomsonPicSvg />
-                        </div>
-                        <div className={styles['slide-info']}>
-                            <p>“DevFest is the best way to connect with the developer community and learn the latest about APIs and Frameworks!”</p>
-                            <div className={styles['role']}>
-                                <span>Thomas Ezan</span>
-                                <span>Developer Advocate at Google</span>
-                            </div>
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className={styles['slider-container']}>
-                        <div className={styles['slide-pic']}>
-                            <ThomsonPicSvg />
-                        </div>
-                        <div className={styles['slide-info']}>
-                            <p>“DevFest is the best way to connect with the developer community and learn the latest about APIs and Frameworks!”</p>
-                            <div className={styles['role']}>
-                                <span>Thomas Ezan</span>
-                                <span>Developer Advocate at Google</span>
-                            </div>
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className={styles['slider-container']}>
-                        <div className={styles['slide-pic']}>
-                            <ThomsonPicSvg />
-                        </div>
-                        <div className={styles['slide-info']}>
-                            <p>“DevFest is the best way to connect with the developer community and learn the latest about APIs and Frameworks!”</p>
-                            <div className={styles['role']}>
-                                <span>Thomas Ezan</span>
-                                <span>Developer Advocate at Google</span>
-                            </div>
-                        </div>
-                    </div>
-                </SwiperSlide>
-            </Swiper>
-        </>
-    )
+              <div className={styles[`slider-container-${currentTheme}`]}>
+                <div className={styles["slide-pic"]}>
+                  <img draggable={false} src={slide.imgSrc} alt="React Logo" />
+                </div>
+                <div className={styles["slide-info"]}>
+                  <p>“{slide.whatSaid}”</p>
+                  <div
+                    className={styles["role"]}
+                    style={{ color: slide.theme.Color }}
+                  >
+                    <span>{slide.name}</span>
+                    <span>{slide.designation}</span>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
+    </>
+  );
 }
 
 export default Slider;
