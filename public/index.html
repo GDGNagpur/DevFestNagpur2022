@@ -46,29 +46,46 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "TheaterEvent",
+        "@type": "Event",
         "name": "DevFest Nagpur 2022",
+        "startDate": "2022-11-05T24:00-05:00",
+        "endDate": "2022-11-06T24:00-05:00",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
         "location": {
-          "@type": "PerformingArtsTheater",
-          "name": "GDG Nagpur",
-          "sameAs": "https://devfestnagpur.in/",
-          "address": "Nagpur, India"
+          "@type": "Place",
+          "name": "TBD",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "TBD",
+            "addressLocality": "Nagpur",
+            "postalCode": "440001",
+            "addressRegion": "MH",
+            "addressCountry": "IN"
+          }
         },
-
+        "image": [
+          "https://developers.google.com/static/profile/badges/events/community/devfest/2022/discover/badge.svg",
+          "https://devfestnagpur.in/static/media/devfest.af296f30e9b090caed04.png",
+          "https://developers.google.com/community/devfest/images/explore-devfest_1440.png"
+        ],
+        "description": "DevFest Nagpur is an initiative by GDG Nagpur with a strong focus on knowledge exchange, networking and learning about technologies to nurture the needs and interests of local developer community ecosystem.",
         "offers": {
           "@type": "Offer",
-          "url": "https://devfestnagpur.in/"
+          "url": "https://devfestnagpur.in/",
+          "price": "999",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2022-09-10T12:00"
         },
-        "startDate": "2022-11-05",
-        "workPerformed": {
-          "@type": "CreativeWork",
-          "name": "Sohail",
-          "sameAs": "https://devfestnagpur.in/",
-              "creator": {
-            "@type": "Person",
-            "name": "Sohail",
-            "sameAs": "https://devfestnagpur.in/"
-          }
+        "performer": {
+          "@type": "PerformingGroup",
+          "name": "Google Developers Group"
+        },
+        "organizer": {
+          "@type": "Organization",
+          "name": "GDG Nagpur",
+          "url": "https://gdg.community.dev/gdg-nagpur/"
         }
       }
       </script>
