@@ -21,11 +21,14 @@ const Menu = () => {
 
   const location = useLocation();
 
-  const linkColor =  useColorModeValue("black", "white")
+  const linkColor = useColorModeValue("black", "white");
 
   return (
     <section
-      style={{ borderBottom: useColorModeValue(null, "1px solid white") }}
+      style={{
+        borderBottom: useColorModeValue(null, "1px solid white"),
+        background: useColorModeValue("#fbfbfb", "#202124"),
+      }}
       className={styles["menu"]}
     >
       <div className={styles["content"]}>
@@ -72,7 +75,22 @@ const Menu = () => {
           >
             {menuData.map((item) => {
               return (
-                <li key={item.id} className={styles["menu-item"]}>
+                <li
+                  onClick={() => {
+                    if (item.type === "page") {
+                      setShowMenu((prev) => !prev);
+                      // setTimeout to fix not scrolling 
+                      // to top issue on ff
+                      setTimeout(()=>{
+                        window.scrollTo(0, 0);
+                      }, 100)
+                    } else {
+                      setShowMenu((prev) => !prev);
+                    }
+                  }}
+                  key={item.id}
+                  className={styles["menu-item"]}
+                >
                   <Link
                     to={item.path}
                     smooth
