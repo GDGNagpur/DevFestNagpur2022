@@ -24,7 +24,7 @@ const thingsYouDontWantToMissData = [
   },
   {
     id: 4,
-    title: "Scwags & Food",
+    title: "Swags",
     svg: <SliceOfPizza></SliceOfPizza>,
     text: `A long conference with empty stomach is just not fun! GDG Nagpur is making sure that your visit will surely leave a taste of orange city on your mind. As a souvenir for our great journey, you'll also be getting some cool goodies and google badges.`,
   },
