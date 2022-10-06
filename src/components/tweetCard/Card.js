@@ -40,7 +40,7 @@ export const Card = ({ tweet }) => {
           >
             {tweet}
           </div>
-          <div className="retweets-likes">
+          {/* <div className="retweets-likes">
             <span
               style={{
                 color: useColorModeValue("black", "white"),
@@ -75,7 +75,7 @@ export const Card = ({ tweet }) => {
                 <img className="twitter-card-img" src={Share} alt="share" />
               </li>
             </ul>
-          </div>
+          </div> */}
           <span className="more_options">
             <img className="twitter-card-img" src={Twitter} alt="icon" />
           </span>

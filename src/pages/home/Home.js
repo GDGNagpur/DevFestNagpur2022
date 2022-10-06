@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import NewHero from "../../components/newhero/NewHero";
 import WeAreSpeakingLouderMain from "../../components/weAreSpeakingLouderSection/WeAreSpeakingLouderMain";
 import WhatIsDevfest from "../../components/whatIsDevfest/WhatIsDevfest";
@@ -12,6 +12,15 @@ import Slider from '../../components/slider/Slider';
 import TwitterFeed from '../../components/twitterFeed/TwitterFeed';
 
 const Home = () => {
+
+  //  const [showPage, setShowHero] = useState(false);
+
+  //  useEffect(() => {
+  //    setTimeout(() => {
+  //     setShowHero(true)
+  //    }, 5000);
+  //  }, [showPage]);
+  
   return (
     <div className={"layout-content"} >
       {" "}

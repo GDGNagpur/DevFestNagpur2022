@@ -7,14 +7,14 @@ const TwitterFeed = () => {
   return (
     <div className={styles["container"]}>
       <div className={styles["heading"]}>
-        <h2 style={{ color: useColorModeValue("#505050", "#ffffff") }}>
+        <h2
+          id="testimonials"
+          style={{ color: useColorModeValue("#505050", "#ffffff") }}
+        >
           What community says...
         </h2>
       </div>
-      <div
-        // style={{ background: useColorModeValue("white", "#4a4b4d") }}
-        className={styles["content"]}
-      >
+      <div className={styles["content"]}>
         <div className={styles["tweets"]}>
           <div className={styles["tweet"]}>
             <Tweet

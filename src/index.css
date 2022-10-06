@@ -37,3 +37,7 @@ html {
 .layout-content{
   padding-top: 65px;
 }
+
+:target {
+    scroll-margin-top: 65px;
+}

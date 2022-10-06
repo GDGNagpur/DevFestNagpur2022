@@ -47,6 +47,7 @@ export default function FAQs() {
   };
   return (
     <section
+    id="faq"
       className={
         styles[useColorModeValue("faqsSectionLight", "faqsSectionDark")]
       }

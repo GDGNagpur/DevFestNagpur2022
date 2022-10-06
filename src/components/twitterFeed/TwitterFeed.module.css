@@ -57,6 +57,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 95%;
+  }
+  .tweet > div{
     width: 100%;
   }
 }

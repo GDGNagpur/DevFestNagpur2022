@@ -11,16 +11,31 @@ const menuData = [
     path: "/#why-devfest",
   },
   {
-    id: 4,
-    title: "Our Team",
-    path: "/team",
-    type: "page",
-  },
-  {
     id: 3,
     title: "Takeaways",
     path: "/#takeaways",
   },
+  {
+    id: 4,
+    title: "Venue",
+    path: "/#venue",
+  },
+  {
+    id: 5,
+    title: "Testimonials",
+    path: "/#testimonials",
+  },
+  {
+    id: 6,
+    title: "Faq's",
+    path: "/#faq",
+  },
+  {
+    id: 7,
+    title: "Our Team",
+    path: "/team",
+    type: "page",
+  },
 ];
 
-export default menuData
+export default menuData;

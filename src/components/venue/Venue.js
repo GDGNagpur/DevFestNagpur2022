@@ -10,7 +10,7 @@ const Venue = () => {
 
   return (
     <div className={styles["venueContainer"]}>
-      <div className={styles["heading"]}>Venue</div>
+      <div id="venue" className={styles["heading"]}>Venue</div>
       <div className={styles["container"]}>
         <div className={styles["mapContainer"]}>
           <div className={styles["text"]}>
@@ -25,8 +25,8 @@ const Venue = () => {
             <iframe
               title="map"
               loading="lazy"
-              allowfullscreen
-              referrerpolicy="no-referrer-when-downgrade"
+              allowFullScreen
+              referrerPolicy="no-referrer-when-downgrade"
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB5jdHJlLcc_weCTCsnnFjt4s2T2viiqKs&q=230,%20Gangabai%20Ghat%20Road,%20Great%20Nag%20Rd,%20Jagnade%20Square,%20Nandanvan,%20Nagpur,%20Maharashtra%20440009"
             ></iframe>
           </div>
