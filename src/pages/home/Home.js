@@ -9,6 +9,7 @@ import TweetCard from "../../components/tweetCard/TweetCard";
 import FAQs from "../../components/FAQs/FAQs";
 import Venue from "../../components/venue/Venue";
 import Slider from '../../components/slider/Slider';
+import TwitterFeed from '../../components/twitterFeed/TwitterFeed';
 
 const Home = () => {
   return (
@@ -21,8 +22,9 @@ const Home = () => {
       <ThemesSection></ThemesSection>
       <AllAccessPass></AllAccessPass>
       <ThingsYouDontWantToMissMain></ThingsYouDontWantToMissMain>
-      <Venue></Venue>
-      <TweetCard></TweetCard>
+     <Venue></Venue>
+     <TwitterFeed></TwitterFeed>
+      {/* <TweetCard></TweetCard> */}
       <FAQs></FAQs>
     </div>
   );
