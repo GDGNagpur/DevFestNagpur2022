@@ -30,15 +30,18 @@ import TejaswiniPadoleImage from "../../assets/team/tejaswini-padole.png";
 import VaishnaviKamekarImage from "../../assets/team/vaishnavi-kamekar.png";
 import VedantiKhodeImage from "../../assets/team/vedanti-khode.png";
 import BhaveshChaudhariImage from "../../assets/team/bhavesh-chaudhari.png";
+import RaghavImage from "../../assets/team/raghav.png";
+import SohailImage from "../../assets/team/sohail.jpeg";
+import SaishImage from "../../assets/team/saish.jpeg";
 
 const teamData = [
   {
     id: 1,
-    imgSrc: MemberImage,
+    imgSrc: SohailImage,
     name: "Sohail Pathan",
     designation: "designation",
-    twitterLink: "",
-    linkedinLink: "",
+    twitterLink: "https://twitter.com/iamspathan",
+    linkedinLink: "https://www.linkedin.com/in/iamspathan/",
     patternSrc: blue,
   },
   {
@@ -52,20 +55,20 @@ const teamData = [
   },
   {
     id: 3,
-    imgSrc: MemberImage,
-    name: "Saish",
+    imgSrc: SaishImage,
+    name: "Saish Adlak",
     designation: "designation",
-    twitterLink: "",
-    linkedinLink: "",
+    twitterLink: "https://twitter.com/saish_adk?t=B8IXLwtlNRV7vdqbwhvDig&s=09",
+    linkedinLink: "https://www.linkedin.com/in/saishadlak/",
     patternSrc: yellow,
   },
   {
     id: 4,
-    imgSrc: MemberImage,
+    imgSrc: RaghavImage,
     name: "Raghav Agrawal",
     designation: "designation",
-    twitterLink: "",
-    linkedinLink: "",
+    twitterLink: "https://twitter.com/Araghav_",
+    linkedinLink: "https://www.linkedin.com/in/raghav1701/",
     patternSrc: green,
   },
   {
@@ -140,15 +143,15 @@ const teamData = [
     linkedinLink: "https://www.linkedin.com/in/chirayusakarkar/",
     patternSrc: red,
   },
-  {
-    id: 13,
-    imgSrc: MemberImage,
-    name: "Aman",
-    designation: "designation",
-    twitterLink: "",
-    linkedinLink: "",
-    patternSrc: yellow,
-  },
+  // {
+  //   id: 13,
+  //   imgSrc: MemberImage,
+  //   name: "Aman",
+  //   designation: "designation",
+  //   twitterLink: "",
+  //   linkedinLink: "",
+  //   patternSrc: yellow,
+  // },
   {
     id: 14,
     imgSrc: TejaswiniPadoleImage,

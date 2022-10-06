@@ -10,7 +10,7 @@ const Venue = () => {
 
   return (
     <div className={styles["venueContainer"]}>
-      <div className={styles["heading"]}>Venue of DevFest</div>
+      <div className={styles["heading"]}>Venue</div>
       <div className={styles["container"]}>
         <div className={styles["mapContainer"]}>
           <div className={styles["text"]}>

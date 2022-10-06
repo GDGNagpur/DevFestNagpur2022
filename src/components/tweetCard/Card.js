@@ -11,11 +11,19 @@ import Profile from "../../assets/tweetCard/Profile.jpg";
 export const Card = ({ tweet }) => {
   return (
     <>
-      <div className="card-container" style={{background: useColorModeValue("white","black")}}>
+      <div
+        className="card-container"
+        style={{ background: useColorModeValue("white", "black") }}
+      >
         <img alt="img" src={Profile} className="profile" />
         <div className="content">
           <div className="name_and_date">
-            <span className="name" style={{color: useColorModeValue("black","white")}}>Stephane P</span>
+            <span
+              className="name"
+              style={{ color: useColorModeValue("black", "white") }}
+            >
+              Stephane P
+            </span>
             <div>
               <span className="id">@stephane_pop</span>
               <span
@@ -26,11 +34,30 @@ export const Card = ({ tweet }) => {
               </span>
             </div>
           </div>
-          <div className="tweet_text" style={{color: useColorModeValue("black","white")}}>{tweet}</div>
+          <div
+            className="tweet_text"
+            style={{ color: useColorModeValue("black", "white") }}
+          >
+            {tweet}
+          </div>
           <div className="retweets-likes">
-            <span style={{ color: useColorModeValue("black","white"), fontWeight: "bold" }}>101</span>
+            <span
+              style={{
+                color: useColorModeValue("black", "white"),
+                fontWeight: "bold",
+              }}
+            >
+              101
+            </span>
             <span> Retweets </span>
-            <span style={{ color: useColorModeValue("black","white"), fontWeight: "bold" }}>&nbsp; 101</span>
+            <span
+              style={{
+                color: useColorModeValue("black", "white"),
+                fontWeight: "bold",
+              }}
+            >
+              &nbsp; 101
+            </span>
             <span> Likes </span>
           </div>
           <div className="actions">
