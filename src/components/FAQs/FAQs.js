@@ -22,6 +22,11 @@ export default function FAQs() {
         content: "Regenta Central Hotel & Convention Centre, Nagpur",
       },
       {
+        title: "What's the cost distribution of ticket cost?",
+        content:
+          "It's for the all access pass that gives you  attendee only server access, attendee swag kits, and BOTH day access to event venue.",
+      },
+      {
         title: "Can I register at the venue?",
         content: "No, you have to register prior only.",
       },
@@ -47,7 +52,7 @@ export default function FAQs() {
   };
   return (
     <section
-    id="faq"
+      id="faq"
       className={
         styles[useColorModeValue("faqsSectionLight", "faqsSectionDark")]
       }

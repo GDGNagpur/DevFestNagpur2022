@@ -27,7 +27,7 @@ const menuData = [
   },
   {
     id: 6,
-    title: "Faq's",
+    title: "FAQ's",
     path: "/#faq",
   },
   {
