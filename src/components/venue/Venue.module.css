@@ -58,6 +58,8 @@
   width: 60%;
   border-radius: 5px;
   overflow: hidden;
+  position: relative;
+  display: flex;
 }
 
 .imageContainer > img {
