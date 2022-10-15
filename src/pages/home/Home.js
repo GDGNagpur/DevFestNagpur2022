@@ -33,7 +33,7 @@ const Home = () => {
       <ThingsYouDontWantToMissMain></ThingsYouDontWantToMissMain>
      <Venue></Venue>
      <TwitterFeed></TwitterFeed>
-      {/* <TweetCard></TweetCard> */}
+      <TweetCard></TweetCard>
       <FAQs></FAQs>
     </div>
   );

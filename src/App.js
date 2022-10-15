@@ -44,7 +44,7 @@ const App = () => {
               )}
               <Route path="/team" element={<Team />}></Route>
           </Routes>
-          {/* <Footer></Footer> */}
+          <Footer></Footer>
         </>
       )} 
     </div>
