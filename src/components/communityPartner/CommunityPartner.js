@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import styles from "./CommunityPartner.module.css";
 import { useColorModeValue } from "../../hooks/useColorModeValue";
 import { ReactComponent as Community1 } from "../../assets/community/community1.svg";
@@ -37,7 +37,12 @@ import { ReactComponent as Community16Dark } from "../../assets/community/commun
 
 const CommunityPartner = () => {
   return (
-    <>
+    <div className={styles['community-partners']}>
+      <h2
+        style={{ color: useColorModeValue("#505050", "#ffffff") }}
+      >
+        Our Community Partners
+      </h2>
       {useColorModeValue(
         <section>
           <Community1 />
@@ -76,7 +81,7 @@ const CommunityPartner = () => {
           <Community16Dark />
         </section>
       )}
-    </>
+    </div>
   );
 };
 

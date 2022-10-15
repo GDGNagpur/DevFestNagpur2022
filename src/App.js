@@ -10,7 +10,7 @@ import Footer from "./components/footer/Footer";
 import { Routes, Route, useLocation} from "react-router-dom";
 
 const App = () => {
-  const [showPage, setShowPage] = useState(true);
+  const [showPage, setShowPage] = useState(false);
 
   useEffect(() => {
     Aos.init({ duration: 100 });
@@ -24,7 +24,7 @@ const App = () => {
     }, 5000);
   }, [showPage]);
 
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   const location = useLocation()
 
