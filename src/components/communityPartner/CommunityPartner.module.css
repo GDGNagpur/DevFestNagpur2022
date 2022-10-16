@@ -1,0 +1,29 @@
+.community-partners {
+  font-family: "Google Sans";
+}
+.community-partners h2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.community-partners section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90%;
+  margin: 0 auto;
+  gap: 0.5rem;
+}
+
+@media screen and (max-width: 1380px) {
+  .community-partners section svg {
+    width: 18rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .community-partners h2 {
+    font-size: 28px;
+    padding: 0 1rem;
+  }
+}

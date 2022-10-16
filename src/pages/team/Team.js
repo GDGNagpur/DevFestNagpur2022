@@ -1,8 +1,8 @@
-import React from 'react'
-import styles from "./Team.module.css"
-import AvatarCard from '../../components/avatarCard/AvatarCard';
-import teamData from './teamData';
-import {useColorModeValue} from "../../hooks/useColorModeValue"
+import React from "react";
+import styles from "./Team.module.css";
+import AvatarCard from "../../components/avatarCard/AvatarCard";
+import teamData from "./teamData";
+import { useColorModeValue } from "../../hooks/useColorModeValue";
 
 const Team = () => {
   return (
@@ -21,6 +21,6 @@ const Team = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Team
+export default Team;
