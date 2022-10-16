@@ -5,7 +5,6 @@ import WhatIsDevfest from "../../components/whatIsDevfest/WhatIsDevfest";
 import AllAccessPass from "../../components/allAccessPass/AllAccessPass";
 import ThemesSection from "../../components/themesSection/ThemesSection";
 import ThingsYouDontWantToMissMain from "../../components/thingsYouDontWantToMissSection/ThingsYouDontWantToMissMain";
-import TweetCard from "../../components/tweetCard/TweetCard";
 import FAQs from "../../components/FAQs/FAQs";
 import Venue from "../../components/venue/Venue";
 import Slider from "../../components/slider/Slider";
@@ -33,7 +32,6 @@ const Home = () => {
       <ThingsYouDontWantToMissMain></ThingsYouDontWantToMissMain>
       <Venue></Venue>
       <TwitterFeed></TwitterFeed>
-      <TweetCard></TweetCard>
       <CommunityPartner />
       <FAQs></FAQs>
     </div>
