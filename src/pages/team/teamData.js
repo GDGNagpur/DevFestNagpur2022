@@ -44,6 +44,8 @@ const teamData = [
     imgSrc: NirajImage,
     name: "Niraj Choudhary",
     designation: "designation",
+    twitterLink: "https://twitter.com/choudhari_niraj",
+    linkedinLink: "https://www.linkedin.com/in/niraj-choudhari",
     patternSrc: blue,
   },
   {
@@ -51,6 +53,7 @@ const teamData = [
     imgSrc: ShantanuImage,
     name: "Shantanu Vishwanadha",
     designation: "designation",
+    twitterLink: "https://twitter.com/thecoderpanda",
     linkedinLink: "https://www.linkedin.com/in/thecoderpanda/",
     patternSrc: red,
   },
