@@ -40,15 +40,6 @@ import NirajImage from "../../assets/team/niraj.jpeg";
 
 const teamData = [
   {
-    id: 2,
-    imgSrc: NirajImage,
-    name: "Niraj Choudhary",
-    designation: "designation",
-    twitterLink: "https://twitter.com/choudhari_niraj",
-    linkedinLink: "https://www.linkedin.com/in/niraj-choudhari",
-    patternSrc: blue,
-  },
-  {
     id: 1,
     imgSrc: ShantanuImage,
     name: "Shantanu Vishwanadha",
@@ -56,6 +47,15 @@ const teamData = [
     twitterLink: "https://twitter.com/thecoderpanda",
     linkedinLink: "https://www.linkedin.com/in/thecoderpanda/",
     patternSrc: red,
+  },
+  {
+    id: 2,
+    imgSrc: NirajImage,
+    name: "Niraj Choudhary",
+    designation: "designation",
+    twitterLink: "https://twitter.com/choudhari_niraj",
+    linkedinLink: "https://www.linkedin.com/in/niraj-choudhari",
+    patternSrc: blue,
   },
   {
     id: 3,
