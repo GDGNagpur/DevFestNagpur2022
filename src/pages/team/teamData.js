@@ -35,7 +35,7 @@ import SohailImage from "../../assets/team/sohail.jpeg";
 import SaishImage from "../../assets/team/saish.jpeg";
 import AkanshaImage from "../../assets/team/akansha.jpg";
 import ShantanuImage from "../../assets/team/shantanu.jpeg";
-import MurliImage from "../../assets/team/murli.jpeg";
+import MurliImage from "../../assets/team/murli_2.jpeg";
 import NirajImage from "../../assets/team/niraj.jpeg";
 
 const teamData = [
