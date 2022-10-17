@@ -42,7 +42,7 @@ const teamData = [
   {
     id: 1,
     imgSrc: ShantanuImage,
-    name: "Shantanu Vishwanadha",
+    name: "Shantanu V.",
     designation: "designation",
     twitterLink: "https://twitter.com/thecoderpanda",
     linkedinLink: "https://www.linkedin.com/in/thecoderpanda/",
