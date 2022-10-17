@@ -40,7 +40,7 @@ import NirajImage from "../../assets/team/niraj.jpeg";
 
 const teamData = [
   {
-    id: 1,
+    id: 2,
     imgSrc: NirajImage,
     name: "Niraj Choudhary",
     designation: "designation",
@@ -49,7 +49,7 @@ const teamData = [
     patternSrc: blue,
   },
   {
-    id: 2,
+    id: 1,
     imgSrc: ShantanuImage,
     name: "Shantanu Vishwanadha",
     designation: "designation",
