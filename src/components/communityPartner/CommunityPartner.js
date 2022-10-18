@@ -37,9 +37,11 @@ import { ReactComponent as Community16Dark } from "../../assets/community/commun
 
 const CommunityPartner = () => {
   return (
-    <div className={styles["community-partners"]}>
-      <h2 style={{ color: useColorModeValue("#505050", "#ffffff") }}>
-        Community Partners
+    <div className={styles['community-partners']}>
+      <h2
+        style={{ color: useColorModeValue("#505050", "#ffffff") }}
+      >
+        Our Community Partners
       </h2>
       {useColorModeValue(
         <section>
