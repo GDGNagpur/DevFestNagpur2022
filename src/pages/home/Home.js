@@ -30,7 +30,6 @@ const Home = () => {
       <ThemesSection></ThemesSection>
       <AllAccessPass></AllAccessPass>
       <ThingsYouDontWantToMissMain></ThingsYouDontWantToMissMain>
-      <Venue></Venue>
       <TwitterFeed></TwitterFeed>
       <CommunityPartner />
       <FAQs></FAQs>
