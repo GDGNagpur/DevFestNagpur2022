@@ -41,7 +41,7 @@ const CommunityPartner = () => {
       <h2
         style={{ color: useColorModeValue("#505050", "#ffffff") }}
       >
-        Our Community Partners
+        Community Partners
       </h2>
       {useColorModeValue(
         <section>
