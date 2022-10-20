@@ -1,0 +1,66 @@
+.scheduleMainContainer {
+  font-family: "Google Sans";
+  margin-bottom: 30px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Google Sans";
+  margin-bottom: 30px;
+}
+
+.dayContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.dayButn {
+  margin-right: 30px;
+  margin-left: 30px;
+  color: #000;
+  background-color: #e8eaed;
+  padding: 8px 30px 8px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.active {
+  margin-right: 30px;
+  cursor: pointer;
+  margin-left: 30px;
+  padding: 8px 30px 8px 30px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #0f9d56;
+}
+
+.eventContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.timeContainer {
+  text-align: right;
+  background-color: #e8eaed;
+  width: 130px;
+  height: 60px;
+  padding: 10px 5px 0px 0px;
+  border-radius: 5px;
+}
+.time {
+  /* font-family:"Roboto Mono"; */
+}
+.date {
+  font-size: 12px;
+  color: #868686;
+}
+.eventName {
+  margin-left: 20px;
+  background-color: #e8eaed;
+  width: 70vw;
+  height: 60px;
+  border-radius: 5px;
+  padding: 20px 0px 0px 20px;
+}

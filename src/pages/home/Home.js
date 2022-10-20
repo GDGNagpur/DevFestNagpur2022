@@ -10,6 +10,7 @@ import Venue from "../../components/venue/Venue";
 import Slider from "../../components/slider/Slider";
 import TwitterFeed from "../../components/twitterFeed/TwitterFeed";
 import CommunityPartner from "../../components/communityPartner/CommunityPartner";
+import { Schedule } from "../../components/schedule/Schedule";
 
 const Home = () => {
   //  const [showPage, setShowHero] = useState(false);
@@ -30,6 +31,7 @@ const Home = () => {
       <ThemesSection></ThemesSection>
       <AllAccessPass></AllAccessPass>
       <ThingsYouDontWantToMissMain></ThingsYouDontWantToMissMain>
+      <Schedule></Schedule>
       <TwitterFeed></TwitterFeed>
       <CommunityPartner />
       <FAQs></FAQs>
