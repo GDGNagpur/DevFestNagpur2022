@@ -14,19 +14,19 @@ export const Schedule = () => {
       time: "11:00 AM",
       date: "Nov 03",
       event: "Gates Open",
-      bordercolor: "#DB4437",
+      bordercolor: "#0F9D56",
     },
     {
       time: "11:30 AM",
       date: "Nov 03",
       event: "Gates Open",
-      bordercolor: "#DB4437",
+      bordercolor: "#F4B400",
     },
     {
       time: "12:15 PM",
       date: "Nov 03",
       event: "Gates Open",
-      bordercolor: "#DB4437",
+      bordercolor: "#4285F4",
     },
     {
       time: "1:15 PM",
@@ -38,7 +38,7 @@ export const Schedule = () => {
       time: "2:30 PM",
       date: "Nov 03",
       event: "Gates Open",
-      bordercolor: "#DB4437",
+      bordercolor: "#0F9D56",
     },
     {
       time: "4:00 PM",
@@ -50,19 +50,19 @@ export const Schedule = () => {
       time: "5:00 PM",
       date: "Nov 03",
       event: "Gates Open",
-      bordercolor: "#DB4437",
+      bordercolor: "#F4B400",
     },
     {
       time: "5:45 PM",
       date: "Nov 03",
       event: "Gates Open",
-      bordercolor: "#DB4437",
+      bordercolor: "#4285F4",
     },
     {
       time: "6:40 PM",
       date: "Nov 03",
       event: "Gates Open",
-      bordercolor: "#DB4437",
+      bordercolor: "#F4B400",
     },
   ];
 
