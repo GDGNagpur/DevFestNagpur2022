@@ -1,13 +1,18 @@
 import React, { useState } from "react";
 import { EventCard } from "./EventCard";
 import styles from "./Schedule.module.css";
+import { SpeakerCard } from "./SpeakerCard";
+import Speaker from "../../assets/patterns/blue.png"
+
 
 export const Schedule = () => {
+
+
   const events = [
     {
       time: "10:00 AM",
       date: "Nov 03",
-      event: "Gates Open",
+      event: <SpeakerCard path={Speaker} event={"Take Data to next level with Machine Graph Learning."} speaker={"Semi Semi"}/>,
       bordercolor: "#DB4437",
     },
     {
@@ -31,7 +36,7 @@ export const Schedule = () => {
     {
       time: "1:15 PM",
       date: "Nov 03",
-      event: "Gates Open",
+      event: <SpeakerCard path={Speaker} event={"Take Data to next level with Machine Graph Learning."} speaker={"Semi Semi"}/>,
       bordercolor: "#DB4437",
     },
     {
@@ -43,7 +48,7 @@ export const Schedule = () => {
     {
       time: "4:00 PM",
       date: "Nov 03",
-      event: "Gates Open",
+      event: <SpeakerCard path={Speaker} event={"Take Data to next level with Machine Graph Learning."} speaker={"Semi Semi"}/>,
       bordercolor: "#DB4437",
     },
     {
@@ -68,7 +73,7 @@ export const Schedule = () => {
 
   const [day, setDay] = useState(1);
   const handleClick = () => {
-    setDay(day===1?2:1);
+    setDay(day === 1 ? 2 : 1);
   };
 
   return (

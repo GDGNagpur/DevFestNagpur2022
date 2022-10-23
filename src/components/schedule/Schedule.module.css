@@ -39,18 +39,23 @@
   display: flex;
   justify-content: center;
   margin-top: 12px;
+  height:auto;
 }
 
 .timeContainer {
   text-align: right;
   background-color: #e8eaed;
   width: 130px;
-  height: 60px;
-  padding: 10px 5px 0px 0px;
+  height: 100%;
+  padding: 10px 5px 10px 0px;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .time {
   /* font-family:"Roboto Mono"; */
+  margin-bottom: 5px;
 }
 .date {
   font-size: 12px;
@@ -60,7 +65,66 @@
   margin-left: 20px;
   background-color: #e8eaed;
   width: 70vw;
-  height: 60px;
+  height: auto;
   border-radius: 5px;
-  padding: 20px 0px 0px 20px;
+  padding: 30px 0px 30px 25px;
+  min-height:70px;
+}
+
+.speakerContainer{
+  display: flex;
+  align-items: center;
+}
+
+.speakerImage{
+  width:35px;
+  height:35px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.speakerCardEventContainer{
+  display: flex;
+  flex-direction: column;
+  margin-left:10px;
+}
+.speakerCardSpeaker{
+  font-size: 12px;
+  /* font-weight:bold; */
+}
+
+
+@media screen and (max-width: 500px) {
+  .dayContainer {
+    font-size: 15px;
+  }
+  .eventContainer{
+    font-size: 15px;
+  }
+  .dayButn {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .active {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .timeContainer {
+    width: 80px;
+    height: 100%;
+    padding: 10px 5px 10px 0px;
+  }
+  .eventName {
+    margin-left: 12px;
+    background-color: #e8eaed;
+    width: 60vw;
+    height: auto;
+    border-radius: 5px;
+    padding: 20px 0px 20px 20px;
+  }
+  .speakerImage{
+    display: none;
+  }
+  .speakerCardEventContainer{
+    margin-left:0px;
+  }
 }
