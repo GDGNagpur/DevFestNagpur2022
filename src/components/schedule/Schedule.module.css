@@ -1,6 +1,6 @@
 .scheduleMainContainer {
   font-family: "Google Sans";
-  margin-bottom: 30px;
+  margin-bottom: 36px;
 }
 
 .heading {
@@ -14,6 +14,7 @@
 .dayContainer {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .dayButn {
@@ -77,8 +78,8 @@
 }
 
 .speakerImage{
-  width:35px;
-  height:35px;
+  width:50px;
+  height:50px;
   border-radius: 50%;
   display: inline-block;
 }
@@ -86,9 +87,11 @@
   display: flex;
   flex-direction: column;
   margin-left:10px;
+  
 }
 .speakerCardSpeaker{
-  font-size: 12px;
+  font-size: 14px;
+  margin-top:6px;
   /* font-weight:bold; */
 }
 
