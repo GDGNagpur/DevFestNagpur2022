@@ -13,7 +13,7 @@ const Venue = () => {
     <div className={styles["venueContainer"]}>
       <div id="venue" className={styles["heading"]}>
         <h2 style={{ color: useColorModeValue("#505050", "#ffffff") }}>
-          Venue of DevFest
+          Venue
         </h2>
       </div>
       <div className={styles["container"]}>
@@ -24,7 +24,7 @@ const Venue = () => {
             </div>
             <div className={styles["locationText"]}>
               <p style={{ color: useColorModeValue("#505050", "#ffffff") }}>
-                Regenta Central Hotel & Convention Centre, <br /> Nagpur
+                Suresh Bhat Auditorium, <br /> Nagpur
               </p>
             </div>
           </div>
@@ -35,7 +35,7 @@ const Venue = () => {
               allowFullScreen
               frameBorder={0}
               referrerPolicy="no-referrer-when-downgrade"
-              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB5jdHJlLcc_weCTCsnnFjt4s2T2viiqKs&q=230,%20Gangabai%20Ghat%20Road,%20Great%20Nag%20Rd,%20Jagnade%20Square,%20Nandanvan,%20Nagpur,%20Maharashtra%20440009"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.3705340819893!2d79.10848641480396!3d21.137647485939475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c74d26cf6151%3A0x1307e588dcaedfb8!2sSuresh%20Bhat%20Auditorium!5e0!3m2!1sen!2sin!4v1666510611583!5m2!1sen!2sin"
             ></iframe>
           </div>
         </div>
