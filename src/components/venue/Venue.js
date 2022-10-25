@@ -24,7 +24,7 @@ const Venue = () => {
             </div>
             <div className={styles["locationText"]}>
               <p style={{ color: useColorModeValue("#505050", "#ffffff") }}>
-                Suresh Bhat Auditorium, <br /> Nagpur
+                Kavivarya Suresh Bhat Auditorium, <br /> Nagpur
               </p>
             </div>
           </div>
