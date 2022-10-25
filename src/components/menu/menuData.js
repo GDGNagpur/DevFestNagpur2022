@@ -17,21 +17,16 @@ const menuData = [
   },
   {
     id: 4,
-    title: "Takeaways",
-    path: "/#takeaways",
-  },
-  {
-    id: 5,
     title: "Venue",
     path: "/#venue",
   },
   {
-    id: 6,
+    id: 5,
     title: "FAQ's",
     path: "/#faq",
   },
   {
-    id: 7,
+    id: 6,
     title: "Team",
     path: "/team",
     type: "page",
