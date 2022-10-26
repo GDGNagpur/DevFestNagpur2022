@@ -32,6 +32,11 @@ export default function FAQs() {
           "No, we don't have refund policies. Book your tickets accordingly.",
       },
       {
+        title: "Will the accommodation facility provide to attendees?",
+        content:
+          "Unfortunately, we won't be able to support you with with accomodation. Individual attendees has to take care of their accomodation by themselves only.",
+      },
+      {
         title: "Will I get a certificate for attending?",
         content: "(Yes/no) also many perks awaiting for you.",
       },
