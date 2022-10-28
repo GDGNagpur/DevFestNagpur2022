@@ -13,10 +13,9 @@ import { ReactComponent as Community9 } from "../../assets/community/community9.
 import { ReactComponent as Community10 } from "../../assets/community/community10.svg";
 import { ReactComponent as Community11 } from "../../assets/community/community11.svg";
 import { ReactComponent as Community12 } from "../../assets/community/community12.svg";
-import { ReactComponent as Community13 } from "../../assets/community/Community13.svg";
+
 import { ReactComponent as Community14 } from "../../assets/community/community14.svg";
 import { ReactComponent as Community15 } from "../../assets/community/community15.svg";
-import { ReactComponent as Community16 } from "../../assets/community/community16.svg";
 
 import { ReactComponent as Community1Dark } from "../../assets/community/community1-dark.svg";
 import { ReactComponent as Community2Dark } from "../../assets/community/community2-dark.svg";
@@ -30,17 +29,14 @@ import { ReactComponent as Community9Dark } from "../../assets/community/communi
 import { ReactComponent as Community10Dark } from "../../assets/community/community10-dark.svg";
 import { ReactComponent as Community11Dark } from "../../assets/community/community11-dark.svg";
 import { ReactComponent as Community12Dark } from "../../assets/community/community12-dark.svg";
-import { ReactComponent as Community13Dark } from "../../assets/community/community13-dark.svg";
+
 import { ReactComponent as Community14Dark } from "../../assets/community/community14-dark.svg";
 import { ReactComponent as Community15Dark } from "../../assets/community/community15-dark.svg";
-import { ReactComponent as Community16Dark } from "../../assets/community/community16-dark.svg";
 
 const CommunityPartner = () => {
   return (
-    <div className={styles['community-partners']}>
-      <h2
-        style={{ color: useColorModeValue("#505050", "#ffffff") }}
-      >
+    <div className={styles["community-partners"]}>
+      <h2 style={{ color: useColorModeValue("#505050", "#ffffff") }}>
         Community Partners
       </h2>
       {useColorModeValue(
@@ -57,10 +53,8 @@ const CommunityPartner = () => {
           <Community10 />
           <Community11 />
           <Community12 />
-          <Community13 />
           <Community14 />
           <Community15 />
-          <Community16 />
         </section>,
         <section>
           <Community1Dark />
@@ -75,10 +69,8 @@ const CommunityPartner = () => {
           <Community10Dark />
           <Community11Dark />
           <Community12Dark />
-          <Community13Dark />
           <Community14Dark />
           <Community15Dark />
-          <Community16Dark />
         </section>
       )}
     </div>

@@ -1,0 +1,175 @@
+.sponsorContainer{
+    font-family: "Google Sans";
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sponsorHeading{
+    font-size:36px;
+    font-weight:bold;
+    margin-bottom: 30px;
+}
+.sponsorFlexContainer{
+    display:flex;
+    flex-direction: column;
+}
+.GoogleDev{
+    background-size:260px 45px;
+    margin:auto;
+    background-color:#313235;
+    background-image:url(../../assets/sponsors/GDev.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:400px;
+    height:160px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    border-radius:10px;
+    margin-bottom:25px;
+    border-bottom:8px solid #4285F4;
+}
+.GoogleDevDark{
+    background-image:url(../../assets/sponsors/google.png);
+}
+
+.GoogleDevDark{
+    background-image:url(../../assets/sponsors/google.png);
+}
+
+.title{
+    background:#4285F4;
+    padding:8px;
+    margin-bottom:-1px;
+    border-radius:5px 0 0 0;
+}
+.Stream{
+    background-size:190px 35px;
+    margin:auto;
+    background-color:#313235;
+    background-image:url(../../assets/sponsors/Stream.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:400px;
+    height:160px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    margin-bottom:25px;
+    border-radius:10px;
+    border-bottom:8px solid #FEBA12;
+}
+.StreamDark{
+    background-image:url(../../assets/sponsors/StreamD.png);
+}
+.gold{
+    background:#FEBA12;
+    padding:8px;
+    margin-bottom:-1px;
+    border-radius:5px 0 0 0;
+}
+.PeerList{
+    background-size:200px 60px;
+    margin:auto;
+    background-color:#313235;
+    background-image:url(../../assets/sponsors/Peerlist.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:400px;
+    height:160px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    margin-bottom:25px;
+    border-radius:10px;
+    border-bottom:8px solid #FF7E7E;
+}
+.PeerListDark{
+    background-image:url(../../assets/sponsors/PeerlistD.png);
+}
+
+.ruby{
+    background: #FF7E7E;
+    padding:8px;
+    margin-bottom:-1px;
+    border-radius:5px 0 0 0;
+}
+.silversponsorFlex{
+    display:flex;
+    justify-content: center;
+}
+.Moreficent{
+    background-size:230px 70px;
+    background-color:#313235;
+    background-image:url(../../assets/sponsors/Moreficient.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:400px;
+    height:160px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    
+    margin-bottom:25px;
+    border-radius:10px;
+    border-bottom:8px solid #D0D0D0;
+}
+.MoreficentDark{
+    background-image:url(../../assets/sponsors/MoreficentD.png);
+}
+
+.Orkes{
+    background-size:160px 60px;
+    background-color:#313235;
+    background-image:url(../../assets/sponsors/Orkes.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:400px;
+    height:160px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    margin-left:25px;
+    margin-bottom:25px;
+    border-radius:10px;
+    border-bottom:8px solid #D0D0D0;
+}
+.OrkesDark{
+    background-size:130px 35px;
+    background-image:url(../../assets/sponsors/OrkesD.png);
+}
+.silver{
+    background: #D0D0D0;
+    padding:8px;
+    margin-bottom:-1px;
+    border-radius:5px 0 0 0;
+}
+
+@media screen and (max-width: 800px) {
+    .silversponsorFlex{
+        display:block;
+    }
+    .GoogleDev{
+        font-size:13px;
+        width:340px;
+    }
+    .Stream{
+        font-size:13px;
+        width:340px;
+    }
+    .PeerList{
+        font-size:13px;
+        width:340px;
+    }
+    .Moreficent{
+        font-size:13px;
+        width:340px;
+        margin:auto;
+        margin-bottom:20px;
+    }
+    .Orkes{
+        font-size:13px;
+        width:340px;
+        margin:auto;
+    }
+  }

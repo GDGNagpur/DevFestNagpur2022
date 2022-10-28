@@ -17,8 +17,8 @@ const menuData = [
   },
   {
     id: 4,
-    title: "Testimonials",
-    path: "/#testimonials",
+    title: "Venue",
+    path: "/#venue",
   },
   {
     id: 5,
