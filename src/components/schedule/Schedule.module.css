@@ -1,0 +1,133 @@
+.scheduleMainContainer {
+  font-family: "Google Sans";
+  margin-bottom: 36px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Google Sans";
+  margin-bottom: 30px;
+}
+
+.dayContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.dayButn {
+  margin-right: 30px;
+  margin-left: 30px;
+  color: #000;
+  background-color: #e8eaed;
+  padding: 8px 30px 8px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.active {
+  margin-right: 30px;
+  cursor: pointer;
+  margin-left: 30px;
+  padding: 8px 30px 8px 30px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #0f9d56;
+}
+
+.eventContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  height:auto;
+}
+
+.timeContainer {
+  text-align: right;
+  background-color: #e8eaed;
+  width: 130px;
+  height: 100%;
+  padding: 10px 5px 10px 0px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.time {
+  /* font-family:"Roboto Mono"; */
+  margin-bottom: 5px;
+}
+.date {
+  font-size: 12px;
+  color: #868686;
+}
+.eventName {
+  margin-left: 20px;
+  background-color: #e8eaed;
+  width: 70vw;
+  height: auto;
+  border-radius: 5px;
+  padding: 30px 0px 30px 25px;
+  min-height:70px;
+}
+
+.speakerContainer{
+  display: flex;
+  align-items: center;
+}
+
+.speakerImage{
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.speakerCardEventContainer{
+  display: flex;
+  flex-direction: column;
+  margin-left:10px;
+  
+}
+.speakerCardSpeaker{
+  font-size: 14px;
+  margin-top:6px;
+  /* font-weight:bold; */
+}
+
+
+@media screen and (max-width: 500px) {
+  .dayContainer {
+    font-size: 15px;
+  }
+  .eventContainer{
+    font-size: 15px;
+  }
+  .dayButn {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .active {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .timeContainer {
+    width: 80px;
+    height: 100%;
+    padding: 10px 5px 10px 0px;
+  }
+  .eventName {
+    margin-left: 12px;
+    background-color: #e8eaed;
+    width: 60vw;
+    height: auto;
+    border-radius: 5px;
+    padding: 20px 0px 20px 20px;
+  }
+  .speakerImage{
+    display: none;
+  }
+  .speakerCardEventContainer{
+    margin-left:0px;
+  }
+}
