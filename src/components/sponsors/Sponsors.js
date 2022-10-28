@@ -5,7 +5,7 @@ import { useColorModeValue } from "../../hooks/useColorModeValue";
 export const Sponsors = () => {
   return (
     <div className={styles.sponsorContainer}>
-      <div className={styles.sponsorHeading}>Our Sponsors</div>
+      <div id="sponsors" className={styles.sponsorHeading}>Our Sponsors</div>
       <div className={styles.sponsorFlexContainer}>
         <div className={styles["titlesponsor"]}>
           <div
