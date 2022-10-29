@@ -6,6 +6,8 @@ import Home from "./pages/home/Home";
 import Team from "./pages/team/Team";
 import Menu from "./components/menu/Menu";
 import Footer from "./components/footer/Footer";
+import GetTicket from "./pages/getTicket/GetTicket";
+import TicketMain from "./pages/ticket/TicketMain";
 
 import { Routes, Route, useLocation } from "react-router-dom";
 
@@ -15,13 +17,13 @@ const App = () => {
   useEffect(() => {
     Aos.init({ duration: 100 });
 
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 6500);
+    // setTimeout(() => {
+    //   setIsLoading(false);
+    // }, 6500);
 
-    setTimeout(() => {
-      setShowPage(true);
-    }, 5000);
+    // setTimeout(() => {
+    //   setShowPage(true);
+    // }, 5000);
   }, [showPage]);
 
   const [isLoading, setIsLoading] = useState(true);
@@ -32,8 +34,8 @@ const App = () => {
 
   return (
     <div>
-      {isLoading && <Loader></Loader>}
-      {showPage && (
+      {/* {isLoading && <Loader></Loader>} */}
+      {!showPage && (
         <>
           <Menu></Menu>
           <Routes>
@@ -43,6 +45,8 @@ const App = () => {
               </>
             )}
             <Route path="/team" element={<Team />}></Route>
+            <Route path="/get-ticket" element={<GetTicket />}></Route>
+            <Route path="/ticket" element={<TicketMain/>}></Route>
           </Routes>
           <Footer></Footer>
         </>
