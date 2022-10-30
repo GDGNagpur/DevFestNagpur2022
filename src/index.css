@@ -22,6 +22,8 @@
 html {
   background: #fbfbfb;
   overflow-x: hidden;
+   -webkit-print-color-adjust: exact;
+    -webkit-filter: opacity(1);
 }
 .dark {
     background: rgba(32, 33, 36, 1);
