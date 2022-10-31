@@ -62,6 +62,18 @@
   font-size: 12px;
   color: #868686;
 }
+.eventNameFlexbox{
+  display: flex;
+}
+.eventNameMulti{
+  margin-left: 20px;
+  background-color: #e8eaed;
+  width: 34.5vw;
+  height: auto;
+  border-radius: 5px;
+  padding: 30px 0px 30px 25px;
+  min-height:70px;
+}
 .eventName {
   margin-left: 20px;
   background-color: #e8eaed;
@@ -94,14 +106,17 @@
   margin-top:6px;
   /* font-weight:bold; */
 }
+.special-event-type{
+  font-size: 14px;
+}
 
 
 @media screen and (max-width: 500px) {
   .dayContainer {
-    font-size: 15px;
+    font-size: 14px;
   }
   .eventContainer{
-    font-size: 15px;
+    font-size: 14px;
   }
   .dayButn {
     margin-right: 10px;
@@ -123,6 +138,17 @@
     height: auto;
     border-radius: 5px;
     padding: 20px 0px 20px 20px;
+  }
+  .eventNameMulti{
+    margin-left: 10px;
+    background-color: #e8eaed;
+    width: 29vw;
+    height: auto;
+    border-radius: 5px;
+    padding: 20px 0px 20px 20px;
+  }
+  .speakerCardSpeaker{
+    font-size: 12px;
   }
   .speakerImage{
     display: none;
