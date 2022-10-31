@@ -17,7 +17,7 @@
     background-size:260px 45px;
     margin:auto;
     background-color:#313235;
-    background-image:url(../../assets/sponsors/GDev.png);
+    background-image:url(https://www.gstatic.com/devrel-devsite/prod/vbad39f885886bc440e53563b954be5bc119ad9455e9fd347968d0509a569587a/developers/images/lockup.svg);
     background-repeat: no-repeat;
     background-position: center;
     width:400px;
@@ -28,6 +28,7 @@
     border-radius:10px;
     margin-bottom:25px;
     border-bottom:8px solid #4285F4;
+    text-decoration:none;
 }
 .GoogleDevDark{
     background-image:url(../../assets/sponsors/google.png);
@@ -58,6 +59,7 @@
     margin-bottom:25px;
     border-radius:10px;
     border-bottom:8px solid #FEBA12;
+    text-decoration:none;
 }
 .StreamDark{
     background-image:url(../../assets/sponsors/StreamD.png);
@@ -83,6 +85,7 @@
     margin-bottom:25px;
     border-radius:10px;
     border-bottom:8px solid #FF7E7E;
+    text-decoration:none;
 }
 .PeerListDark{
     background-image:url(../../assets/sponsors/PeerlistD.png);
@@ -109,7 +112,7 @@
     display:flex;
     justify-content:flex-end;
     align-items:flex-end;
-    
+    text-decoration:none;
     margin-bottom:25px;
     border-radius:10px;
     border-bottom:8px solid #D0D0D0;
@@ -120,7 +123,7 @@
 
 .Orkes{
     background-size:160px 60px;
-    background-color:#313235;
+    background-color:black;
     background-image:url(../../assets/sponsors/Orkes.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -133,16 +136,43 @@
     margin-bottom:25px;
     border-radius:10px;
     border-bottom:8px solid #D0D0D0;
+    text-decoration:none;
 }
 .OrkesDark{
     background-size:130px 35px;
     background-image:url(../../assets/sponsors/OrkesD.png);
+}
+
+.DhiWise{
+    background-size:160px 30px;
+    background-color:black;
+    background-image:url(../../assets/sponsors/DhiWise.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:400px;
+    height:160px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    margin-left:25px;
+    margin-bottom:25px;
+    border-radius:10px;
+    border-bottom:8px solid #D0D0D0;
+    text-decoration:none;
+}
+.DhiWiseDark{
+    background-size:160px 30px;
+    background-image:url(../../assets/sponsors/DhiWiseD.png);
 }
 .silver{
     background: #D0D0D0;
     padding:8px;
     margin-bottom:-1px;
     border-radius:5px 0 0 0;
+}
+
+.GoogleDev:hover .Stream:hover .PeerList:hover .Moreficent:hover .Orkes:hover{
+    background-color:white;
 }
 
 @media screen and (max-width: 800px) {
