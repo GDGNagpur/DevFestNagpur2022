@@ -6,8 +6,7 @@ const Note = () => {
     <div className={styles["container"]}>
       <div className={styles["content"]}>
         <p>
-          <span>Important:</span>{" "}If we don’t get 200 participants for last
-          minute passes, we would be refunding back and would cancel this slot.
+          <span>Important:</span>{" "}Last Min Passes are subject to availability on certain quantity . It might get refunded if needed.
         </p>
       </div>
     </div>
