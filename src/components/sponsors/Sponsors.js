@@ -19,7 +19,7 @@ export const Sponsors = () => {
       <div id="sponsors" className={styles.sponsorHeading}>Our Sponsors</div>
       <div className={styles.sponsorFlexContainer}>
         <div className={styles["titlesponsor"]}>
-          <a href="https://github.com/"
+          <a href="https://developers.google.com/"
             className={useColorModeValue(false,true)?`${styles.GoogleDevDark} ${styles.GoogleDev}`:styles.GoogleDev}
             style={{ backgroundColor: useColorModeValue("#e8eaed", "#313235")}}
             onMouseOver={handleHover}
@@ -34,7 +34,7 @@ export const Sponsors = () => {
           </a>
         </div>
         <div className={styles["goldsponsor"]}>
-          <a href="https://github.com/"
+          <a href="https://getstream.io/"
             className={useColorModeValue(false,true)?`${styles.StreamDark} ${styles.Stream}`:styles.Stream}
             style={{ backgroundColor: useColorModeValue("#e8eaed", "#313235") }}
             onMouseOver={handleHover}

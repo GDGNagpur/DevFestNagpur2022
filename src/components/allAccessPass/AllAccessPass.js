@@ -21,14 +21,15 @@ const AllAccessPass = () => {
             </span>
             <h2>ALL ACCESS PASS</h2>
           </span>
-          <h3 className={styles["early-bird"]}>( Regular Pass )</h3>
+          <h3 className={styles["early-bird"]}>( Last Minute )</h3>
         </div>
         <a
           className={styles["cta-btn"]}
+          href = "https://payments.cashfree.com/forms/dfn22regular"
           target={"_blank"}
           rel="noreferrer"
         >
-          Sold Out
+          Grab Yours
         </a>
       </div>
 
