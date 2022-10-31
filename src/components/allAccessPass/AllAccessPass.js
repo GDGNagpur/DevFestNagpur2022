@@ -29,7 +29,7 @@ const AllAccessPass = () => {
           target={"_blank"}
           rel="noreferrer"
         >
-          Grab Yours
+          Sold Out
         </a>
       </div>
 
