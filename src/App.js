@@ -7,7 +7,7 @@ import Team from "./pages/team/Team";
 import Menu from "./components/menu/Menu";
 import Footer from "./components/footer/Footer";
 
-import { Routes, Route, useLocation} from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 
 const App = () => {
   const [showPage, setShowPage] = useState(false);
@@ -26,9 +26,9 @@ const App = () => {
 
   const [isLoading, setIsLoading] = useState(true);
 
-  const location = useLocation()
+  const location = useLocation();
 
-  const isHome = location.pathname === "/"
+  const isHome = location.pathname === "/";
 
   return (
     <div>
@@ -37,16 +37,16 @@ const App = () => {
         <>
           <Menu></Menu>
           <Routes>
-              {isHome && (
-                <>
-                  <Route path="/" element={<Home />}></Route>
-                </>
-              )}
-              <Route path="/team" element={<Team />}></Route>
+            {isHome && (
+              <>
+                <Route path="/" element={<Home />}></Route>
+              </>
+            )}
+            <Route path="/team" element={<Team />}></Route>
           </Routes>
           <Footer></Footer>
         </>
-      )} 
+      )}
     </div>
   );
 };

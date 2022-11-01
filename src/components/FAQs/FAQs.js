@@ -19,7 +19,7 @@ export default function FAQs() {
       },
       {
         title: "What is the venue for Devfest Nagpur 2022?",
-        content: "Regenta Central Hotel & Convention Centre, Nagpur",
+        content: "Suresh Bhat Auditorium, Nagpur",
       },
       {
         title: "What's the cost distribution of ticket cost?",
@@ -27,8 +27,14 @@ export default function FAQs() {
           "It's for the all access pass that gives you  attendee only server access, attendee swag kits, and BOTH day access to event venue.",
       },
       {
-        title: "Can I register at the venue?",
-        content: "No, you have to register prior only.",
+        title: "Can my ticket be refunded once booked?",
+        content:
+          "No, we don't have refund policies. Book your tickets accordingly.",
+      },
+      {
+        title: "Will the accommodation facility provide to attendees?",
+        content:
+          "Unfortunately, we won't be able to support you with with accomodation. Individual attendees has to take care of their accomodation by themselves only.",
       },
       {
         title: "Will I get a certificate for attending?",

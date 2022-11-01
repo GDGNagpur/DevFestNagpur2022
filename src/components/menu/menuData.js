@@ -17,16 +17,21 @@ const menuData = [
   },
   {
     id: 4,
-    title: "Testimonials",
-    path: "/#testimonials",
+    title: "Venue",
+    path: "/#venue",
   },
   {
-    id: 5,
+    id:5,
+    title: "Sponsors",
+    path:"/#sponsors",
+  },
+  {
+    id: 6,
     title: "FAQ's",
     path: "/#faq",
   },
   {
-    id: 6,
+    id: 7,
     title: "Team",
     path: "/team",
     type: "page",

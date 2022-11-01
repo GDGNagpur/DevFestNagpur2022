@@ -2,21 +2,46 @@ import React from "react";
 import styles from "./Schedule.module.css";
 import { useThemeContext } from "../../theme/ThemeProvider";
 
-export const EventCard = ({ time, date, event, bordercolor, multiEvent,bg,smallBg}) => {
+export const EventCard = ({
+  time,
+  date,
+  event,
+  bordercolor,
+  multiEvent,
+  bg,
+  smallBg,
+}) => {
   const { theme } = useThemeContext();
   return (
     <div className={styles.eventContainer}>
       <div className={styles.timeFlexbox}>
         <div
           className={styles.timeContainer}
-          style={{ backgroundColor: smallBg===""?theme === "dark" ? "#28292B":"#e8eaed":smallBg }}
+          style={{
+            backgroundColor:
+              smallBg === ""
+                ? theme === "dark"
+                  ? "#28292B"
+                  : "#e8eaed"
+                : smallBg,
+          }}
         >
-          <div className={styles.time} style={smallBg===""?{}:{color:"white"}}>{time}</div>
-          <div className={styles.date} style={smallBg===""?{}:{color:"white"}}>{date}</div>
+          <div
+            className={styles.time}
+            style={smallBg === "" ? {} : { color: "white" }}
+          >
+            {time}
+          </div>
+          <div
+            className={styles.date}
+            style={smallBg === "" ? {} : { color: "white" }}
+          >
+            {date}
+          </div>
         </div>
       </div>
       {multiEvent ? (
-        event.map((event,i) => (
+        event.map((event, i) => (
           <div className={styles.eventNameFlexbox}>
             <div
               className={styles.eventNameMulti}
@@ -36,7 +61,6 @@ export const EventCard = ({ time, date, event, bordercolor, multiEvent,bg,smallB
             style={{
               borderLeft: "5px solid " + bordercolor,
               backgroundColor: theme === "dark" ? bg[1] : bg[0],
-
             }}
           >
             {event}

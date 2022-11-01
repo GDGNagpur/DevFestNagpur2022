@@ -13,22 +13,22 @@ import NeedhiDeshmukhImage from "../../assets/team/needhi-deshmukh.png";
 import NikhilAparajitImage from "../../assets/team/nikhil-aparajit.png";
 import ParasPatleImage from "../../assets/team/paras-patle.png";
 import ParthKawareImage from "../../assets/team/parth-kaware.png";
-import PrachiYerojwarImage from "../../assets/team/prachi-yerojwar.png";
+// import PrachiYerojwarImage from "../../assets/team/prachi-yerojwar.png";
 import PrathameshDukareImage from "../../assets/team/prathamesh-dukare.png";
 import PratikAgrawalImage from "../../assets/team/pratik-agrawal.png";
 import RamyaKappagantuImage from "../../assets/team/ramya-kappagantu.png";
-import RohitDaftariImage from "../../assets/team/rohit-daftari.png";
+// import RohitDaftariImage from "../../assets/team/rohit-daftari.png";
 import SahilDafadeImage from "../../assets/team/sahil-dafade.png";
 import SalmanShaikhImage from "../../assets/team/salman-shaikh.png";
 import SaniyaImrozeImage from "../../assets/team/saniya-imroze.png";
 import SanskarMangeImage from "../../assets/team/sanskar-mange.png";
 import ShreyashChoudharyImage from "../../assets/team/shreyash-choudhary.png";
 import ShubhamJeswaniImage from "../../assets/team/shubham-jeswani.png";
-import SuyashDahake from "../../assets/team/suyash-dahake.png";
-import TanmayRaoImage from "../../assets/team/tanmay-rao.png";
+// import SuyashDahake from "../../assets/team/suyash-dahake.png";
+// import TanmayRaoImage from "../../assets/team/tanmay-rao.png";
 import TejaswiniPadoleImage from "../../assets/team/tejaswini-padole.png";
-import VaishnaviKamekarImage from "../../assets/team/vaishnavi-kamekar.png";
-import VedantiKhodeImage from "../../assets/team/vedanti-khode.png";
+import GauravImage from "../../assets/team/gaurav.jpg";
+import TusharImage from "../../assets/team/tushar.jpg";
 import BhaveshChaudhariImage from "../../assets/team/bhavesh-chaudhari.png";
 import RaghavImage from "../../assets/team/raghav.png";
 import SohailImage from "../../assets/team/sohail.jpeg";
@@ -68,6 +68,16 @@ const teamData = [
   },
   {
     id: 4,
+    imgSrc: TusharImage,
+    name: "Tushar Joshi",
+    designation: "designation",
+    twitterLink:
+      "https://twitter.com/joshijikaladkaa?t=xc6Uo-qTZgvbf9OoUj2gfg&s=08",
+    linkedinLink: "https://www.linkedin.com/in/tushar2179/",
+    patternSrc: yellow,
+  },
+  {
+    id: 5,
     imgSrc: SohailImage,
     name: "Sohail Pathan",
     designation: "designation",
@@ -76,52 +86,7 @@ const teamData = [
     patternSrc: blue,
   },
   {
-    id: 5,
-    imgSrc: NikhilAparajitImage,
-    name: "Nikhil Aparajit",
-    designation: "designation",
-    twitterLink: "https://twitter.com/nikhil_aparajit",
-    linkedinLink: "https://www.linkedin.com/in/nikhil-aparajit/",
-    patternSrc: red,
-  },
-  {
     id: 6,
-    imgSrc: RamyaKappagantuImage,
-    name: "Ramya Kappagantu",
-    designation: "designation",
-    twitterLink: "https://twitter.com/ramyaK122",
-    linkedinLink: "https://www.linkedin.com/in/ramya-kappagantu-a588a6162",
-    patternSrc: yellow,
-  },
-  {
-    id: 7,
-    imgSrc: SaishImage,
-    name: "Saish Adlak",
-    designation: "designation",
-    twitterLink: "https://twitter.com/saish_adk?t=B8IXLwtlNRV7vdqbwhvDig&s=09",
-    linkedinLink: "https://www.linkedin.com/in/saishadlak/",
-    patternSrc: yellow,
-  },
-  {
-    id: 8,
-    imgSrc: RaghavImage,
-    name: "Raghav Agrawal",
-    designation: "designation",
-    twitterLink: "https://twitter.com/Araghav_",
-    linkedinLink: "https://www.linkedin.com/in/raghav1701/",
-    patternSrc: green,
-  },
-  {
-    id: 9,
-    imgSrc: HenayLakhwaniImage,
-    name: "Henay Lakhwani",
-    designation: "designation",
-    twitterLink: "https://twitter.com/LakhwaniHenay",
-    linkedinLink: "https://www.linkedin.com/in/henaylakhwani/",
-    patternSrc: green,
-  },
-  {
-    id: 10,
     imgSrc: AnmoldeepSinghImage,
     name: "Anmoldeep Singh",
     designation: "designation",
@@ -130,17 +95,63 @@ const teamData = [
     patternSrc: blue,
   },
   {
-    id: 11,
-    imgSrc: ShubhamJeswaniImage,
-    name: "Shubham Jeswani",
+    id: 7,
+    imgSrc: RaghavImage,
+    name: "Raghav Agrawal",
     designation: "designation",
-    twitterLink: "https://twitter.com/JeswaniShubham",
-    linkedinLink: "https://www.linkedin.com/in/shubham-jeswani-5615b51a3/",
+    twitterLink: "https://twitter.com/Araghav_",
+    linkedinLink: "https://www.linkedin.com/in/raghav1701/",
     patternSrc: green,
+  },
+  {
+    id: 8,
+    imgSrc: HenayLakhwaniImage,
+    name: "Henay Lakhwani",
+    designation: "designation",
+    twitterLink: "https://twitter.com/LakhwaniHenay",
+    linkedinLink: "https://www.linkedin.com/in/henaylakhwani/",
+    patternSrc: green,
+  },
+  {
+    id: 9,
+    imgSrc: GauravImage,
+    name: "Gaurav Deshmukh",
+    designation: "designation",
+    twitterLink:
+      "https://twitter.com/GauravD69463092?t=EBNEN-QDmOTlEfPmfBCgCg&s=09",
+    linkedinLink: "https://www.linkedin.com/in/gaurav-deshmukh-13296118b",
+    patternSrc: green,
+  },
+  {
+    id: 10,
+    imgSrc: NikhilAparajitImage,
+    name: "Nikhil Aparajit",
+    designation: "designation",
+    twitterLink: "https://twitter.com/nikhil_aparajit",
+    linkedinLink: "https://www.linkedin.com/in/nikhil-aparajit/",
+    patternSrc: red,
+  },
+  {
+    id: 11,
+    imgSrc: SaishImage,
+    name: "Saish Adlak",
+    designation: "designation",
+    twitterLink: "https://twitter.com/saish_adk?t=B8IXLwtlNRV7vdqbwhvDig&s=09",
+    linkedinLink: "https://www.linkedin.com/in/saishadlak/",
+    patternSrc: yellow,
+  },
+  {
+    id: 12,
+    imgSrc: RamyaKappagantuImage,
+    name: "Ramya Kappagantu",
+    designation: "designation",
+    twitterLink: "https://twitter.com/ramyaK122",
+    linkedinLink: "https://www.linkedin.com/in/ramya-kappagantu-a588a6162",
+    patternSrc: yellow,
   },
 
   {
-    id: 12,
+    id: 13,
     imgSrc: BhaveshChaudhariImage,
     name: "Bhavesh Chaudhari",
     designation: "designation",
@@ -149,7 +160,7 @@ const teamData = [
     patternSrc: blue,
   },
   {
-    id: 13,
+    id: 14,
     imgSrc: PrathameshDukareImage,
     name: "Prathamesh Dukare",
     designation: "designation",
@@ -158,7 +169,7 @@ const teamData = [
     patternSrc: red,
   },
   {
-    id: 14,
+    id: 15,
     imgSrc: ParasPatleImage,
     name: "Paras Patle",
     designation: "designation",
@@ -167,16 +178,16 @@ const teamData = [
     patternSrc: yellow,
   },
   {
-    id: 15,
-    imgSrc: SalmanShaikhImage,
-    name: "Salman Shaikh",
+    id: 16,
+    imgSrc: ShubhamJeswaniImage,
+    name: "Shubham Jeswani",
     designation: "designation",
-    twitterLink: "https://twitter.com/Salman_8778",
-    linkedinLink: "https://www.linkedin.com/in/devsalmanshaikh/",
-    patternSrc: blue,
+    twitterLink: "https://twitter.com/JeswaniShubham",
+    linkedinLink: "https://www.linkedin.com/in/shubham-jeswani-5615b51a3/",
+    patternSrc: green,
   },
   {
-    id: 16,
+    id: 17,
     imgSrc: NeedhiDeshmukhImage,
     name: "Needhi Deshmukh",
     designation: "designation",
@@ -185,7 +196,17 @@ const teamData = [
     patternSrc: blue,
   },
   {
-    id: 17,
+    id: 18,
+    imgSrc: SalmanShaikhImage,
+    name: "Salman Shaikh",
+    designation: "designation",
+    twitterLink: "https://twitter.com/Salman_8778",
+    linkedinLink: "https://www.linkedin.com/in/devsalmanshaikh/",
+    patternSrc: blue,
+  },
+
+  {
+    id: 19,
     imgSrc: ChirayuSakarkarImage,
     name: "Chirayu Sakarkar",
     designation: "designation",
@@ -194,7 +215,7 @@ const teamData = [
     patternSrc: red,
   },
   {
-    id: 18,
+    id: 20,
     imgSrc: AkanshaImage,
     name: "Akanksha Nitnaware",
     designation: "designation",
@@ -203,7 +224,7 @@ const teamData = [
     patternSrc: yellow,
   },
   {
-    id: 19,
+    id: 21,
     imgSrc: TejaswiniPadoleImage,
     name: "Tejaswini Padole",
     designation: "designation",
@@ -212,16 +233,7 @@ const teamData = [
     patternSrc: green,
   },
   {
-    id: 20,
-    imgSrc: RohitDaftariImage,
-    name: "Rohit Daftari",
-    designation: "designation",
-    twitterLink: "https://twitter.com/rohitddd3",
-    linkedinLink: "https://www.linkedin.com/in/rohit-daftari",
-    patternSrc: blue,
-  },
-  {
-    id: 21,
+    id: 22,
     imgSrc: AasthaPatelImage,
     name: "Aastha Patel",
     designation: "designation",
@@ -230,7 +242,7 @@ const teamData = [
     patternSrc: blue,
   },
   {
-    id: 22,
+    id: 23,
     imgSrc: AtharvaBadkasImage,
     name: "Atharva Badkas",
     designation: "designation",
@@ -239,7 +251,7 @@ const teamData = [
     patternSrc: red,
   },
   {
-    id: 23,
+    id: 24,
     imgSrc: JayaSinghImage,
     name: "Jaya Singh",
     designation: "designation",
@@ -248,22 +260,13 @@ const teamData = [
     patternSrc: yellow,
   },
   {
-    id: 24,
+    id: 25,
     imgSrc: ParthKawareImage,
     name: "Parth Kaware",
     designation: "designation",
     twitterLink: "twitter.com/gimmepizzzaaaa",
     linkedinLink: "https://www.linkedin.com/in/parth-kaware",
     patternSrc: green,
-  },
-  {
-    id: 25,
-    imgSrc: PrachiYerojwarImage,
-    name: "Prachi Yerojwar",
-    designation: "designation",
-    twitterLink: "",
-    linkedinLink: "https://www.linkedin.com/in/prachi-yerojwar-b49957174",
-    patternSrc: blue,
   },
   {
     id: 26,
@@ -292,35 +295,6 @@ const teamData = [
     linkedinLink: "https://www.linkedin.com/in/shreyash14/",
     patternSrc: yellow,
   },
-
-  {
-    id: 29,
-    imgSrc: SuyashDahake,
-    name: "Suyash Dahake",
-    designation: "designation",
-    twitterLink: "https://twitter.com/DahakeSuyash",
-    linkedinLink: "https://www.linkedin.com/in/suyash-dahake/",
-    patternSrc: blue,
-  },
-  {
-    id: 30,
-    imgSrc: TanmayRaoImage,
-    name: "Tanmay Rao",
-    designation: "designation",
-    twitterLink: "https://twitter.com/TANMAY29800418",
-    linkedinLink: "https://www.linkedin.com/in/tanmay-rao-6555b6205",
-    patternSrc: blue,
-  },
-  {
-    id: 31,
-    imgSrc: VaishnaviKamekarImage,
-    name: "Vaishnavi Kamekar",
-    designation: "designation",
-    twitterLink: "https://twitter.com/VKamekar31",
-    linkedinLink: "https://www.linkedin.com/in/vaishnavikamekar31/",
-    patternSrc: red,
-  },
-
   {
     id: 32,
     imgSrc: SaniyaImrozeImage,
@@ -337,15 +311,6 @@ const teamData = [
     designation: "designation",
     twitterLink: "https://twitter.com/sanskaaarM",
     linkedinLink: "https://www.linkedin.com/in/sanskar-mange-9001b0233",
-    patternSrc: blue,
-  },
-  {
-    id: 34,
-    imgSrc: VedantiKhodeImage,
-    name: "Vedanti Khode",
-    designation: "designation",
-    twitterLink: "https://twitter.com/KhodeVedanti",
-    linkedinLink: "https://www.linkedin.com/in/vedantikhode",
     patternSrc: blue,
   },
 ];

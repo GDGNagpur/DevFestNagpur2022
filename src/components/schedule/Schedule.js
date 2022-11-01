@@ -236,21 +236,32 @@ export const Schedule = () => {
             Day 2
           </div>
         </div>
-        {
-          day===1?
-        events.map((event) => {
-          return (
-            <EventCard
-              date={event.date}
-              time={event.time}
-              event={event.event}
-              bordercolor={event.bordercolor}
-              multiEvent={event.multiEvent}
-              bg={event.bg}
-              smallBg={event.smallBg === undefined ? "" : event.smallBg}
-            />
-          );
-        }):<div style={{textAlign: 'center',fontSize:"30px",margin:"100px",marginBottom:"200px"}}>Will be Realeased Soon...</div>}
+        {day === 1 ? (
+          events.map((event) => {
+            return (
+              <EventCard
+                date={event.date}
+                time={event.time}
+                event={event.event}
+                bordercolor={event.bordercolor}
+                multiEvent={event.multiEvent}
+                bg={event.bg}
+                smallBg={event.smallBg === undefined ? "" : event.smallBg}
+              />
+            );
+          })
+        ) : (
+          <div
+            style={{
+              textAlign: "center",
+              fontSize: "30px",
+              margin: "100px",
+              marginBottom: "200px",
+            }}
+          >
+            Will be Realeased Soon...
+          </div>
+        )}
       </div>
     </div>
   );
