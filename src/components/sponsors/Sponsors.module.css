@@ -3,6 +3,7 @@
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    overflow: hidden;
 }
 .sponsorHeading{
     font-size:36px;
@@ -201,5 +202,11 @@
         font-size:13px;
         width:340px;
         margin:auto;
+    }
+    .DhiWise{
+         font-size:13px;
+        width:340px;
+        margin: auto;
+        margin-top: 20px;
     }
   }
