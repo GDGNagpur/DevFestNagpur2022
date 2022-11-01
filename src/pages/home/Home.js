@@ -12,6 +12,7 @@ import TwitterFeed from "../../components/twitterFeed/TwitterFeed";
 import CommunityPartner from "../../components/communityPartner/CommunityPartner";
 import { Sponsors } from "../../components/sponsors/Sponsors";
 import Note from "../../components/note/Note";
+import { Schedule } from "../../components/schedule/Schedule";
 
 const Home = () => {
   //  const [showPage, setShowHero] = useState(false);
@@ -35,6 +36,7 @@ const Home = () => {
       <ThingsYouDontWantToMissMain></ThingsYouDontWantToMissMain>
       <Venue></Venue>
       <Sponsors></Sponsors>
+      <Schedule></Schedule>
       <TwitterFeed></TwitterFeed>
       <CommunityPartner />
       <FAQs></FAQs>
