@@ -80,7 +80,7 @@ export const Schedule = () => {
           speaker={"Pawan Kumar"}
         />
       ),
-      bordercolor: green,
+      bordercolor: blue,
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
@@ -105,7 +105,7 @@ export const Schedule = () => {
           speaker={"Faiz Malkani"}
         />
       ),
-      bordercolor: "#DB4437",
+      bordercolor: red,
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
@@ -122,7 +122,7 @@ export const Schedule = () => {
           speaker={"Rasika Chafle, Nilesh Sahare"}
         />
       ),
-      bordercolor: "#DB4437",
+      bordercolor: yellow,
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
@@ -150,7 +150,7 @@ export const Schedule = () => {
           speaker={"Sayak Paul"}
         />
       ),
-      bordercolor: "#DB4437",
+      bordercolor: yellow,
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
@@ -164,7 +164,7 @@ export const Schedule = () => {
           speaker={"Nitin Sachdeva"}
         />
       ),
-      bordercolor: "#DB4437",
+      bordercolor: blue,
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
