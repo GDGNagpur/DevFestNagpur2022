@@ -39,7 +39,7 @@ export const Schedule = () => {
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "12:15 PM",
+      time: "11:00 AM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -53,7 +53,7 @@ export const Schedule = () => {
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "1:15 PM",
+      time: "11:45 AM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -67,7 +67,7 @@ export const Schedule = () => {
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "2:30 PM",
+      time: "12:30 PM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -81,7 +81,7 @@ export const Schedule = () => {
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "4:00 PM",
+      time: "1:00 PM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -95,7 +95,7 @@ export const Schedule = () => {
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "5:00 PM",
+      time: "1:30 PM",
       date: "Nov 05",
       event: "Lunch Break 🍕",
       bordercolor: green, //green
@@ -104,7 +104,7 @@ export const Schedule = () => {
       bg: ["rgba(15, 157, 86, 0.2)", "#1D3A2E"],
     },
     {
-      time: "4:00 PM",
+      time: "2:30 PM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -120,7 +120,7 @@ export const Schedule = () => {
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "4:00 PM",
+      time: "3:00 PM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -134,7 +134,7 @@ export const Schedule = () => {
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "4:00 PM",
+      time: "3:30 PM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -162,7 +162,7 @@ export const Schedule = () => {
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "5:00 PM",
+      time: "4:30 PM",
       date: "Nov 05",
       event: "High Tea ☕",
       bordercolor: green,
@@ -171,7 +171,7 @@ export const Schedule = () => {
       bg: ["rgba(15, 157, 86, 0.2)", "#1D3A2E"],
     },
     {
-      time: "4:00 PM",
+      time: "5:00 PM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -185,7 +185,7 @@ export const Schedule = () => {
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "5:00 PM",
+      time: "5:30 PM",
       date: "Nov 05",
       event: (
         <div className="special-event">
@@ -203,7 +203,7 @@ export const Schedule = () => {
       bg: ["rgba(66, 133, 244, 0.2)", "#263D64"],
     },
     {
-      time: "5:00 PM",
+      time: "7:00 PM",
       date: "Nov 05",
       event: "See you next morning! 🌞",
       bordercolor: yellow, //green
