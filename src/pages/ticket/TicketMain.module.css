@@ -30,8 +30,15 @@
 }
 
 @media screen and (max-width: 850px){
+    .container{
+        flex-direction: column-reverse;
+    }
+    .container > button{
+        margin-bottom: 10px;
+    }
     .ticket{
         transform: scale(0.5);
+        transform-origin: top center;
     }
 }
 

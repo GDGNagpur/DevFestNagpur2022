@@ -17,7 +17,7 @@ const TicketMain = () => {
     const pageWidth = pdf.internal.pageSize.getWidth();
     // const pageHeight = pdf.internal.pageSize.getHeight();
 
-    console.log(pdf.internal.pageSize.getHeight());
+    // console.log(pdf.internal.pageSize.getHeight());
 
     // const widthRatio = pageWidth / canvas.width;
     // const heightRatio = pageHeight / canvas.height;

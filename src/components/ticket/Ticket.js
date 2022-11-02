@@ -13,13 +13,27 @@ import stream from "../../assets/sponsors/Stream.png";
 import orkes from "../../assets/sponsors/Orkes.png";
 import moreficient from "../../assets/sponsors/Moreficient.png";
 import { useColorModeValue } from "../../hooks/useColorModeValue";
-import QRCode from "react-qr-code"
+import QRCode from "react-qr-code";
+import { useState } from "react";
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Ticket = () => {
+  const [userValues, setUserValues] = useState(
+    JSON.parse(localStorage.getItem("user"))
+  );
+
+  const navigate = useNavigate()
+
+  // console.log(localStorage.getItem("user"));
+
+  useEffect(() => {
+    // console.log(userValues.name);
+  }, []);
 
   return (
     <div className={styles["container"]}>
-      <div style={{color: "black"}} className={styles["content"]}>
+      <div style={{ color: "black" }} className={styles["content"]}>
         <div
           style={{
             boxShadow:
@@ -34,18 +48,18 @@ const Ticket = () => {
             <PeopleSvg></PeopleSvg>
           </div>
           <div className={styles["name"]}>
-            <h2>Bhavesh Chaudhari</h2>
+            <h2>{userValues.name || "Bhavesh Chaudhari"}</h2>
           </div>
           <div className={styles["pass-id"]}>
             <div className={styles["pass"]}>
               <div className={styles["pass-svg"]}>
                 <PassSvg></PassSvg>
               </div>
-              <p>All Access Pass</p>
+              <p>ALL ACCESS PASS</p>
             </div>
             <div className={styles["ticket-id"]}>
               <p>
-                Ticket ID: <span>24478457</span>
+                Ticket ID: <span>{userValues.ticketId}</span>
               </p>
             </div>
           </div>
@@ -102,14 +116,15 @@ const Ticket = () => {
             </div>
             <div className={styles["detail"]}>
               <h4>Reporting Time:</h4>
-              <p>11:00 AM IST</p>
+              <p>09:00 AM IST</p>
             </div>
             <div className={styles["qrcode"]}>
               <QRCode
                 size={80}
                 style={{ height: "auto", maxWidth: "100%", width: "100%" }}
                 value={
-                  "Hey this is devfest 2022 ticket for Bhavesh Chaudhari, payment id XXXXXXX"
+                  // "Hey this is DevFest Nagpur 2022 ALL ACCESS PASS for Bhavesh Chaudhari, payment id XXXXXXX"
+                  `Hey this is DevFest Nagpur 2022 ALL ACCESS PASS for ${userValues.name}, / ticket id: ${userValues.ticketId}`
                 }
                 viewBox={`0 0 80px 80px`}
               />
