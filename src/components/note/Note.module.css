@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    font-family: "Google Sans";
+}
+
+.content{
+    display: flex;
+    width: 88%;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 3px 0px;
+}
+
+.content > p{
+    padding: 8px 0;
+    padding-left: 16px;
+    padding-right: 10px;
+    line-height: 1.4rem;
+}
+
+.content > p > span{
+    font-weight: bolder;
+}
+
+.content::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 6px;
+    height: 100%;
+    background: red;
+}
