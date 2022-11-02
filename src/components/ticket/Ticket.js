@@ -19,7 +19,7 @@ const Ticket = () => {
 
   return (
     <div className={styles["container"]}>
-      <div className={styles["content"]}>
+      <div style={{color: "black"}} className={styles["content"]}>
         <div
           style={{
             boxShadow:

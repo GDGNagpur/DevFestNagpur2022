@@ -19,10 +19,14 @@ const TicketForm = () => {
     setFormValues({ ...formValues, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    console.log(formValues);
+    const red = await fetch(`https://devfest2022tickets.scattrhq.repl.co`, {
+      method: "POST",
+      body: JSON.stringify(formValues)
+    })
+
   };
 
   return (

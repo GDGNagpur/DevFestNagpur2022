@@ -45,7 +45,7 @@ const App = () => {
               </>
             )}
             <Route path="/team" element={<Team />}></Route>
-            <Route path="/get-ticket" element={<GetTicket />}></Route>
+            <Route path="/allacesspass" element={<GetTicket />}></Route>
             <Route path="/ticket" element={<TicketMain/>}></Route>
           </Routes>
           <Footer></Footer>
