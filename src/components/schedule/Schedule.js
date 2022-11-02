@@ -20,7 +20,7 @@ export const Schedule = () => {
     yellow = "#F4B400";
   const events = [
     {
-      time: "8:30 AM",
+      time: "9:00 AM",
       date: "Nov 05",
       event: ["Gates Open", "Morning Tea  ☕"],
       bordercolor: ["#DB4437", green],
@@ -30,16 +30,18 @@ export const Schedule = () => {
         ["rgba(15, 157, 86, 0.2)", "#1D3A2E"],
       ],
     },
+
     {
-      time: "10:00 AM",
+      time: "11:00 AM",
       date: "Nov 05",
-      event: "Opening Ceremony and Guest Speech",
+      event: "Event Start & Chief Guest Falicitation",
       bordercolor: green,
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
+
     {
-      time: "12:15 PM",
+      time: "12:00 PM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -52,8 +54,9 @@ export const Schedule = () => {
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
+
     {
-      time: "1:15 PM",
+      time: "12:30 PM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -66,8 +69,9 @@ export const Schedule = () => {
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
+
     {
-      time: "2:30 PM",
+      time: "01:00 PM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -76,12 +80,23 @@ export const Schedule = () => {
           speaker={"Pawan Kumar"}
         />
       ),
-      bordercolor: green,
+      bordercolor: blue,
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
+
     {
-      time: "4:00 PM",
+      time: "1:30 PM",
+      date: "Nov 05",
+      event: "Lunch Break 🍕",
+      bordercolor: green, //green
+      multiEvent: false,
+      smallBg: green,
+      bg: ["rgba(15, 157, 86, 0.2)", "#1D3A2E"],
+    },
+
+    {
+      time: "02:30 PM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -90,21 +105,13 @@ export const Schedule = () => {
           speaker={"Faiz Malkani"}
         />
       ),
-      bordercolor: "#DB4437",
+      bordercolor: red,
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
+
     {
-      time: "5:00 PM",
-      date: "Nov 05",
-      event: "Lunch Break 🍕",
-      bordercolor: green, //green
-      multiEvent: false,
-      smallBg: green,
-      bg: ["rgba(15, 157, 86, 0.2)", "#1D3A2E"],
-    },
-    {
-      time: "4:00 PM",
+      time: "3:00 PM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -115,12 +122,12 @@ export const Schedule = () => {
           speaker={"Rasika Chafle, Nilesh Sahare"}
         />
       ),
-      bordercolor: "#DB4437",
+      bordercolor: yellow,
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "4:00 PM",
+      time: "3:30 PM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -143,12 +150,12 @@ export const Schedule = () => {
           speaker={"Sayak Paul"}
         />
       ),
-      bordercolor: "#DB4437",
+      bordercolor: yellow,
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "4:00 PM",
+      time: "4:30 PM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -157,7 +164,7 @@ export const Schedule = () => {
           speaker={"Nitin Sachdeva"}
         />
       ),
-      bordercolor: "#DB4437",
+      bordercolor: blue,
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
@@ -171,7 +178,7 @@ export const Schedule = () => {
       bg: ["rgba(15, 157, 86, 0.2)", "#1D3A2E"],
     },
     {
-      time: "4:00 PM",
+      time: "5:30 PM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -185,7 +192,7 @@ export const Schedule = () => {
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "5:00 PM",
+      time: "6:00 PM",
       date: "Nov 05",
       event: (
         <div className="special-event">
@@ -203,7 +210,7 @@ export const Schedule = () => {
       bg: ["rgba(66, 133, 244, 0.2)", "#263D64"],
     },
     {
-      time: "5:00 PM",
+      time: "7:00 PM",
       date: "Nov 05",
       event: "See you next morning! 🌞",
       bordercolor: yellow, //green

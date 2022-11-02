@@ -1,205 +1,212 @@
-.sponsorContainer{
-    font-family: "Google Sans";
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.sponsorContainer {
+  font-family: "Google Sans";
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  overflow: hidden;
 }
-.sponsorHeading{
-    font-size:36px;
-    font-weight:bold;
-    margin-bottom: 30px;
+.sponsorHeading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
-.sponsorFlexContainer{
-    display:flex;
-    flex-direction: column;
+.sponsorFlexContainer {
+  display: flex;
+  flex-direction: column;
 }
-.GoogleDev{
-    background-size:260px 45px;
-    margin:auto;
-    background-color:#313235;
-    background-image:url(https://www.gstatic.com/devrel-devsite/prod/vbad39f885886bc440e53563b954be5bc119ad9455e9fd347968d0509a569587a/developers/images/lockup.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    width:400px;
-    height:160px;
-    display:flex;
-    justify-content:flex-end;
-    align-items:flex-end;
-    border-radius:10px;
-    margin-bottom:25px;
-    border-bottom:8px solid #4285F4;
-    text-decoration:none;
+.GoogleDev {
+  background-size: 260px 45px;
+  margin: auto;
+  background-color: #313235;
+  background-image: url(https://www.gstatic.com/devrel-devsite/prod/vbad39f885886bc440e53563b954be5bc119ad9455e9fd347968d0509a569587a/developers/images/lockup.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 160px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  border-bottom: 8px solid #4285f4;
+  text-decoration: none;
 }
-.GoogleDevDark{
-    background-image:url(../../assets/sponsors/google.png);
-}
-
-.GoogleDevDark{
-    background-image:url(../../assets/sponsors/google.png);
+.GoogleDevDark {
+  background-image: url(../../assets/sponsors/google.png);
 }
 
-.title{
-    background:#4285F4;
-    padding:8px;
-    margin-bottom:-1px;
-    border-radius:5px 0 0 0;
-}
-.Stream{
-    background-size:190px 35px;
-    margin:auto;
-    background-color:#313235;
-    background-image:url(../../assets/sponsors/Stream.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    width:400px;
-    height:160px;
-    display:flex;
-    justify-content:flex-end;
-    align-items:flex-end;
-    margin-bottom:25px;
-    border-radius:10px;
-    border-bottom:8px solid #FEBA12;
-    text-decoration:none;
-}
-.StreamDark{
-    background-image:url(../../assets/sponsors/StreamD.png);
-}
-.gold{
-    background:#FEBA12;
-    padding:8px;
-    margin-bottom:-1px;
-    border-radius:5px 0 0 0;
-}
-.PeerList{
-    background-size:200px 60px;
-    margin:auto;
-    background-color:#313235;
-    background-image:url(../../assets/sponsors/Peerlist.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    width:400px;
-    height:160px;
-    display:flex;
-    justify-content:flex-end;
-    align-items:flex-end;
-    margin-bottom:25px;
-    border-radius:10px;
-    border-bottom:8px solid #FF7E7E;
-    text-decoration:none;
-}
-.PeerListDark{
-    background-image:url(../../assets/sponsors/PeerlistD.png);
+.GoogleDevDark {
+  background-image: url(../../assets/sponsors/google.png);
 }
 
-.ruby{
-    background: #FF7E7E;
-    padding:8px;
-    margin-bottom:-1px;
-    border-radius:5px 0 0 0;
+.title {
+  background: #4285f4;
+  padding: 8px;
+  margin-bottom: -1px;
+  border-radius: 5px 0 0 0;
 }
-.silversponsorFlex{
-    display:flex;
-    justify-content: center;
+.Stream {
+  background-size: 190px 35px;
+  margin: auto;
+  background-color: #313235;
+  background-image: url(../../assets/sponsors/Stream.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 160px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  border-bottom: 8px solid #feba12;
+  text-decoration: none;
 }
-.Moreficent{
-    background-size:230px 70px;
-    background-color:#313235;
-    background-image:url(../../assets/sponsors/Moreficient.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    width:400px;
-    height:160px;
-    display:flex;
-    justify-content:flex-end;
-    align-items:flex-end;
-    text-decoration:none;
-    margin-bottom:25px;
-    border-radius:10px;
-    border-bottom:8px solid #D0D0D0;
+.StreamDark {
+  background-image: url(../../assets/sponsors/StreamD.png);
 }
-.MoreficentDark{
-    background-image:url(../../assets/sponsors/MoreficentD.png);
+.gold {
+  background: #feba12;
+  padding: 8px;
+  margin-bottom: -1px;
+  border-radius: 5px 0 0 0;
 }
-
-.Orkes{
-    background-size:160px 60px;
-    background-color:black;
-    background-image:url(../../assets/sponsors/Orkes.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    width:400px;
-    height:160px;
-    display:flex;
-    justify-content:flex-end;
-    align-items:flex-end;
-    margin-left:25px;
-    margin-bottom:25px;
-    border-radius:10px;
-    border-bottom:8px solid #D0D0D0;
-    text-decoration:none;
+.PeerList {
+  background-size: 200px 60px;
+  margin: auto;
+  background-color: #313235;
+  background-image: url(../../assets/sponsors/Peerlist.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 160px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  border-bottom: 8px solid #ff7e7e;
+  text-decoration: none;
 }
-.OrkesDark{
-    background-size:130px 35px;
-    background-image:url(../../assets/sponsors/OrkesD.png);
-}
-
-.DhiWise{
-    background-size:160px 30px;
-    background-color:black;
-    background-image:url(../../assets/sponsors/DhiWise.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    width:400px;
-    height:160px;
-    display:flex;
-    justify-content:flex-end;
-    align-items:flex-end;
-    margin-left:25px;
-    margin-bottom:25px;
-    border-radius:10px;
-    border-bottom:8px solid #D0D0D0;
-    text-decoration:none;
-}
-.DhiWiseDark{
-    background-size:160px 30px;
-    background-image:url(../../assets/sponsors/DhiWiseD.png);
-}
-.silver{
-    background: #D0D0D0;
-    padding:8px;
-    margin-bottom:-1px;
-    border-radius:5px 0 0 0;
+.PeerListDark {
+  background-image: url(../../assets/sponsors/PeerlistD.png);
 }
 
-.GoogleDev:hover .Stream:hover .PeerList:hover .Moreficent:hover .Orkes:hover{
-    background-color:white;
+.ruby {
+  background: #ff7e7e;
+  padding: 8px;
+  margin-bottom: -1px;
+  border-radius: 5px 0 0 0;
+}
+.silversponsorFlex {
+  display: flex;
+  justify-content: center;
+}
+.Moreficent {
+  background-size: 230px 70px;
+  background-color: #313235;
+  background-image: url(../../assets/sponsors/Moreficient.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 160px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-decoration: none;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  border-bottom: 8px solid #d0d0d0;
+}
+.MoreficentDark {
+  background-image: url(../../assets/sponsors/MoreficentD.png);
+}
+
+.Orkes {
+  background-size: 160px 60px;
+  background-color: black;
+  background-image: url(../../assets/sponsors/Orkes.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 160px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  border-bottom: 8px solid #d0d0d0;
+  text-decoration: none;
+}
+.OrkesDark {
+  background-size: 130px 35px;
+  background-image: url(../../assets/sponsors/OrkesD.png);
+}
+
+.DhiWise {
+  background-size: 160px 30px;
+  background-color: black;
+  background-image: url(../../assets/sponsors/dhiWiseC.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 160px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  border-bottom: 8px solid #d0d0d0;
+  text-decoration: none;
+}
+.DhiWiseDark {
+  background-size: 160px 30px;
+  background-image: url(../../assets/sponsors/dhiwisebl.png);
+}
+.silver {
+  background: #d0d0d0;
+  padding: 8px;
+  margin-bottom: -1px;
+  border-radius: 5px 0 0 0;
+}
+
+.GoogleDev:hover .Stream:hover .PeerList:hover .Moreficent:hover .Orkes:hover {
+  background-color: white;
 }
 
 @media screen and (max-width: 800px) {
-    .silversponsorFlex{
-        display:block;
-    }
-    .GoogleDev{
-        font-size:13px;
-        width:340px;
-    }
-    .Stream{
-        font-size:13px;
-        width:340px;
-    }
-    .PeerList{
-        font-size:13px;
-        width:340px;
-    }
-    .Moreficent{
-        font-size:13px;
-        width:340px;
-        margin:auto;
-        margin-bottom:20px;
-    }
-    .Orkes{
-        font-size:13px;
-        width:340px;
-        margin:auto;
-    }
+  .silversponsorFlex {
+    display: block;
   }
+  .GoogleDev {
+    font-size: 13px;
+    width: 340px;
+  }
+  .Stream {
+    font-size: 13px;
+    width: 340px;
+  }
+  .PeerList {
+    font-size: 13px;
+    width: 340px;
+  }
+  .Moreficent {
+    font-size: 13px;
+    width: 340px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .Orkes {
+    font-size: 13px;
+    width: 340px;
+    margin: auto;
+  }
+  .DhiWise {
+    font-size: 13px;
+    width: 340px;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
