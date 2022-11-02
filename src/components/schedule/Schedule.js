@@ -24,7 +24,6 @@ import Speaker19 from "../../assets/schedule/Speaker19.png";
 import Speaker20 from "../../assets/schedule/Speaker20.png";
 import Speaker21 from "../../assets/schedule/Speaker21.png";
 
-
 export const Schedule = () => {
   const green = "#0F9D56",
     red = "#DB4437",
@@ -235,7 +234,7 @@ export const Schedule = () => {
   //===============================================================
   const events2 = [
     {
-      time: "9:00 AM",
+      time: "8:30 AM",
       date: "Nov 06",
       event: ["Gates Open", "Morning Tea  ☕"],
       bordercolor: ["#DB4437", green],
@@ -280,7 +279,9 @@ export const Schedule = () => {
       event: (
         <SpeakerCard
           path={[Speaker13]}
-          event={"Workshop: A different way to think about animations with Jetpack Compose"}
+          event={
+            "Workshop: A different way to think about animations with Jetpack Compose"
+          }
           speaker={"Sanju S"}
         />
       ),
@@ -310,7 +311,9 @@ export const Schedule = () => {
       event: (
         <SpeakerCard
           path={[Speaker15]}
-          event={"Bringing synergy between development and security - an essential aspect"}
+          event={
+            "Bringing synergy between development and security - an essential aspect"
+          }
           speaker={"Shrutirupa Banerjee"}
         />
       ),
@@ -365,9 +368,7 @@ export const Schedule = () => {
       event: (
         <SpeakerCard
           path={[Speaker18]}
-          event={
-            "Ace Your LinkedIn Presence "
-          }
+          event={"Ace Your LinkedIn Presence "}
           speaker={"Sukhada Choudhary"}
         />
       ),
@@ -411,7 +412,6 @@ export const Schedule = () => {
       multiEvent: false,
       smallBg: green,
       bg: ["rgba(15, 157, 86, 0.2)", "#1D3A2E"],
-      
     },
     {
       time: "5:00 PM",
@@ -441,9 +441,7 @@ export const Schedule = () => {
       event: (
         <div className="special-event">
           {" "}
-          <div>
-          Women In Tech: Opportunities, Challenges, Solutions
-          </div>
+          <div>Women In Tech: Opportunities, Challenges, Solutions</div>
           <div style={{ fontSize: "14px" }}>Panel Discussion</div>
         </div>
       ),
@@ -486,35 +484,33 @@ export const Schedule = () => {
             Day 2
           </div>
         </div>
-        {day === 1 ? (
-          events.map((event) => {
-            return (
-              <EventCard
-                date={event.date}
-                time={event.time}
-                event={event.event}
-                bordercolor={event.bordercolor}
-                multiEvent={event.multiEvent}
-                bg={event.bg}
-                smallBg={event.smallBg === undefined ? "" : event.smallBg}
-              />
-            );
-          })
-        ) : (
-          events2.map((event) => {
-            return (
-              <EventCard
-                date={event.date}
-                time={event.time}
-                event={event.event}
-                bordercolor={event.bordercolor}
-                multiEvent={event.multiEvent}
-                bg={event.bg}
-                smallBg={event.smallBg === undefined ? "" : event.smallBg}
-              />
-            );
-          })
-        ) }
+        {day === 1
+          ? events.map((event) => {
+              return (
+                <EventCard
+                  date={event.date}
+                  time={event.time}
+                  event={event.event}
+                  bordercolor={event.bordercolor}
+                  multiEvent={event.multiEvent}
+                  bg={event.bg}
+                  smallBg={event.smallBg === undefined ? "" : event.smallBg}
+                />
+              );
+            })
+          : events2.map((event) => {
+              return (
+                <EventCard
+                  date={event.date}
+                  time={event.time}
+                  event={event.event}
+                  bordercolor={event.bordercolor}
+                  multiEvent={event.multiEvent}
+                  bg={event.bg}
+                  smallBg={event.smallBg === undefined ? "" : event.smallBg}
+                />
+              );
+            })}
       </div>
     </div>
   );
