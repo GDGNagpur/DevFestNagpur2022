@@ -25,7 +25,7 @@ const AllAccessPass = () => {
         </div>
         <a
           className={styles["cta-btn"]}
-          href="https://rzp.io/l/RLG7F0D"
+          href="payments.cashfree.com/forms/dfn22regular"
           target={"_blank"}
           rel="noreferrer"
         >
