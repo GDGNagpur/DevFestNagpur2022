@@ -1,8 +1,9 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import Ticket from "../../components/ticket/Ticket";
 import styles from "./TicketMain.module.css";
 import html2canvas from "html2canvas";
 import { jsPDF } from "jspdf";
+import { Link } from "react-router-dom";
 
 const TicketMain = () => {
   const printRef = React.useRef();
@@ -35,15 +36,23 @@ const TicketMain = () => {
     pdf.save(`DevFest Nagpur Ticket(Bhavesh Chaudhari).pdf`);
   };
 
+  const user = JSON.parse(localStorage.getItem("user"));
+
   return (
     <div className="layout-content">
       <div className={styles["container"]}>
         <div ref={printRef} className={styles["ticket"]}>
           <Ticket></Ticket>
         </div>
-        <button type="button" onClick={handleDownloadPdf}>
-          Export as PDF
-        </button>
+        <div className={styles["button-container"]}>
+          {user?.name === "" ? (
+            <Link to={"/allaccesspass"}>GET YOUR ALL ACCESS PASS</Link>
+          ) : (
+            <button type="button" onClick={handleDownloadPdf}>
+              Export as PDF
+            </button>
+          )}
+        </div>
       </div>
     </div>
   );

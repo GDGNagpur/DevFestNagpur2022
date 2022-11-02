@@ -48,7 +48,7 @@ const Ticket = () => {
             <PeopleSvg></PeopleSvg>
           </div>
           <div className={styles["name"]}>
-            <h2>{userValues.name || "Bhavesh Chaudhari"}</h2>
+            <h2>{userValues.name || "Your Name"}</h2>
           </div>
           <div className={styles["pass-id"]}>
             <div className={styles["pass"]}>
@@ -59,7 +59,7 @@ const Ticket = () => {
             </div>
             <div className={styles["ticket-id"]}>
               <p>
-                Ticket ID: <span>{userValues.ticketId}</span>
+                Ticket ID: <span>{userValues.ticketId || "Your Ticket Id"}</span>
               </p>
             </div>
           </div>

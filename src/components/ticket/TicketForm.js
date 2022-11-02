@@ -32,9 +32,9 @@ const TicketForm = () => {
 
     // console.log(formValues);
 
-    setLoading(false)
+    setLoading(true)
 
-    const res = await fetch(`http://aap.devfestnagpur.in/api/v1/check_payment`, {
+    const res = await fetch(`http://localhost:3001/api/v1/check_payment`, {
       method: "POST",
       body: JSON.stringify(formValues),
       headers: {
@@ -44,7 +44,7 @@ const TicketForm = () => {
 
     const data = await res.json();
 
-    console.log(data);
+    // console.log(data);
 
     if (res.status === 200 || res.status === 201) {
       // console.log(data.ticket.name);

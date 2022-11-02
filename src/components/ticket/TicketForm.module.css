@@ -43,6 +43,11 @@
     opacity: 0.9;
 }
 
+.field > label > span > a{
+    color: #00ab47;
+}
+
+
 .field > input{
     padding: 8px;
     border: 1px solid #abc3ea;
