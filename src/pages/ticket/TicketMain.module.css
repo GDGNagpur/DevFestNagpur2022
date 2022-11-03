@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.ticket{
+    padding: 1rem;
+    transform-origin: top center;
+}
+
+.button-container > button{
+    padding: 10px 3rem;
+    background: white;
+    color: #0F9D56;
+    border: 1px solid #0F9D56;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: 1rem;
+}
+
+.button-container > button:hover{
+    background: #0F9D56;
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    font-family: "Google Sans";
+    flex-direction: column-reverse;
+}
+
+.button-container > a{
+    color: #0F9D56;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 850px){
+    .container{
+        flex-direction: column-reverse;
+    }
+    .button-container > button{
+        margin-bottom: 10px;
+    }
+    .ticket{
+        transform: scale(0.5);
+        transform-origin: top center;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .ticket{
+        transform: scale(0.39);
+    }
+    .button-container > button{
+        padding: 8px;
+        font-size: 14px;
+    }
+    
+}
