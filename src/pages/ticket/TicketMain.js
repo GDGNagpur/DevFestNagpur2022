@@ -7,6 +7,9 @@ import { Link } from "react-router-dom";
 
 const TicketMain = () => {
   const printRef = React.useRef();
+  const [userValues, setUserValues] = useState(
+    JSON.parse(localStorage.getItem("user"))
+  );
 
   const handleDownloadPdf = async () => {
     const element = printRef.current;
@@ -33,7 +36,7 @@ const TicketMain = () => {
     const pdfHeight = (imgProperties.height * pageWidth) / imgProperties.width;
 
     pdf.addImage(data, "PNG", 0, 0, pageWidth, pdfHeight);
-    pdf.save(`DevFest Nagpur Ticket(Bhavesh Chaudhari).pdf`);
+    pdf.save(`DevFest Nagpur Ticket(${userValues.name.trim()}).pdf`);
   };
 
   const user = JSON.parse(localStorage.getItem("user"));
