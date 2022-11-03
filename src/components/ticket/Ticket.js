@@ -124,7 +124,7 @@ const Ticket = () => {
                 style={{ height: "auto", maxWidth: "100%", width: "100%" }}
                 value={
                   // "Hey this is DevFest Nagpur 2022 ALL ACCESS PASS for Bhavesh Chaudhari, payment id XXXXXXX"
-                  `Hey this is DevFest Nagpur 2022 ALL ACCESS PASS for ${userValues.name}, / ticket id: ${userValues.ticketId}`
+                  `Hey this is DevFest Nagpur 2022 ALL ACCESS PASS for ${userValues.name}, \nTicket id: ${userValues.ticketId}`
                 }
                 viewBox={`0 0 80px 80px`}
               />
