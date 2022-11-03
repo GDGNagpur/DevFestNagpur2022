@@ -7,6 +7,11 @@ const GetTicket = () => {
   return (
     <div className="layout-content">
       <div className={styles["container"]}>
+        <div className={styles["one"]}>
+          <p>
+            ALL ACCESS PASS will be available to download after some time. Please try later. 
+          </p>
+        </div>
         <TicketForm></TicketForm>
         <div className={styles["notices"]}>
           <h4>Please note:</h4>

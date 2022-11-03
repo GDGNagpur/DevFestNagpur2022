@@ -7,6 +7,19 @@
     padding-bottom: 4rem;
 }
 
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.one > p{
+    max-width: 500px;
+    text-align: center;
+    color: red;
+}
+
 .notices{
     display: flex;
     justify-content: center;
