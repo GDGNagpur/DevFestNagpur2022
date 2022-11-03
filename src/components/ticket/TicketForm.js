@@ -3,7 +3,7 @@ import styles from "./TicketForm.module.css";
 import { useColorModeValue } from "../../hooks/useColorModeValue";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-import { PulseLoader } from "react-spinners";
+import {PulseLoader} from "react-spinners"
 
 const initialValues = {
   name: "",
@@ -14,7 +14,7 @@ const initialValues = {
 
 const TicketForm = () => {
   const [formValues, setFormValues] = useState(initialValues);
-  const [error, setError] = useState(false);
+  const [error, setError] = useState(false)
 
   const handleChange = (e) => {
     const name = e.target.name.trim();
@@ -23,8 +23,8 @@ const TicketForm = () => {
     setFormValues({ ...formValues, [name]: value });
   };
 
-  const [loading, setLoading] = useState(false);
-
+  const [loading, setLoading] = useState(false)
+  
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
@@ -32,9 +32,9 @@ const TicketForm = () => {
 
     // console.log(formValues);
 
-    setLoading(true);
+    setLoading(true)
 
-    const isDevMode = process.env.NODE_ENV === "development";
+    const isDevMode = process.env.NODE_ENV === "development"
 
     const res = await fetch(
       isDevMode
@@ -56,42 +56,38 @@ const TicketForm = () => {
     if (res.status === 200 || res.status === 201) {
       // console.log(data.ticket.name);
       // console.log(data)
-      setFormValues({
-        ...formValues,
-        name: data.ticket.name,
-        ticketId: data.ticket.ticket_id,
-      });
-      setLoading(false);
+      setFormValues({ ...formValues, name: data.ticket.name, ticketId: data.ticket.ticket_id });
+      setLoading(false)
     }
 
-    if (res.status === 201) {
+    if(res.status === 201){
       // console.log(data)
       const key = Object.keys(data.ticket)[0];
-      setFormValues({
-        ...formValues,
-        name: data.ticket[key].name,
-        ticketId: data.ticket[key].ticket_id,
-      });
-      setLoading(false);
+       setFormValues({
+         ...formValues,
+         name: data.ticket[key].name,
+         ticketId: data.ticket[key].ticket_id,
+       });
+       setLoading(false);
     }
 
-    if (res.status === 400 || res.status === 404) {
-      setError(true);
-      setLoading(false);
+    if(res.status === 400 || res.status === 404){
+      setError(true)
+      setLoading(false)
     }
   };
 
   useEffect(() => {
     // console.log(formValues);
-    localStorage.setItem("user", JSON.stringify({ ...formValues }));
+    localStorage.setItem("user", JSON.stringify({...formValues}));
     if (formValues.name !== "") {
       navigate("/ticket");
     }
   }, [formValues]);
 
-  const isValidPeerProfile = (prof) => {
-    return formValues.peer_profile.startsWith("https://peerlist.io/");
-  };
+  const isValidPeerProfile = (prof)=>{
+    return formValues.peer_profile.startsWith("https://peerlist.io/")
+  }
 
   return (
     <div className={styles["container"]}>
@@ -169,7 +165,7 @@ const TicketForm = () => {
                     opacity: 0.7,
                     cursor: "not-allowed",
                   }
-                : { opacity: 0.7, cursor: "not-allowed" }
+                : {}
             }
             title={
               formValues.email === "" ||
@@ -178,14 +174,13 @@ const TicketForm = () => {
                 ? "Please fill the required information"
                 : ""
             }
-            // disabled={
-            //   formValues.email === "" ||
-            //   formValues.peer_profile === "" ||
-            //   !isValidPeerProfile(formValues.peer_profile)
-            //     ? true
-            //     : false
-            // }
-            disabled={true}
+            disabled={
+              formValues.email === "" ||
+              formValues.peer_profile === "" ||
+              !isValidPeerProfile(formValues.peer_profile)
+                ? true
+                : false
+            }
           >
             {loading ? (
               <PulseLoader color="white" size={10}></PulseLoader>
