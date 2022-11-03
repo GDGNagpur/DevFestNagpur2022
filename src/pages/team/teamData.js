@@ -37,6 +37,7 @@ import AkanshaImage from "../../assets/team/akansha.jpg";
 import ShantanuImage from "../../assets/team/shantanu.jpeg";
 import MurliImage from "../../assets/team/murli_2.jpeg";
 import NirajImage from "../../assets/team/niraj.jpeg";
+import AmanImage from "../../assets/team/aman-thakur.png";
 
 const teamData = [
   {
@@ -178,6 +179,24 @@ const teamData = [
     patternSrc: yellow,
   },
   {
+    id: 20,
+    imgSrc: AkanshaImage,
+    name: "Akanksha Nitnaware",
+    designation: "designation",
+    twitterLink: "",
+    linkedinLink: "",
+    patternSrc: yellow,
+  },
+  {
+    id: 34,
+    imgSrc: AmanImage,
+    name: "Aman Thakur",
+    designation: "designation",
+    twitterLink: "https://twitter.com/unrealaman",
+    linkedinLink: "https://www.linkedin.com/in/obliviousgrain",
+    patternSrc: blue,
+  },
+  {
     id: 16,
     imgSrc: ShubhamJeswaniImage,
     name: "Shubham Jeswani",
@@ -213,15 +232,6 @@ const teamData = [
     twitterLink: "https://twitter.com/theopdesigner",
     linkedinLink: "https://www.linkedin.com/in/chirayusakarkar/",
     patternSrc: red,
-  },
-  {
-    id: 20,
-    imgSrc: AkanshaImage,
-    name: "Akanksha Nitnaware",
-    designation: "designation",
-    twitterLink: "",
-    linkedinLink: "",
-    patternSrc: yellow,
   },
   {
     id: 21,
