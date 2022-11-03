@@ -34,13 +34,20 @@ const TicketForm = () => {
 
     setLoading(true)
 
-    const res = await fetch(`http://localhost:3001/api/v1/check_payment`, {
-      method: "POST",
-      body: JSON.stringify(formValues),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
+    const isDevMode = process.env.NODE_ENV === "development"
+
+    const res = await fetch(
+      isDevMode
+        ? `http://localhost:3001/api/v1/check_payment`
+        : `http://aap.devfestnagpur.in/api/v1/check_payment`,
+      {
+        method: "POST",
+        body: JSON.stringify(formValues),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
 
     const data = await res.json();
 
