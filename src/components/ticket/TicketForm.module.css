@@ -3,12 +3,16 @@
     justify-content: center;
     align-items: center;
     font-family: "Google Sans";
-    padding: 8rem 0;
+    /* padding: 8rem 0; */
     flex-direction: column;
 }
 
 .heading{
     margin-bottom: 2rem;
+}
+
+.heading > h1{
+    font-size: 28px;
 }
 
 .content{
@@ -80,14 +84,11 @@
 }
 
 @media screen and (max-width: 600px){
-    .container{
-        padding: 6rem 0;
-    }
     .heading{
         text-align: center;
     }
     .heading > h1{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         padding: 0 1rem;
     }
     .field > label > span{
