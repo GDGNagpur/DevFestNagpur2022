@@ -110,7 +110,7 @@ const Ticket = () => {
             <div className={styles["detail"]}>
               <h4>Venue:</h4>
               <p>
-                Surest Bhat Auditorium, <br />
+                Suresh Bhat Auditorium, <br />
                 Nagpur
               </p>
             </div>
