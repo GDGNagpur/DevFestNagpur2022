@@ -12,11 +12,13 @@ const GetTicket = () => {
           <h4>Please note:</h4>
           <ul>
             <li>
-              You have to use the same email as you used for registration. If you still haven't registered then you can <Link to={"/"} >register here.</Link>
+              You have to use the same email as you used for registration. If
+              you still haven't registered then you can{" "}
+              <Link to={"/"}>register here.</Link>
             </li>
             <li>
-              Those who have booked tickets on 3rd November, will be able to
-              download their passes on 4th November 12:00 PM.
+              Those who have booked tickets on <b>3rd November</b>, will be able
+              to download their passes on <b>4th November</b> 12:00 PM.
             </li>
           </ul>
         </div>
