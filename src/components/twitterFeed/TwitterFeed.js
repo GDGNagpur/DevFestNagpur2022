@@ -19,7 +19,7 @@ const TwitterFeed = () => {
           <div className={styles["tweet"]}>
             <Tweet
               onLoad={() => {
-                console.log("loaded");
+                // console.log("loaded");
               }}
               tweetId="1180407434218618881"
               options={{

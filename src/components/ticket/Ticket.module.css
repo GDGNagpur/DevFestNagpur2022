@@ -1,0 +1,277 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 900px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 15px;
+    font-family: "Google Sans";
+    /* transform: scale(0.9); */
+    transform-origin: top;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    padding: 5px
+}
+
+.main, .aside{
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    width: 70%;
+    position: relative;
+    overflow: hidden;
+    background: white;
+    box-shadow: -2px 2px 5px 0px rgba(26, 30, 38, 0.2), 0px -2px 5px 0px rgba(26, 30, 38, 0.2);
+    clip-path: inset(-5px 0px -5px -5px);
+    border-radius: 25px;
+    padding: 0 2rem;
+    padding-left: 3.5rem;
+    border-top: 1px solid rgb(247, 242, 242);
+    border-left: 1px solid rgb(247, 242, 242);
+    border-bottom: 1px solid rgb(247, 242, 242);
+}
+
+.main::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 2px;
+    border-right: 2px dashed #4B4C4D;;
+    opacity: 0.4;
+}
+
+.aside{
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+    background: white;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px 0px rgba(26, 30, 38, 0.2), 0px -2px 5px 0px rgba(26, 30, 38, 0.2);
+    clip-path: inset(-5px -5px -5px 0px);
+    padding: 0 2rem;
+    padding-left: 3rem;
+    border-top: 1px solid rgb(247, 242, 242);
+    border-right: 1px solid rgb(247, 242, 242);
+    border-bottom: 1px solid rgb(247, 242, 242);
+}
+
+.gdg-logo{
+    padding-top: 3rem;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+
+.gdg-logo > svg{
+    width: 100%;
+    height: 100%;
+}
+
+.people-svg{
+    margin-top: 1.6rem;
+    width: 80px;
+    height: 40px;
+}
+
+.people-svg > svg{
+    width: 100%;
+    height: 100%;
+}
+
+.name{
+    margin-top: 1rem;
+}
+
+.name > h2{
+    font-size: 2.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pass-id{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 1rem;
+}
+
+.pass{
+    display: flex;
+    align-items: center;
+    background: #0F9D56;
+    padding: 7px 14px;
+    color: white;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.pass-svg{
+    margin-right: 5px;
+    display: flex;
+    width: 15px;
+}
+
+.pass-svg > svg{
+    width: 100%;
+    height: 100%;
+}
+
+
+.ticket-id > p > span{
+    font-weight: bolder;
+}
+
+.website{
+    margin-top: 2.5rem;
+    margin-bottom: 12px;
+    font-weight: bolder;
+}
+
+.sponsors{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    transform: scale(0.85);
+    transform-origin: left;
+}
+
+.sponsor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsors > div:nth-child(1){
+    width: 120px;
+    height: 20px;
+}
+
+.sponsors > div:nth-child(2){
+    width: 80px;
+    height: 20px;
+    transform: translate(0, 2px);
+}
+
+.sponsors > div:nth-child(3){
+    width: 82px;
+    height: 22px;
+}
+
+.sponsors > div:nth-child(4){
+    width: 80px;
+    height: 20px;
+    transform: scale(0.9);
+}
+
+.sponsors > div:nth-child(5){
+    width: 80px;
+    height: 20px;
+    transform: translate(0, 2px);
+}
+
+.sponsor > svg{
+    width: 100%;
+    height: 100%;
+}
+
+.sponsor > img{
+    width: 100%;
+    height: 100%;
+}
+
+.devfest-logo{
+    margin-top: 3rem;
+    height: 42px;
+    width: 165px;
+}
+
+.devfest-logo > svg{
+    width: 100%;
+    height: 100%;
+}
+
+.details{
+    margin-top: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.detail > h4{
+    margin-bottom: 10px;
+    color: #0F9D56;
+}
+
+.detail > p{
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.qrcode{
+    margin-top: 1rem;
+}
+
+.monument, .monument1, .bridge{
+    position: absolute;
+}
+
+.monument{
+    bottom: 0;
+    right: 32%;
+    width: 100px;
+    transform: translate(0, 5%);
+}
+
+.monument > svg{
+    width: 100%;
+    height: 100%;
+}
+
+.monument1{
+    bottom: 0;
+    right: 3%;
+    width: 170px;
+    transform: translate(0, 5%);
+}
+
+.monument1 > svg{
+    width: 100%;
+    height: 100%;
+}
+
+.bridge{
+    bottom: 0;
+    right: 0;
+    width: 140px;
+    transform: translate(2%, 5%);
+}
+
+.bridge > svg{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 850px){
+    .container{
+        /* transform: scale(0.5); */
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .container{
+        /* transform: scale(0.39); */
+    }
+}
