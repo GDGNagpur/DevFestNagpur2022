@@ -12,6 +12,17 @@ import Speaker7 from "../../assets/schedule/Speaker7.png";
 import Speaker8 from "../../assets/schedule/Speaker8.png";
 import Speaker9 from "../../assets/schedule/Speaker9.png";
 import Speaker10 from "../../assets/schedule/Speaker10.png";
+import Speaker11 from "../../assets/schedule/Speaker11.png";
+import Speaker12 from "../../assets/schedule/Speaker12.png";
+import Speaker13 from "../../assets/schedule/Speaker13.png";
+import Speaker14 from "../../assets/schedule/Speaker14.png";
+import Speaker15 from "../../assets/schedule/Speaker15.png";
+import Speaker16 from "../../assets/schedule/Speaker16.png";
+import Speaker17 from "../../assets/schedule/Speaker17.png";
+import Speaker18 from "../../assets/schedule/Speaker18.png";
+import Speaker19 from "../../assets/schedule/Speaker19.png";
+import Speaker20 from "../../assets/schedule/Speaker20.png";
+import Speaker21 from "../../assets/schedule/Speaker21.png";
 
 export const Schedule = () => {
   const green = "#0F9D56",
@@ -220,6 +231,236 @@ export const Schedule = () => {
     },
   ];
 
+  //===============================================================
+  const events2 = [
+    {
+      time: "8:30 AM",
+      date: "Nov 06",
+      event: ["Gates Open", "Morning Tea  ☕"],
+      bordercolor: ["#DB4437", green],
+      multiEvent: true,
+      bg: [
+        ["#e8eaed", "#28292B"],
+        ["rgba(15, 157, 86, 0.2)", "#1D3A2E"],
+      ],
+    },
+
+    {
+      time: "10:00 AM",
+      date: "Nov 06",
+      event: (
+        <SpeakerCard
+          path={[Speaker11]}
+          event={"Opening Keynote"}
+          speaker={"Swaima Ahmad"}
+        />
+      ),
+      bordercolor: green,
+      multiEvent: false,
+      bg: ["#e8eaed", "#28292B"],
+    },
+    {
+      time: "10:30 AM",
+      date: "Nov 06",
+      event: (
+        <SpeakerCard
+          path={[Speaker12]}
+          event={"Take Data to the Next Level With Graph Machine Learning"}
+          speaker={"Joinal Ahmed"}
+        />
+      ),
+      bordercolor: blue,
+      multiEvent: false,
+      bg: ["#e8eaed", "#28292B"],
+    },
+    {
+      time: "11:00 AM",
+      date: "Nov 06",
+      event: (
+        <SpeakerCard
+          path={[Speaker13]}
+          event={
+            "Workshop: A different way to think about animations with Jetpack Compose"
+          }
+          speaker={"Sanju S"}
+        />
+      ),
+      bordercolor: yellow,
+      multiEvent: false,
+      bg: ["#e8eaed", "#28292B"],
+    },
+
+    {
+      time: "11:30 PM",
+      date: "Nov 06",
+      event: (
+        <SpeakerCard
+          path={[Speaker14]}
+          event={"Architecting your Compose UI"}
+          speaker={"Bhavna Thacker"}
+        />
+      ),
+      bordercolor: "#4285F4",
+      multiEvent: false,
+      bg: ["#e8eaed", "#28292B"],
+    },
+
+    {
+      time: "12:00 PM",
+      date: "Nov 06",
+      event: (
+        <SpeakerCard
+          path={[Speaker15]}
+          event={
+            "Bringing synergy between development and security - an essential aspect"
+          }
+          speaker={"Shrutirupa Banerjee"}
+        />
+      ),
+      bordercolor: "#DB4437",
+      multiEvent: false,
+      bg: ["#e8eaed", "#28292B"],
+    },
+
+    {
+      time: "12:30 PM",
+      date: "Nov 06",
+      event: (
+        <SpeakerCard
+          path={[Speaker16]}
+          event={"Key Insights on building a startup"}
+          speaker={"Paresh Mayani"}
+        />
+      ),
+      bordercolor: blue,
+      multiEvent: false,
+      bg: ["#e8eaed", "#28292B"],
+    },
+
+    {
+      time: "1:00 PM",
+      date: "Nov 06",
+      event: "Lunch Break 🍕",
+      bordercolor: green, //green
+      multiEvent: false,
+      smallBg: green,
+      bg: ["rgba(15, 157, 86, 0.2)", "#1D3A2E"],
+    },
+
+    {
+      time: "02:30 PM",
+      date: "Nov 06",
+      event: (
+        <SpeakerCard
+          path={[Speaker17]}
+          event={"Why Startups Fail"}
+          speaker={"Chanchal Loya"}
+        />
+      ),
+      bordercolor: red,
+      multiEvent: false,
+      bg: ["#e8eaed", "#28292B"],
+    },
+
+    {
+      time: "3:00 PM",
+      date: "Nov 06",
+      event: (
+        <SpeakerCard
+          path={[Speaker18]}
+          event={"Ace Your LinkedIn Presence "}
+          speaker={"Sukhada Choudhary"}
+        />
+      ),
+      bordercolor: yellow,
+      multiEvent: false,
+      bg: ["#e8eaed", "#28292B"],
+    },
+    {
+      time: "3:30 PM",
+      date: "Nov 06",
+      event: (
+        <SpeakerCard
+          path={[Speaker19]}
+          event={"Transitioning into Product Management"}
+          speaker={"Sneh Pandya"}
+        />
+      ),
+      bordercolor: "#DB4437",
+      multiEvent: false,
+      bg: ["#e8eaed", "#28292B"],
+    },
+    {
+      time: "4:00 PM",
+      date: "Nov 06",
+      event: (
+        <SpeakerCard
+          path={[Speaker20]}
+          event={"Build resilient applications using orchestration"}
+          speaker={"Cherish Santoshi"}
+        />
+      ),
+      bordercolor: yellow,
+      multiEvent: false,
+      bg: ["#e8eaed", "#28292B"],
+    },
+    {
+      time: "4:30 PM",
+      date: "Nov 06",
+      event: "High Tea ☕",
+      bordercolor: green,
+      multiEvent: false,
+      smallBg: green,
+      bg: ["rgba(15, 157, 86, 0.2)", "#1D3A2E"],
+    },
+    {
+      time: "5:00 PM",
+      date: "Nov 06",
+      event: "Special Activities",
+      bordercolor: blue,
+      multiEvent: false,
+      bg: ["#e8eaed", "#28292B"],
+    },
+    {
+      time: "5:30 PM",
+      date: "Nov 06",
+      event: (
+        <SpeakerCard
+          path={[Speaker21]}
+          event={"Women Tech Makers"}
+          speaker={"Ramya Kappagantu"}
+        />
+      ),
+      bordercolor: "#DB4437",
+      multiEvent: false,
+      bg: ["#e8eaed", "#28292B"],
+    },
+    {
+      time: "6:00 PM",
+      date: "Nov 06",
+      event: (
+        <div className="special-event">
+          {" "}
+          <div>Women In Tech: Opportunities, Challenges, Solutions</div>
+          <div style={{ fontSize: "14px" }}>Panel Discussion</div>
+        </div>
+      ),
+      bordercolor: blue,
+      multiEvent: false,
+      smallBg: blue,
+      bg: ["rgba(66, 133, 244, 0.2)", "#263D64"],
+    },
+    {
+      time: "7:00 PM",
+      date: "Nov 06",
+      event: "Closing Keynote and Vote of Thanks",
+      bordercolor: yellow, //green
+      multiEvent: false,
+      smallBg: yellow,
+      bg: ["rgba(244, 180, 0, 0.2)", "#1D3A2E"],
+    },
+  ];
+
   const [day, setDay] = useState(1);
   const handleClick = () => {
     setDay(day === 1 ? 2 : 1);
@@ -243,32 +484,33 @@ export const Schedule = () => {
             Day 2
           </div>
         </div>
-        {day === 1 ? (
-          events.map((event) => {
-            return (
-              <EventCard
-                date={event.date}
-                time={event.time}
-                event={event.event}
-                bordercolor={event.bordercolor}
-                multiEvent={event.multiEvent}
-                bg={event.bg}
-                smallBg={event.smallBg === undefined ? "" : event.smallBg}
-              />
-            );
-          })
-        ) : (
-          <div
-            style={{
-              textAlign: "center",
-              fontSize: "30px",
-              margin: "100px",
-              marginBottom: "200px",
-            }}
-          >
-            Will be Realeased Soon...
-          </div>
-        )}
+        {day === 1
+          ? events.map((event) => {
+              return (
+                <EventCard
+                  date={event.date}
+                  time={event.time}
+                  event={event.event}
+                  bordercolor={event.bordercolor}
+                  multiEvent={event.multiEvent}
+                  bg={event.bg}
+                  smallBg={event.smallBg === undefined ? "" : event.smallBg}
+                />
+              );
+            })
+          : events2.map((event) => {
+              return (
+                <EventCard
+                  date={event.date}
+                  time={event.time}
+                  event={event.event}
+                  bordercolor={event.bordercolor}
+                  multiEvent={event.multiEvent}
+                  bg={event.bg}
+                  smallBg={event.smallBg === undefined ? "" : event.smallBg}
+                />
+              );
+            })}
       </div>
     </div>
   );
