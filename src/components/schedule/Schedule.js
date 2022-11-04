@@ -146,7 +146,7 @@ export const Schedule = () => {
     },
     {
       time: "03:50 PM",
-      date: "Nov 06",
+      date: "Nov 05",
       event: (
         <SpeakerCard
           path={[Speaker14]}
