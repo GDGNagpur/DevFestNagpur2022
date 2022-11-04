@@ -41,18 +41,16 @@ export const Schedule = () => {
         ["rgba(15, 157, 86, 0.2)", "#1D3A2E"],
       ],
     },
-
     {
-      time: "11:00 AM",
+      time: "10:45 AM",
       date: "Nov 05",
       event: "Event Start & Chief Guest Falicitation",
       bordercolor: green,
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
-
     {
-      time: "12:00 PM",
+      time: "11:20 AM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -65,9 +63,22 @@ export const Schedule = () => {
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
-
     {
-      time: "12:30 PM",
+      time: "11:55 AM",
+      date: "Nov 05",
+      event: (
+        <SpeakerCard
+          path={[Speaker16]}
+          event={"Key Insights on building a startup"}
+          speaker={"Paresh Mayani"}
+        />
+      ),
+      bordercolor: blue,
+      multiEvent: false,
+      bg: ["#e8eaed", "#28292B"],
+    },
+    {
+      time: "12:35 PM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -80,34 +91,8 @@ export const Schedule = () => {
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
-
     {
-      time: "01:00 PM",
-      date: "Nov 05",
-      event: (
-        <SpeakerCard
-          path={[Speaker3]}
-          event={"The Flutter Fire Adventure"}
-          speaker={"Pawan Kumar"}
-        />
-      ),
-      bordercolor: blue,
-      multiEvent: false,
-      bg: ["#e8eaed", "#28292B"],
-    },
-
-    {
-      time: "1:30 PM",
-      date: "Nov 05",
-      event: "Lunch Break 🍕",
-      bordercolor: green, //green
-      multiEvent: false,
-      smallBg: green,
-      bg: ["rgba(15, 157, 86, 0.2)", "#1D3A2E"],
-    },
-
-    {
-      time: "02:30 PM",
+      time: "01:20 PM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -120,25 +105,33 @@ export const Schedule = () => {
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
-
     {
-      time: "3:00 PM",
+      time: "02:00 PM",
       date: "Nov 05",
-      event: (
-        <SpeakerCard
-          path={[Speaker5, Speaker6]}
-          event={
-            "Closing the Gaps: Education requirement & 21st century workforce. "
-          }
-          speaker={"Rasika Chafle, Nilesh Sahare"}
-        />
-      ),
-      bordercolor: yellow,
+      event: "Lunch Break 🍕",
+      bordercolor: green, //green
       multiEvent: false,
-      bg: ["#e8eaed", "#28292B"],
+      smallBg: green,
+      bg: ["rgba(15, 157, 86, 0.2)", "#1D3A2E"],
     },
+    // {
+    //   time: "3:00 PM",
+    //   date: "Nov 05",
+    //   event: (
+    //     <SpeakerCard
+    //       path={[Speaker5, Speaker6]}
+    //       event={
+    //         "Closing the Gaps: Education requirement & 21st century workforce. "
+    //       }
+    //       speaker={"Rasika Chafle, Nilesh Sahare"}
+    //     />
+    //   ),
+    //   bordercolor: yellow,
+    //   multiEvent: false,
+    //   bg: ["#e8eaed", "#28292B"],
+    // },
     {
-      time: "3:30 PM",
+      time: "3:05 PM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -152,30 +145,32 @@ export const Schedule = () => {
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "4:00 PM",
-      date: "Nov 05",
+      time: "03:50 PM",
+      date: "Nov 06",
       event: (
         <SpeakerCard
-          path={[Speaker8]}
-          event={"Anatomy of Capstone ML Projects"}
-          speaker={"Sayak Paul"}
+          path={[Speaker14]}
+          event={"Architecting your Compose UI"}
+          speaker={"Bhavna Thacker"}
         />
       ),
-      bordercolor: yellow,
+      bordercolor: "#4285F4",
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "4:30 PM",
+      time: "04:30 PM",
       date: "Nov 05",
       event: (
         <SpeakerCard
-          path={[Speaker9]}
-          event={"Scaling Startups - Engage, Innovate, Evolve"}
-          speaker={"Nitin Sachdeva"}
+          path={[Speaker13]}
+          event={
+            "Workshop: A different way to think about animations with Jetpack Compose"
+          }
+          speaker={"Sanju S"}
         />
       ),
-      bordercolor: blue,
+      bordercolor: yellow,
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
@@ -189,7 +184,21 @@ export const Schedule = () => {
       bg: ["rgba(15, 157, 86, 0.2)", "#1D3A2E"],
     },
     {
-      time: "5:30 PM",
+      time: "05:10 PM",
+      date: "Nov 05",
+      event: (
+        <SpeakerCard
+          path={[Speaker9]}
+          event={"Scaling Startups - Engage, Innovate, Evolve"}
+          speaker={"Nitin Sachdeva"}
+        />
+      ),
+      bordercolor: blue,
+      multiEvent: false,
+      bg: ["#e8eaed", "#28292B"],
+    },
+    {
+      time: "5:50 PM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -203,7 +212,7 @@ export const Schedule = () => {
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "6:00 PM",
+      time: "6:35 PM",
       date: "Nov 05",
       event: (
         <div className="special-event">
@@ -244,9 +253,8 @@ export const Schedule = () => {
         ["rgba(15, 157, 86, 0.2)", "#1D3A2E"],
       ],
     },
-
     {
-      time: "09:30 AM",
+      time: "08:45 AM",
       date: "Nov 06",
       event: (
         <SpeakerCard
@@ -260,13 +268,13 @@ export const Schedule = () => {
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "10:00 AM",
+      time: "09:05 AM",
       date: "Nov 06",
       event: (
         <SpeakerCard
-          path={[Speaker12]}
-          event={"Take Data to the Next Level With Graph Machine Learning"}
-          speaker={"Joinal Ahmed"}
+          path={[Speaker3]}
+          event={"The Flutter Fire Adventure"}
+          speaker={"Pawan Kumar"}
         />
       ),
       bordercolor: blue,
@@ -274,39 +282,35 @@ export const Schedule = () => {
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "10:30 AM",
+      time: "09:45 AM",
       date: "Nov 06",
       event: (
         <SpeakerCard
-          path={[Speaker13]}
-          event={
-            "Workshop: A different way to think about animations with Jetpack Compose"
-          }
-          speaker={"Sanju S"}
+          path={[Speaker8]}
+          event={"Anatomy of Capstone ML Projects"}
+          speaker={"Sayak Paul"}
         />
       ),
       bordercolor: yellow,
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
-
+    // {
+    //   time: "10:20 AM",
+    //   date: "Nov 06",
+    //   event: (
+    //     <SpeakerCard
+    //       path={[Speaker12]}
+    //       event={"Take Data to the Next Level With Graph Machine Learning"}
+    //       speaker={"Joinal Ahmed"}
+    //     />
+    //   ),
+    //   bordercolor: blue,
+    //   multiEvent: false,
+    //   bg: ["#e8eaed", "#28292B"],
+    // },
     {
-      time: "11:00 PM",
-      date: "Nov 06",
-      event: (
-        <SpeakerCard
-          path={[Speaker14]}
-          event={"Architecting your Compose UI"}
-          speaker={"Bhavna Thacker"}
-        />
-      ),
-      bordercolor: "#4285F4",
-      multiEvent: false,
-      bg: ["#e8eaed", "#28292B"],
-    },
-
-    {
-      time: "11:30 PM",
+      time: "10:25 AM",
       date: "Nov 06",
       event: (
         <SpeakerCard
@@ -321,24 +325,8 @@ export const Schedule = () => {
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
-
     {
-      time: "12:00 PM",
-      date: "Nov 06",
-      event: (
-        <SpeakerCard
-          path={[Speaker16]}
-          event={"Key Insights on building a startup"}
-          speaker={"Paresh Mayani"}
-        />
-      ),
-      bordercolor: blue,
-      multiEvent: false,
-      bg: ["#e8eaed", "#28292B"],
-    },
-
-    {
-      time: "12:30 PM",
+      time: "11:10 AM",
       date: "Nov 06",
       event: "Lunch Break 🍕",
       bordercolor: green, //green
@@ -346,7 +334,34 @@ export const Schedule = () => {
       smallBg: green,
       bg: ["rgba(15, 157, 86, 0.2)", "#1D3A2E"],
     },
-
+    {
+      time: "12:15 PM",
+      date: "Nov 06",
+      event: (
+        <SpeakerCard
+          path={[Speaker19]}
+          event={"Transitioning into Product Management"}
+          speaker={"Sneh Pandya"}
+        />
+      ),
+      bordercolor: "#DB4437",
+      multiEvent: false,
+      bg: ["#e8eaed", "#28292B"],
+    },
+    {
+      time: "12:50 PM",
+      date: "Nov 06",
+      event: (
+        <SpeakerCard
+          path={[Speaker18]}
+          event={"Ace Your LinkedIn Presence "}
+          speaker={"Sukhada Choudhary"}
+        />
+      ),
+      bordercolor: yellow,
+      multiEvent: false,
+      bg: ["#e8eaed", "#28292B"],
+    },
     {
       time: "01:30 PM",
       date: "Nov 06",
@@ -361,49 +376,20 @@ export const Schedule = () => {
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
-
-    {
-      time: "2:00 PM",
-      date: "Nov 06",
-      event: (
-        <SpeakerCard
-          path={[Speaker18]}
-          event={"Ace Your LinkedIn Presence "}
-          speaker={"Sukhada Choudhary"}
-        />
-      ),
-      bordercolor: yellow,
-      multiEvent: false,
-      bg: ["#e8eaed", "#28292B"],
-    },
-    {
-      time: "2:30 PM",
-      date: "Nov 06",
-      event: (
-        <SpeakerCard
-          path={[Speaker19]}
-          event={"Transitioning into Product Management"}
-          speaker={"Sneh Pandya"}
-        />
-      ),
-      bordercolor: "#DB4437",
-      multiEvent: false,
-      bg: ["#e8eaed", "#28292B"],
-    },
-    {
-      time: "3:00 PM",
-      date: "Nov 06",
-      event: (
-        <SpeakerCard
-          path={[Speaker20]}
-          event={"Build resilient applications using orchestration"}
-          speaker={"Cherish Santoshi"}
-        />
-      ),
-      bordercolor: yellow,
-      multiEvent: false,
-      bg: ["#e8eaed", "#28292B"],
-    },
+    // {
+    //   time: "3:00 PM",
+    //   date: "Nov 06",
+    //   event: (
+    //     <SpeakerCard
+    //       path={[Speaker20]}
+    //       event={"Build resilient applications using orchestration"}
+    //       speaker={"Cherish Santoshi"}
+    //     />
+    //   ),
+    //   bordercolor: yellow,
+    //   multiEvent: false,
+    //   bg: ["#e8eaed", "#28292B"],
+    // },
     {
       time: "3:30 PM",
       date: "Nov 06",
