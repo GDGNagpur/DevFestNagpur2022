@@ -38,7 +38,7 @@ import ShantanuImage from "../../assets/team/shantanu.jpeg";
 import MurliImage from "../../assets/team/murli_2.jpeg";
 import NirajImage from "../../assets/team/niraj.jpeg";
 import AmanImage from "../../assets/team/aman-thakur.png";
-import VaishnaviKamekar from "../../assets/team/vaishnavi-kamekar.png";
+import VaishnaviKamekar from "../../assets/team/vaishnavi-kamekar.jpg"; 
 import VedantiKhode from "../../assets/team/vedanti-khode.png";
 
 const teamData = [
