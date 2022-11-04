@@ -22,8 +22,8 @@ const GetTicket = () => {
               <Link to={"/"}>register here.</Link>
             </li>
             <li>
-              Those who have booked tickets on <b>3rd November</b>, will be able
-              to download their passes on <b>4th November</b> 12:00 PM.
+              Those who have booked tickets on <b>4th November</b>, will be able
+              to download their passes from <b>5th November</b> 01:00 AM.
             </li>
           </ul>
         </div>
