@@ -38,6 +38,8 @@ import ShantanuImage from "../../assets/team/shantanu.jpeg";
 import MurliImage from "../../assets/team/murli_2.jpeg";
 import NirajImage from "../../assets/team/niraj.jpeg";
 import AmanImage from "../../assets/team/aman-thakur.png";
+import VaishnaviKamekar from "../../assets/team/vaishnavi-kamekar.png";
+import VedantiKhode from "../../assets/team/vedanti-khode.png";
 
 const teamData = [
   {
@@ -195,6 +197,25 @@ const teamData = [
     twitterLink: "https://twitter.com/unrealaman",
     linkedinLink: "https://www.linkedin.com/in/obliviousgrain",
     patternSrc: blue,
+  },
+  {
+    id: 40,
+    imgSrc: VaishnaviKamekar,
+    name: "Vaishnavi Kamekar",
+    designation: "designation",
+    twitterLink: "https://twitter.com/VKamekar31",
+    linkedinLink: "https://www.linkedin.com/in/vaishnavikamekar31",
+    patternSrc: red,
+  },
+  {
+    id: 41,
+    imgSrc: VedantiKhode,
+    name: "Vedanti Khode",
+    designation: "designation",
+    twitterLink:
+      "https://twitter.com/KhodeVedanti",
+    linkedinLink: "https://www.linkedin.com/in/vedantikhode",
+    patternSrc: yellow,
   },
   {
     id: 16,
