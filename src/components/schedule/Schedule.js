@@ -521,9 +521,9 @@ export const Schedule = () => {
     },
   ];
 
-  const [day, setDay] = useState(1);
+  const [day, setDay] = useState(2);
   const handleClick = () => {
-    setDay(day === 1 ? 2 : 1);
+    // setDay(day === 1 ? 2 : 1);
   };
 
   return (
@@ -531,15 +531,16 @@ export const Schedule = () => {
       <div className={styles.heading}>Schedule</div>
       <div className={styles.scheduleContainer}>
         <div className={styles.dayContainer}>
-          <div
+          {/* <div
             className={styles[day === 1 ? "active" : "dayButn"]}
             onClick={handleClick}
           >
             Day 1
-          </div>
+          </div> */}
           <div
             className={styles[day === 2 ? "active" : "dayButn"]}
             onClick={handleClick}
+            style={{cursor: "auto"}}
           >
             Day 2
           </div>

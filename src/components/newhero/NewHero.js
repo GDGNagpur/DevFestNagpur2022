@@ -71,7 +71,7 @@ const NewHero = () => {
             </span>
           </div>
           <div className={styles["register-cta"]}>
-            <a href="#all-access-pass">Register Now</a>
+            <a style={{cursor: "auto"}} href="#">Registeration Closed</a>
           </div>
         </div>
       </div>

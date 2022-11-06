@@ -4,6 +4,7 @@ import { useColorModeValue } from '../../hooks/useColorModeValue';
 
 const Note = () => {
   return (
+    <h1>Note</h1>
   );
 }
 
