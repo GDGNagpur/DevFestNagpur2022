@@ -40,6 +40,7 @@ import NirajImage from "../../assets/team/niraj.jpeg";
 import AmanImage from "../../assets/team/aman-thakur.png";
 import VaishnaviKamekar from "../../assets/team/vaishnavi-kamekar.jpg"; 
 import VedantiKhode from "../../assets/team/vedanti-khode.png";
+import ShreyashGiri from "../../assets/team/shreyash-giri.png";
 
 const teamData = [
   {
@@ -216,6 +217,16 @@ const teamData = [
       "https://twitter.com/KhodeVedanti",
     linkedinLink: "https://www.linkedin.com/in/vedantikhode",
     patternSrc: yellow,
+  },
+  {
+    id: 42,
+    imgSrc: ShreyashGiri,
+    name: "Shreyash Giri",
+    designation: "designation",
+    twitterLink:
+      "https://twitter.com/_shreyashgiri",
+    linkedinLink: "https://www.linkedin.com/in/shreyash-giri",
+    patternSrc: blue,
   },
   {
     id: 16,

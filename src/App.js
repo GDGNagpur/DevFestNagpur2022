@@ -10,6 +10,7 @@ import GetTicket from "./pages/getTicket/GetTicket";
 import TicketMain from "./pages/ticket/TicketMain";
 
 import { Routes, Route, useLocation } from "react-router-dom";
+import Certificate from "./components/certificateGenrator/Certificate";
 
 const App = () => {
   const [showPage, setShowPage] = useState(false);
@@ -46,6 +47,7 @@ const App = () => {
             )}
             <Route path="/team" element={<Team />}></Route>
             <Route path="/allaccesspass" element={<GetTicket />}></Route>
+            <Route path="/certificates" element={<Certificate/>}></Route>
             <Route path="/ticket" element={<TicketMain/>}></Route>
           </Routes>
           <Footer></Footer>

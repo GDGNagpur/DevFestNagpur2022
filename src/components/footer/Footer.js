@@ -23,9 +23,9 @@ const Footer = () => {
               "rgba(15, 157, 86, 1)"
             ),
           }}
-          href="mailto:support@devfestnagpur.in"
+          href="mailto:gdgnagpurofficial@gmail.com"
         >
-          support@devfestnagpur.in
+          gdgnagpurofficial@gmail.com
         </a>
       </div>
       <p className={styles['community-guidlines']}><a style={{
