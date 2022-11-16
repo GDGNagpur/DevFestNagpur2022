@@ -1,0 +1,76 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  font-family: "Google Sans" !important;
+  padding: 3em 0em;
+  margin-bottom: 4em;
+  min-height: 40em;
+}
+
+.inputDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 0.5em 1em;
+  width: 25%;
+  height: auto;
+  box-shadow: 0px 3px 29px -5px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  padding-bottom: 2em;
+}
+
+.dataInputs {
+  margin: 1em 0;
+  height: 3em;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  margin: 12px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.submitButton {
+  width: 70%;
+  background-color: #4285f4;
+  color: white;
+  padding: 14px 20px;
+  font-size: 1.2em;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+.certificateForm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.googleDevelopers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600%;
+  position: relative;
+  z-index: -999;
+  right: 50em;
+  opacity: 15%;
+}
+
+.gdDiv {
+  height: 1em;
+}

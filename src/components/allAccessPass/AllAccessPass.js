@@ -23,14 +23,15 @@ const AllAccessPass = () => {
           </span>
           <h3 className={styles["early-bird"]}>( Last Minute )</h3>
         </div>
-        <a
+        <span
           className={styles["cta-btn"]}
-          href="https://rzp.io/l/RLG7F0D"
-          target={"_blank"}
-          rel="noreferrer"
+          // href="https://payments.cashfree.com/forms/dfn22regular"
+          // target={"_blank"}
+          // rel="noreferrer"
+          style={{cursor: "auto"}}
         >
-          Grab Yours
-        </a>
+          Registration Closed
+        </span>
       </div>
 
       <div className={styles["perks"]}>

@@ -32,7 +32,7 @@ const Home = () => {
       <WeAreSpeakingLouderMain></WeAreSpeakingLouderMain>
       <ThemesSection></ThemesSection>
       <AllAccessPass></AllAccessPass>
-      <Note></Note>
+      {/* <Note></Note> */}
       <ThingsYouDontWantToMissMain></ThingsYouDontWantToMissMain>
       <Venue></Venue>
       <Sponsors></Sponsors>

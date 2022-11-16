@@ -41,16 +41,14 @@ export const Schedule = () => {
         ["rgba(15, 157, 86, 0.2)", "#1D3A2E"],
       ],
     },
-
     {
-      time: "11:00 AM",
+      time: "10:45 AM",
       date: "Nov 05",
       event: "Event Start & Chief Guest Falicitation",
       bordercolor: green,
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
-
     {
       time: "12:00 PM",
       date: "Nov 05",
@@ -65,7 +63,20 @@ export const Schedule = () => {
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
-
+    // {
+    //   time: "11:55 AM",
+    //   date: "Nov 05",
+    //   event: (
+    //     <SpeakerCard
+    //       path={[Speaker16]}
+    //       event={"Key Insights on building a startup"}
+    //       speaker={"Paresh Mayani"}
+    //     />
+    //   ),
+    //   bordercolor: blue,
+    //   multiEvent: false,
+    //   bg: ["#e8eaed", "#28292B"],
+    // },
     {
       time: "12:30 PM",
       date: "Nov 05",
@@ -80,10 +91,9 @@ export const Schedule = () => {
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
-
-    {
+     {
       time: "01:00 PM",
-      date: "Nov 05",
+      date: "Nov 06",
       event: (
         <SpeakerCard
           path={[Speaker3]}
@@ -95,9 +105,8 @@ export const Schedule = () => {
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
-
     {
-      time: "1:30 PM",
+      time: "01:30 PM",
       date: "Nov 05",
       event: "Lunch Break 🍕",
       bordercolor: green, //green
@@ -105,7 +114,6 @@ export const Schedule = () => {
       smallBg: green,
       bg: ["rgba(15, 157, 86, 0.2)", "#1D3A2E"],
     },
-
     {
       time: "02:30 PM",
       date: "Nov 05",
@@ -120,24 +128,36 @@ export const Schedule = () => {
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
-
+    
+    // {
+    //   time: "3:05 PM",
+    //   date: "Nov 05",
+    //   event: (
+    //     <SpeakerCard
+    //       path={[Speaker7]}
+    //       event={"Flutter: CustomPaint and Generative Art"}
+    //       speaker={"Deven Joshi"}
+    //     />
+    //   ),
+    //   bordercolor: "#DB4437",
+    //   multiEvent: false,
+    //   bg: ["#e8eaed", "#28292B"],
+    // },
     {
-      time: "3:00 PM",
+      time: "03:00 PM",
       date: "Nov 05",
       event: (
         <SpeakerCard
-          path={[Speaker5, Speaker6]}
-          event={
-            "Closing the Gaps: Education requirement & 21st century workforce. "
-          }
-          speaker={"Rasika Chafle, Nilesh Sahare"}
+          path={[Speaker14]}
+          event={"Architecting your Compose UI"}
+          speaker={"Bhavna Thacker"}
         />
       ),
-      bordercolor: yellow,
+      bordercolor: "#4285F4",
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
-    {
+      {
       time: "3:30 PM",
       date: "Nov 05",
       event: (
@@ -151,9 +171,25 @@ export const Schedule = () => {
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
+    // {
+    //   time: "04:30 PM",
+    //   date: "Nov 05",
+    //   event: (
+    //     <SpeakerCard
+    //       path={[Speaker13]}
+    //       event={
+    //         "Workshop: A different way to think about animations with Jetpack Compose"
+    //       }
+    //       speaker={"Sanju S"}
+    //     />
+    //   ),
+    //   bordercolor: yellow,
+    //   multiEvent: false,
+    //   bg: ["#e8eaed", "#28292B"],
+    // },
     {
-      time: "4:00 PM",
-      date: "Nov 05",
+      time: "04:00 PM",
+      date: "Nov 06",
       event: (
         <SpeakerCard
           path={[Speaker8]}
@@ -166,7 +202,7 @@ export const Schedule = () => {
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "4:30 PM",
+      time: "04:30 PM",
       date: "Nov 05",
       event: (
         <SpeakerCard
@@ -227,7 +263,7 @@ export const Schedule = () => {
       bordercolor: yellow, //green
       multiEvent: false,
       smallBg: yellow,
-      bg: ["rgba(244, 180, 0, 0.2)", "#1D3A2E"],
+      bg: ["rgba(244, 180, 0, 0.2)", "#483D1C"],
     },
   ];
 
@@ -244,9 +280,8 @@ export const Schedule = () => {
         ["rgba(15, 157, 86, 0.2)", "#1D3A2E"],
       ],
     },
-
     {
-      time: "10:00 AM",
+      time: "09:30 AM",
       date: "Nov 06",
       event: (
         <SpeakerCard
@@ -260,7 +295,7 @@ export const Schedule = () => {
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "10:30 AM",
+      time: "10:00 AM",
       date: "Nov 06",
       event: (
         <SpeakerCard
@@ -274,8 +309,8 @@ export const Schedule = () => {
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "11:00 AM",
-      date: "Nov 06",
+      time: "10:30 AM",
+      date: "Nov 05",
       event: (
         <SpeakerCard
           path={[Speaker13]}
@@ -289,24 +324,24 @@ export const Schedule = () => {
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
-
     {
-      time: "11:30 PM",
-      date: "Nov 06",
+      time: "11:00 AM",
+      date: "Nov 05",
       event: (
         <SpeakerCard
-          path={[Speaker14]}
-          event={"Architecting your Compose UI"}
-          speaker={"Bhavna Thacker"}
+          path={[Speaker5, Speaker6]}
+          event={
+            "Closing the Gaps: Education requirement & 21st century workforce. "
+          }
+          speaker={"Rasika Chafle, Nilesh Sahare"}
         />
       ),
-      bordercolor: "#4285F4",
+      bordercolor: yellow,
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
-
     {
-      time: "12:00 PM",
+      time: "11:30 AM",
       date: "Nov 06",
       event: (
         <SpeakerCard
@@ -321,10 +356,9 @@ export const Schedule = () => {
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
-
     {
-      time: "12:30 PM",
-      date: "Nov 06",
+      time: "12:00 PM",
+      date: "Nov 05",
       event: (
         <SpeakerCard
           path={[Speaker16]}
@@ -336,9 +370,8 @@ export const Schedule = () => {
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
-
     {
-      time: "1:00 PM",
+      time: "12:30 PM",
       date: "Nov 06",
       event: "Lunch Break 🍕",
       bordercolor: green, //green
@@ -346,9 +379,8 @@ export const Schedule = () => {
       smallBg: green,
       bg: ["rgba(15, 157, 86, 0.2)", "#1D3A2E"],
     },
-
     {
-      time: "02:30 PM",
+      time: "01:30 PM",
       date: "Nov 06",
       event: (
         <SpeakerCard
@@ -361,9 +393,23 @@ export const Schedule = () => {
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
+    // {
+    //   time: "09:05 AM",
+    //   date: "Nov 06",
+    //   event: (
+    //     <SpeakerCard
+    //       path={[Speaker3]}
+    //       event={"The Flutter Fire Adventure"}
+    //       speaker={"Pawan Kumar"}
+    //     />
+    //   ),
+    //   bordercolor: blue,
+    //   multiEvent: false,
+    //   bg: ["#e8eaed", "#28292B"],
+    // },
 
     {
-      time: "3:00 PM",
+      time: "02:00 PM",
       date: "Nov 06",
       event: (
         <SpeakerCard
@@ -377,7 +423,7 @@ export const Schedule = () => {
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "3:30 PM",
+      time: "02:30 PM",
       date: "Nov 06",
       event: (
         <SpeakerCard
@@ -390,8 +436,22 @@ export const Schedule = () => {
       multiEvent: false,
       bg: ["#e8eaed", "#28292B"],
     },
+    // {
+    //   time: "01:30 PM",
+    //   date: "Nov 06",
+    //   event: (
+    //     <SpeakerCard
+    //       path={[Speaker17]}
+    //       event={"Why Startups Fail"}
+    //       speaker={"Chanchal Loya"}
+    //     />
+    //   ),
+    //   bordercolor: red,
+    //   multiEvent: false,
+    //   bg: ["#e8eaed", "#28292B"],
+    // },
     {
-      time: "4:00 PM",
+      time: "3:00 PM",
       date: "Nov 06",
       event: (
         <SpeakerCard
@@ -405,7 +465,7 @@ export const Schedule = () => {
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "4:30 PM",
+      time: "3:30 PM",
       date: "Nov 06",
       event: "High Tea ☕",
       bordercolor: green,
@@ -414,7 +474,7 @@ export const Schedule = () => {
       bg: ["rgba(15, 157, 86, 0.2)", "#1D3A2E"],
     },
     {
-      time: "5:00 PM",
+      time: "4:00 PM",
       date: "Nov 06",
       event: "Special Activities",
       bordercolor: blue,
@@ -422,7 +482,7 @@ export const Schedule = () => {
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "5:30 PM",
+      time: "4:30 PM",
       date: "Nov 06",
       event: (
         <SpeakerCard
@@ -436,7 +496,7 @@ export const Schedule = () => {
       bg: ["#e8eaed", "#28292B"],
     },
     {
-      time: "6:00 PM",
+      time: "5:00 PM",
       date: "Nov 06",
       event: (
         <div className="special-event">
@@ -451,19 +511,19 @@ export const Schedule = () => {
       bg: ["rgba(66, 133, 244, 0.2)", "#263D64"],
     },
     {
-      time: "7:00 PM",
+      time: "6:00 PM",
       date: "Nov 06",
       event: "Closing Keynote and Vote of Thanks",
       bordercolor: yellow, //green
       multiEvent: false,
       smallBg: yellow,
-      bg: ["rgba(244, 180, 0, 0.2)", "#1D3A2E"],
+      bg: ["rgba(244, 180, 0, 0.2)", "#483D1C"],
     },
   ];
 
-  const [day, setDay] = useState(1);
+  const [day, setDay] = useState(2);
   const handleClick = () => {
-    setDay(day === 1 ? 2 : 1);
+    // setDay(day === 1 ? 2 : 1);
   };
 
   return (
@@ -471,15 +531,16 @@ export const Schedule = () => {
       <div className={styles.heading}>Schedule</div>
       <div className={styles.scheduleContainer}>
         <div className={styles.dayContainer}>
-          <div
+          {/* <div
             className={styles[day === 1 ? "active" : "dayButn"]}
             onClick={handleClick}
           >
             Day 1
-          </div>
+          </div> */}
           <div
             className={styles[day === 2 ? "active" : "dayButn"]}
             onClick={handleClick}
+            style={{cursor: "auto"}}
           >
             Day 2
           </div>

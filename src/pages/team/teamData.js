@@ -37,6 +37,10 @@ import AkanshaImage from "../../assets/team/akansha.jpg";
 import ShantanuImage from "../../assets/team/shantanu.jpeg";
 import MurliImage from "../../assets/team/murli_2.jpeg";
 import NirajImage from "../../assets/team/niraj.jpeg";
+import AmanImage from "../../assets/team/aman-thakur.png";
+import VaishnaviKamekar from "../../assets/team/vaishnavi-kamekar.jpg"; 
+import VedantiKhode from "../../assets/team/vedanti-khode.png";
+import ShreyashGiri from "../../assets/team/shreyash-giri.png";
 
 const teamData = [
   {
@@ -178,6 +182,53 @@ const teamData = [
     patternSrc: yellow,
   },
   {
+    id: 20,
+    imgSrc: AkanshaImage,
+    name: "Akanksha Nitnaware",
+    designation: "designation",
+    twitterLink: "",
+    linkedinLink: "",
+    patternSrc: yellow,
+  },
+  {
+    id: 34,
+    imgSrc: AmanImage,
+    name: "Aman Thakur",
+    designation: "designation",
+    twitterLink: "https://twitter.com/unrealaman",
+    linkedinLink: "https://www.linkedin.com/in/obliviousgrain",
+    patternSrc: blue,
+  },
+  {
+    id: 40,
+    imgSrc: VaishnaviKamekar,
+    name: "Vaishnavi Kamekar",
+    designation: "designation",
+    twitterLink: "https://twitter.com/VKamekar31",
+    linkedinLink: "https://www.linkedin.com/in/vaishnavikamekar31",
+    patternSrc: red,
+  },
+  {
+    id: 41,
+    imgSrc: VedantiKhode,
+    name: "Vedanti Khode",
+    designation: "designation",
+    twitterLink:
+      "https://twitter.com/KhodeVedanti",
+    linkedinLink: "https://www.linkedin.com/in/vedantikhode",
+    patternSrc: yellow,
+  },
+  {
+    id: 42,
+    imgSrc: ShreyashGiri,
+    name: "Shreyash Giri",
+    designation: "designation",
+    twitterLink:
+      "https://twitter.com/_shreyashgiri",
+    linkedinLink: "https://www.linkedin.com/in/shreyash-giri",
+    patternSrc: blue,
+  },
+  {
     id: 16,
     imgSrc: ShubhamJeswaniImage,
     name: "Shubham Jeswani",
@@ -213,15 +264,6 @@ const teamData = [
     twitterLink: "https://twitter.com/theopdesigner",
     linkedinLink: "https://www.linkedin.com/in/chirayusakarkar/",
     patternSrc: red,
-  },
-  {
-    id: 20,
-    imgSrc: AkanshaImage,
-    name: "Akanksha Nitnaware",
-    designation: "designation",
-    twitterLink: "",
-    linkedinLink: "",
-    patternSrc: yellow,
   },
   {
     id: 21,
