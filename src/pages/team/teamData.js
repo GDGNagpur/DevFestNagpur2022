@@ -98,7 +98,7 @@ const teamData = [
     patternSrc: blue,
   },
   {
-    id: 7,
+    id: 20,
     imgSrc: RaghavImage,
     name: "Raghav Agrawal",
     designation: "designation",
@@ -181,7 +181,7 @@ const teamData = [
     patternSrc: yellow,
   },
   {
-    id: 20,
+    id: 7,
     imgSrc: AkanshaImage,
     name: "Akanksha Nitnaware",
     designation: "designation",
